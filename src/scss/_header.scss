@@ -1,0 +1,372 @@
+.header {
+  padding-top: 10px;
+
+  &_title {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }//_title
+
+  &_text {
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+    span {
+      font-size: 12px;
+      font-weight: 300;
+    }
+  }//text
+}
+
+.l-header_search {
+  margin: 10px 0;
+  position: relative;
+}
+
+.header_body {
+  text-align: justify;
+  @include full-width;
+}
+.l-header_logo,
+.l-header_contact,
+.l-header_basket {
+  display: inline-block;
+  @include clear;
+}
+.l-header_basket {
+  .basket_img {
+    width: 33px;
+    height: 31px;
+    float: left;
+    margin-right: 10px;
+    background: url($img-dir + 'basket-icon.png') 0 0 no-repeat;
+  }
+
+}
+
+
+.l-header_menu {
+  margin-bottom: 15px;
+}
+
+.l-header_logo {
+  vertical-align: top;
+  width: 300px;
+}
+
+.l-header_contact {
+  padding-top: 10px;
+}
+
+.l-header-nav {
+  background-color: #7e96a2;
+  margin-bottom: 15px;
+}
+
+.header-nav {
+  text-align: justify;
+  @include full-width;
+  font-size: 0;
+
+  &_item {
+    display: inline-block;
+    position: relative;
+
+    &:hover {
+      background-color: #6384a2;
+      @extend %transition;
+    }
+  }//_item
+
+  &_link {
+    display: block;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 16px 30px 16px 15px;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 7px;
+      height: 16px;
+      right: 10px;
+      top: 18px;
+      background: url($img-dir + 'nav-icon.png') left top no-repeat;
+    }
+
+  }//_link
+}
+
+
+////header-basket
+.header-basket {
+  border-bottom: 1px solid #D9D9D9;
+  padding-top: 10px;
+
+  &_title {
+    color: #1D1D1D;
+    font-family: "Exo 2";
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }//_title
+
+  &-contact {
+    padding-left: 20px;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      top: 5px;
+      left: 0;
+      background: url($img-dir + 'contact-icon.png') 1px 0 no-repeat;
+    }
+
+    p {
+      color: #000;
+      font-family: "Exo 2";
+      font-size: 12px;
+      font-weight: 300;
+      margin-bottom: 5px;
+    }
+
+    &_title {
+      margin-bottom: 12px;
+      color: #000;
+      font-family: "Exo 2";
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+}
+
+//*****************************//
+//submenu
+//*****************************//
+
+.l-submenu {
+
+}
+
+
+//.l-submenu-two {
+//  display: none;
+//  overflow: hidden;
+//  width: 100%;
+//  position: absolute;
+//  top: 0;
+//  left: 100%;
+//  border-right: 1px solid #9a9a9a;
+//  min-width: 215px;
+//  max-width: 215px;
+//  height: 360px;
+//}
+
+.submenu {
+  //box-sizing: content-box;
+  //width: 100%;
+  //position: absolute;
+  //z-index: 999;
+  //top: 47px;
+  //left: -120px;
+  //background-color: #b1faff;
+  //padding: 20px 120px;
+  //padding-bottom: 45px;
+  //overflow: hidden;
+
+
+  ///////////////
+  &-one {
+    position: absolute;
+    z-index: 999;
+    background-color: #fff;
+    top: 52px;
+    left: 0px;
+    box-sizing: border-box;
+    //display: table-cell;
+    width: 100%;
+    font-size: 18px;
+    border-right: 2px solid #9a9a9a;
+    border-right: 2px solid rgba(154, 154, 154, 0.25);
+    box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.15);
+    visibility: hidden;
+
+    &_item {
+      position: relative;
+      font-size: 18px;
+      margin-bottom: 5px;
+      display: block;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #6384a2;
+        @extend %transition;
+      }
+
+      &:hover .submenu-one_link{
+        color: #fff;
+      }
+
+      &:hover .submenu-one_link--icon::after{
+        content: '';
+        border-left: 4px solid #fff;
+        @extend %transition;
+      }
+      
+    }//_item
+
+    &_link {
+      box-sizing: border-box;
+      display: inline-block;
+      padding: 10px 15px;
+      color: #979696;
+      font-family: "Exo 2 Condensed";
+      font-size: 18px;
+      font-weight: 400;
+      text-transform: uppercase;
+      @extend %transition;
+      position: relative;
+      padding-right: 20px;
+
+      &--icon::after {
+        content: '';
+        position: absolute;
+        top: 17px;
+        right: 0;
+        //width: 4px;
+        //height: 8px;
+        border-top: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-bottom: 4px solid transparent;
+        border-left: 4px solid #979696;
+
+      }
+
+    }//_link
+  }//-one
+  /////////////
+
+  &-two {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    padding: 8px 0;
+    padding-left: 8px;
+    border-right: 2px solid #9a9a9a;
+    border-right: 2px solid rgba(154, 154, 154, 0.25);
+    //width: 235px;
+    width: 210%;
+    box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.15);
+    visibility: hidden;
+
+    &_column {
+      display: inline-block;
+    }
+
+    &_item {
+      position: relative;
+      margin-bottom: 5px;
+
+      &:hover {
+        background-color: #6384a2;
+        @extend %transition;
+      }
+
+      &:hover .submenu-two_link{
+        color: #fff;
+      }
+
+      &:hover .submenu-two_link--icon::after{
+        content: '';
+        border-left: 4px solid #fff;
+        @extend %transition;
+      }
+    }//
+
+    &_link {
+      position: relative;
+      color: #6384A2;
+      font-family: "Exo 2 Condensed";
+      font-size: 18px;
+      font-weight: 300;
+      padding: 5px 14px;
+      padding-right: 45px;
+      display: inline-block;
+
+      &--icon::after {
+        content: '';
+        position: absolute;
+        top: 12px;
+        right: 0;
+        //width: 4px;
+        //height: 8px;
+        border-top: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-bottom: 4px solid transparent;
+        border-left: 4px solid #979696;
+
+      }
+    }
+  }//_two
+}
+
+
+//submenu-three
+.submenu-three {
+  border-left: 2px solid #6384A2;
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  left: 100%;
+  padding: 20px 30px;
+  visibility: hidden;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.15);
+
+
+  &_column {
+    display: inline-block;
+
+    margin-right: 20px;
+  }
+
+  &_item {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  &_link {
+    font-family: "Exo 2 Condensed";
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px 0;
+    white-space: nowrap;
+    color: #6384A2;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.header-nav_item:hover .submenu-one {
+  visibility: visible;
+}
+
+.submenu-one_item:hover .submenu-two {
+  visibility: visible;
+}
+.submenu-two_item:hover .submenu-three {
+  visibility: visible;
+}
