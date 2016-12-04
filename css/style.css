@@ -1,0 +1,171 @@
+.green {
+  color: #16a22c; }
+
+.red {
+  color: #b01515; }
+
+.blue {
+  color: #7e96a2; }
+
+* {
+  box-sizing: border-box; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  text-align: left;
+  line-height: 17px;
+  color: #3F3F3F;
+  font-family: "Exo 2";
+  font-size: 14px;
+  font-weight: 300; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  color: #6C8795;
+  font-family: 'Exo 2 Condensed', sans-serif;
+  font-size: 48px;
+  line-height: 36px;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+img, video {
+  max-width: 100%;
+  height: auto; }
+
+.l-layout {
+  max-width: 970px;
+  padding-bottom: 1px;
+  margin: 0 auto;
+  position: relative; }
+
+input {
+  bottom: 0;
+  outline: 0;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  padding: 10px 15px;
+  width: 100%; }
+
+input[type="radio"],
+input[type="checkbox"] {
+  bottom: 0;
+  outline: 0;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  padding: 10px 15px;
+  width: auto; }
+
+.vk svg:hover #vk {
+  fill: #4d76a1; }
+
+.fb svg:hover #fb {
+  fill: #3b5998; }
+
+.ok svg:hover #ok {
+  fill: #f58220; }
+
+.vk, .fb, .ok {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: auto 17px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin-right: 5px; }
+
+.is-visible {
+  display: block !important; }
+
+.hidden {
+  opacity: 0; }
+
+.visible {
+  opacity: 1; }
+
+@font-face {
+  font-family: 'Exo 2 Condensed';
+  src: local("Exo 2 Thin Condensed"), local("Exo2-ThinCondensed"), url("../fonts/exo2thincondensed.woff2") format("woff2"), url("../fonts/exo2thincondensed.woff") format("woff"), url("../fonts/exo2thincondensed.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Exo 2 Condensed';
+  src: local("Exo 2 Extra Light Condensed"), local("Exo2-ExtraLightCondensed"), url("../fonts/exo2extralightcondensed.woff2") format("woff2"), url("../fonts/exo2extralightcondensed.woff") format("woff"), url("../fonts/exo2extralightcondensed.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Exo 2 Condensed';
+  src: local("Exo 2 Light Condensed"), local("Exo2-LightCondensed"), url("../fonts/exo2lightcondensed.woff2") format("woff2"), url("../fonts/exo2lightcondensed.woff") format("woff"), url("../fonts/exo2lightcondensed.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Exo 2 Condensed';
+  src: local("Exo 2 Regular Condensed"), local("Exo2-RegularCondensed"), url("../fonts/exo2regularcondensed.woff2") format("woff2"), url("../fonts/exo2regularcondensed.woff") format("woff"), url("../fonts/exo2regularcondensed.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Exo 2 Condensed';
+  src: local("Exo 2 Medium Condensed"), local("Exo2-MediumCondensed"), url("../fonts/exo2mediumcondensed.woff2") format("woff2"), url("../fonts/exo2mediumcondensed.woff") format("woff"), url("../fonts/exo2mediumcondensed.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Exo 2 Condensed';
+  src: local("Exo 2 Semi Bold Condensed"), local("Exo2-SemiBoldCondensed"), url("../fonts/exo2semiboldcondensed.woff2") format("woff2"), url("../fonts/exo2semiboldcondensed.woff") format("woff"), url("../fonts/exo2semiboldcondensed.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Exo 2 Condensed';
+  src: local("Exo 2 Bold Condensed"), local("Exo2-BoldCondensed"), url("../fonts/exo2boldcondensed.woff2") format("woff2"), url("../fonts/exo2boldcondensed.woff") format("woff"), url("../fonts/exo2boldcondensed.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Exo 2 Condensed';
+  src: local("Exo 2 Extra Bold Condensed"), local("Exo2-ExtraBoldCondensed"), url("../fonts/exo2extraboldcondensed.woff2") format("woff2"), url("exo2extraboldcondensed.woff") format("woff"), url("exo2extraboldcondensed.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Exo 2 Condensed';
+  src: local("Exo 2 Black Condensed"), local("Exo2-BlackCondensed"), url("../fonts/exo2blackcondensed.woff2") format("woff2"), url("exo2blackcondensed.woff") format("woff"), url("exo2blackcondensed.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+html {
+  height: 100%;
+  overflow: hidden; }
+
+.conf-bg {
+  background: url("../../img/conf-bg.jpg") 0 50% no-repeat;
+  background-size: cover; }
+
+.conf-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 100%;
+  background-color: #ccc; }
