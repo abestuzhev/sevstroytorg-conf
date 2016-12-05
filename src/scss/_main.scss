@@ -4,19 +4,183 @@ html {
   overflow: hidden;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 .conf-bg {
   // height: 100%;
-  background: url('../../img/conf-bg.jpg') 0 50% no-repeat;
+  background: url('../img/conf-bg.jpg') 0 50% no-repeat;
   // margin-top: -500px;
   background-size: cover;
 }
 
+/*icon*/
+.icon {
+  margin-right: 4px;
+}
+
+.arrow-icon {
+  width: 8px;
+  height: 8px;
+  fill:#FFF;
+}
+
+.conf-menu-icon {
+  fill:#cbcbcb;
+}
+
+.roof-icon {
+  fill:#cbcbcb;
+}
+
+.conf-btn {
+  display: inline-block;
+  padding: 6px 8px;
+  border: 1px solid #5598DE;
+  color: #000;
+  border-radius: 4px;
+  font-family: "Calibri";
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  &--bg {
+    border: none;
+    background-color: #5598de;
+    color: #fff;
+  }
+}
+
+.detail-info_btn {
+  color: #000;
+  font-family: "Calibri";
+  font-size: 12px;
+  font-weight: 400;
+  border-bottom: 1px dotted #000;
+}
+
+/*detail-info*/
+
+.detail-info {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 482px;
+  border-radius: 4px;
+  font-family: "Arial";
+}
+
+.detail-info_top {
+  padding: 10px 14px;
+  background-color: #FFF;
+  height: 50px;
+  @include clear;
+}
+
+.detail-info_logo {
+  float: left;
+  width: 115px;
+  height: 32px;
+  background: url($img-dir + 'logo-detail.png') 0 0 no-repeat;
+}
+
+.detail-info_text {
+  color: #797878;
+  font-family: "Calibri";
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.detail-info_right {
+  float: right;
+  text-align: right;
+}
+
+.detail-info_body {
+  padding: 18px 14px;
+  opacity: 0.9;
+  background-color: #FFF;
+}
+
+.detail-info_list {
+  margin-left: 14px;
+  margin-bottom: 18px;
+}
+
+.detail-info_item {
+  margin-bottom: 10px;
+  font-size: 0;
+}
+
+.detail-info_point {
+  font-family: "Arial";
+  color: #222;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.detail-info_properties {
+  font-family: "Arial";
+  color: #5798E2;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: underline;
+  padding: 0px 4px;
+  border-right: 1px solid #000;
+
+  &:last-child {
+    border: none;
+  }
+}
+
+/*conf-menu*/
 
 .conf-menu {
   position: absolute;
   top: 0;
   left: 0;
-  width: 90px;
+  //width: 90px;
   height: 100%;
-  background-color: #ccc;
+  padding: 0 6px;
+  padding-top: 19px;
+  background-color: #fff;
+  text-align: center;
+  font-family: "Arial";
+}
+
+.conf-menu_item {
+  //outline:1px solid #ccc;
+  margin: 27px 0;
+}
+
+.conf-menu_title {
+  color: #000;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+/*conf-submenu*/
+
+.conf-submenu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100px;
+  width: 316px;
+  padding: 19px;
+  padding-top: 50px;
+  height: 100%;
+  background-color: #fff;
+}
+
+.conf-submenu_close {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  width: 10px;
+  height: 10px;
+  background: url($img-dir + 'close-icon.png') 0 0 no-repeat;
 }
