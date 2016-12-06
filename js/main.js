@@ -7,6 +7,6 @@ $(document).ready(function() {
 
 	$('.conf-menu_link').on('click', function (e) {
 		e.preventDefault();
-		$(this).find('.conf-submenu').show();
+		$(this).find('#conf-submenu').toggle();
 	})
 });
