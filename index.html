@@ -20,17 +20,39 @@
         <span class="conf-menu_title">Кровля</span>
         <svg class="conf-menu-icon roof-icon" version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
            viewBox="0 0 18 5.6" enable-background="new 0 0 18 5.6" xml:space="preserve">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.7,5.6l-4.5-3.5h-1.9v0.5h-0.2V2.2V1.9V1.7V0.2h-0.5v1.4v0.2
+        <path clip-rule="evenodd" d="M17.7,5.6l-4.5-3.5h-1.9v0.5h-0.2V2.2V1.9V1.7V0.2h-0.5v1.4v0.2
           v0.2v0.5h-0.2V2.2H4.7L9,5.4L8.8,5.6L4.3,2.3L0.2,5.5L0,5.3l4.3-3.4h6V0.2V0h0.7h0.2v0.2v1.7h2.2l4.4,3.5L17.7,5.6z"/>
         </svg>
-
-        <!--submenu-->
-        <ul id="conf-submenu" class="child conf-submenu">
-          <a href="#" class="conf-submenu_close"></a>
-          <!--<div>hello</div>-->
-        </ul>
-        <!--end submenu-->
       </a>
+
+      <!--submenu-->
+      <div id="conf-submenu" class="conf-submenu">
+        <a href="#" class="conf-submenu_close"></a>
+        <div class="conf-properties">
+          <div class="conf-properties_title">Металлочерепица:</div>
+          <div class="conf-properties_body">
+            <a href="#" class="conf-properties_btn" data-properties="">Quadro</a>
+            <a href="#" class="conf-properties_btn" data-properties="">Country</a>
+            <a href="#" class="conf-properties_btn" data-properties="">Classic</a>
+            <a href="#" class="conf-properties_btn" data-properties="">Cvinta</a>
+          </div>
+        </div><!--end conf-properties-->
+        <div class="conf-properties">
+          <div class="conf-properties_title">Профнастил:</div>
+          <div class="conf-properties_body">
+            <a href="#" class="conf-properties_btn">C-20</a>
+            <a href="#" class="conf-properties_btn">C-21</a>
+            <a href="#" class="conf-properties_btn">HС-35</a>
+          </div>
+        </div><!--end conf-properties-->
+        <div class="conf-properties">
+          <div class="conf-properties_title">Еврошифер:</div>
+          <div class="conf-properties_body">
+            <a href="#" class="conf-properties_btn">Стандарт</a>
+          </div>
+        </div><!--end conf-properties-->
+      </div>
+      <!--end submenu-->
     </li>
     <li class="conf-menu_item">
       <a href="#" class="conf-menu_link">
@@ -108,10 +130,12 @@
           <path fill-rule="evenodd" clip-rule="evenodd" d="M297.9,420.2v1h0.5l-1,1l-1-1h0.5v-1H297.9z"/>
           </svg>
 
-        </i>
-        Скачать изображение</a>
+        </i>Скачать изображение</a>
     </div>
   </div>
+
+  <img src="" class="conf-metal">
+  <div class="conf-metal" style="background-image: url('')"></div>
 
   <script src="bower_components/jquery/dist/jquery.js"></script>
   <script src="js/main.js"></script>

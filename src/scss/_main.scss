@@ -30,6 +30,8 @@ html {
 
 .conf-menu-icon {
   fill:#cbcbcb;
+  width: 68px;
+  height: 26px;
 }
 
 .roof-icon {
@@ -142,7 +144,7 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  //width: 90px;
+  width: 80px;
   height: 100%;
   padding: 0 6px;
   padding-top: 19px;
@@ -165,7 +167,7 @@ html {
 /*conf-submenu*/
 
 .conf-submenu {
-  display: none;
+  //display: none;
   position: absolute;
   top: 0;
   left: 100px;
@@ -174,6 +176,7 @@ html {
   padding-top: 50px;
   height: 100%;
   background-color: #fff;
+  text-align: left;
 }
 
 .conf-submenu_close {
@@ -183,4 +186,45 @@ html {
   width: 10px;
   height: 10px;
   background: url($img-dir + 'close-icon.png') 0 0 no-repeat;
+}
+
+/*javascript*/
+.js-show-conf-submenu {
+  display: block;;
+}
+
+/**/
+
+.conf-properties {
+  margin-bottom: 26px;
+}
+
+.conf-properties_title {
+  color: #454545;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.conf-properties_btn {
+  display: inline-block;
+  padding: 5px 13px;
+  color: #1B1B1B;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #D1D1D1;
+  border-radius: 50px;
+  transition: all .2s ease-out;
+
+  &:hover {
+    transition: all .2s ease-out;
+    background-color: #5598DE;
+    color: #fff;
+  }
+}
+
+.conf-metal {
+  
 }
