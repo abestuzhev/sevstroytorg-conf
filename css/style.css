@@ -50,6 +50,9 @@ img, video {
   max-width: 100%;
   height: auto; }
 
+.conf-menu-icon, .conf-menu_item, .conf-menu_item:hover .conf-menu_link, .conf-menu_item:hover .conf-menu-icon, .conf-properties_btn {
+  transition: all .2s ease-out; }
+
 .l-layout {
   max-width: 970px;
   padding-bottom: 1px;
@@ -183,7 +186,7 @@ html {
   box-sizing: border-box; }
 
 .conf-bg {
-  background: url("../img/conf-bg.jpg") 0 50% no-repeat;
+  background: url("../img/conf-bg-1.jpg") 0 50% no-repeat;
   background-size: cover; }
 
 /*icon*/
@@ -196,13 +199,45 @@ html {
   fill: #FFF; }
 
 .conf-menu-icon {
-  fill: #cbcbcb;
+  display: inline-block;
+  fill: #cbcbcb; }
+
+/*========================*/
+/*menu icon*/
+/*========================*/
+.roof-icon {
   width: 68px;
   height: 26px; }
 
-.roof-icon {
-  fill: #cbcbcb; }
+.facade-icon {
+  width: 51px;
+  height: 36px; }
 
+.drains-icon {
+  width: 47px;
+  height: 31px; }
+
+.plinth-icon {
+  width: 63px;
+  height: 29px; }
+
+.fences-icon {
+  width: 63px;
+  height: 31px; }
+
+.angles-icon {
+  width: 67px;
+  height: 41px; }
+
+.porch-icon {
+  width: 43px;
+  height: 16px; }
+
+.plat-icon {
+  width: 23px;
+  height: 41px; }
+
+/**/
 .conf-btn {
   display: inline-block;
   padding: 6px 8px;
@@ -303,12 +338,19 @@ html {
   font-family: "Arial"; }
 
 .conf-menu_item {
-  margin: 27px 0; }
+  color: #000;
+  margin: 26px 0; }
+
+.conf-menu_item:hover .conf-menu_link {
+  color: #5598DE; }
+
+.conf-menu_item:hover .conf-menu-icon {
+  fill: #5598DE; }
 
 .conf-menu_title {
-  color: #000;
   font-size: 11px;
-  font-weight: 700; }
+  font-weight: 700;
+  margin-bottom: 5px; }
 
 /*conf-submenu*/
 .conf-submenu {
@@ -353,9 +395,14 @@ html {
   font-size: 12px;
   font-weight: 400;
   background-color: #D1D1D1;
-  border-radius: 50px;
-  transition: all .2s ease-out; }
+  border-radius: 50px; }
   .conf-properties_btn:hover {
     transition: all .2s ease-out;
     background-color: #5598DE;
     color: #fff; }
+
+.conf-metal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat; }
