@@ -24,11 +24,12 @@ $(document).ready(function() {
 	// 	$item.addClass('is-active').siblings().removeClass('is-active');
 	// });
 
+	// var	style = $('.conf-metal').css('background-image');
 	$('.conf-color_item').click(function(e){
 		e.preventDefault();
 		var $item = $(this),
 			image_path = $item.data('color');
-		$('.conf-block_img').attr('src', image_path);
+		$('.conf-metal').attr('style', image_path);
 		$item.addClass('conf-is-active').siblings().removeClass('conf-is-active');
 	});
 
