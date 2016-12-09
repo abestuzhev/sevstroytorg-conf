@@ -7,6 +7,10 @@
 .blue {
   color: #7e96a2; }
 
+body {
+  padding: 0;
+  margin: 0; }
+
 * {
   box-sizing: border-box; }
 
@@ -178,7 +182,8 @@ input[type="checkbox"] {
 
 html {
   height: 100%;
-  overflow: hidden; }
+  margin: 0;
+  padding: 0; }
 
 *,
 *::after,
@@ -186,6 +191,7 @@ html {
   box-sizing: border-box; }
 
 .conf-bg {
+  min-height: 100%;
   background: url("../img/conf-bg-1.jpg") 0 50% no-repeat;
   background-size: cover; }
 
@@ -267,7 +273,8 @@ html {
   right: 24px;
   width: 482px;
   border-radius: 4px;
-  font-family: "Arial"; }
+  font-family: "Arial";
+  z-index: 999; }
 
 .detail-info_top {
   padding: 10px 14px;
@@ -335,7 +342,8 @@ html {
   padding-top: 19px;
   background-color: #fff;
   text-align: center;
-  font-family: "Arial"; }
+  font-family: "Arial";
+  z-index: 999; }
 
 .conf-menu_item {
   color: #000;
@@ -385,7 +393,15 @@ html {
   font-family: "Roboto";
   font-size: 12px;
   font-weight: 400;
-  margin-bottom: 10px; }
+  margin-bottom: 4px; }
+
+.conf-properties_subtitle {
+  color: #1B1B1B;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 100;
+  font-style: italic;
+  margin-bottom: 4px; }
 
 .conf-properties_btn {
   display: inline-block;
@@ -405,4 +421,25 @@ html {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 50%;
+  z-index: 8; }
+
+.conf-block_img {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  top: -25%; }
+
+/*conf-color_item*/
+.conf-color_item {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #ccc;
+  margin-right: 3px;
+  margin-bottom: 3px; }
+
+.conf-is-active {
+  border: 3px solid #FFF; }
