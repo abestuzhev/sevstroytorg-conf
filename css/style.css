@@ -192,7 +192,6 @@ html {
 
 .conf-bg {
   min-height: 100%;
-  background: url("../img/conf-bg-1.jpg") 0 50% no-repeat;
   background-size: cover; }
 
 /*icon*/
@@ -417,14 +416,13 @@ html {
     background-color: #5598DE;
     color: #fff; }
 
-.conf-metal {
+.conf-block {
   position: absolute;
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0 50%;
-  z-index: 8; }
+  background-position: 0 50%; }
 
 .conf-block_img {
   max-width: 100%;
