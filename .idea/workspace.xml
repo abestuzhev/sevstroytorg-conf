@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f86c7218-23cd-4d68-972c-5cc40e216226" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/krovly.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/environment-2.png" afterPath="$PROJECT_DIR$/img/environment-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/environment.jpg" afterPath="$PROJECT_DIR$/img/environment.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/fasad_kamen_butovyiy_skifskiy.png" afterPath="$PROJECT_DIR$/img/fasad_kamen_butovyiy_skifskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/gibkaya-cherepitsa_bobrovyiy-hvost_krasnyiy.png" afterPath="$PROJECT_DIR$/img/gibkaya-cherepitsa_bobrovyiy-hvost_krasnyiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/krovly-1.png" afterPath="$PROJECT_DIR$/img/krovly-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/krovly-12352.png" afterPath="$PROJECT_DIR$/img/krovly-12352.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/kryiltso_Korichnevoe.png" afterPath="$PROJECT_DIR$/img/kryiltso_Korichnevoe.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/nalichniki_Korichnevyiy.png" afterPath="$PROJECT_DIR$/img/nalichniki_Korichnevyiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/ograzhdeniya_metallicheskiy-shtaketnik_figurnyiy_dub.png" afterPath="$PROJECT_DIR$/img/ograzhdeniya_metallicheskiy-shtaketnik_figurnyiy_dub.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/sofityi_korichnevyiy.png" afterPath="$PROJECT_DIR$/img/sofityi_korichnevyiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tsokol_kamen_butovyiy_skifskiy.png" afterPath="$PROJECT_DIR$/img/tsokol_kamen_butovyiy_skifskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/uglyi_korichnevyiy.png" afterPath="$PROJECT_DIR$/img/uglyi_korichnevyiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-    </list>
+    <list default="true" id="f86c7218-23cd-4d68-972c-5cc40e216226" name="Default" comment="" />
     <ignored path="sevstroytorg-conf.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -309,12 +294,12 @@
       <workItem from="1481099606721" duration="9272000" />
       <workItem from="1481119069568" duration="2033000" />
       <workItem from="1481288217748" duration="3397000" />
-      <workItem from="1481521431439" duration="1928000" />
+      <workItem from="1481521431439" duration="2524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27767000" />
+    <option name="totallyTimeSpent" value="28363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="0" />
