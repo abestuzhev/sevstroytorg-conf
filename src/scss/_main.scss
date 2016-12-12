@@ -151,6 +151,8 @@ html {
   padding: 18px 14px;
   opacity: 0.9;
   background-color: #FFF;
+  transform: translateY(-2000px);
+  @extend %transition;
 }
 
 .detail-info_list {
@@ -190,7 +192,7 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  width: 80px;
+  //width: 80px;
   height: 100%;
   padding: 0 6px;
   padding-top: 19px;
@@ -205,6 +207,29 @@ html {
   margin: 26px 0;
   @extend %transition;
 }
+
+//
+//.js-show-conf-submenu .conf-submenu {
+//  display: block;
+//}
+
+
+.conf-menu_link {
+  width: 68px;
+  display: block;
+  position: relative;
+}
+
+.js-show-pointer::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  margin-top: -4px;
+  right: -26px;
+  border: 8px solid transparent;
+  border-right-color: #ffffff;
+}
+
 
 .conf-menu_item:hover .conf-menu_link {
   color: #5598DE;
@@ -224,8 +249,9 @@ html {
 
 /*conf-submenu*/
 
+
+
 .conf-submenu {
-  //display: none;
   position: absolute;
   top: 0;
   left: 100px;
@@ -235,7 +261,9 @@ html {
   height: 100%;
   background-color: #fff;
   text-align: left;
+  display: none;
 }
+
 
 .conf-submenu_close {
   position: absolute;
@@ -248,13 +276,13 @@ html {
 
 /*javascript*/
 .js-show-conf-submenu {
-  display: block;;
+  display: block;
 }
 
 /**/
 
 .conf-properties {
-  margin-bottom: 26px;
+  margin-bottom: 24px;
 }
 
 .conf-properties_title {
@@ -283,6 +311,7 @@ html {
   font-weight: 400;
   background-color: #D1D1D1;
   border-radius: 50px;
+  margin-bottom: 6px;
   @extend %transition;
 
   &:hover {
@@ -294,16 +323,11 @@ html {
 
 .conf-block {
   position: absolute;
-  //top: 10%;
-  //left: 23%;
-  //width: 1258px;
-  //height: 430px;
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 50%;
-  // z-index: 8;
 }
 
 .conf-block_img {
@@ -321,8 +345,31 @@ html {
   background-color: #ccc;
   margin-right: 3px;
   margin-bottom: 3px;
+  border: 1px solid #D4D4D4;
+  @extend %transition;
 }
 
-.conf-is-active {
-  border: 3px solid #FFF;
+.color_is-active {
+  border: 1px solid #D4D4D4;
+  transform: scale(.8);
+  @extend %transition;
+}
+
+
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-2000px);
+    -moz-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    -o-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
