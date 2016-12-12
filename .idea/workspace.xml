@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f86c7218-23cd-4d68-972c-5cc40e216226" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/krovly.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/environment-2.png" afterPath="$PROJECT_DIR$/img/environment-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/environment.jpg" afterPath="$PROJECT_DIR$/img/environment.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/fasad_kamen_butovyiy_skifskiy.png" afterPath="$PROJECT_DIR$/img/fasad_kamen_butovyiy_skifskiy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/gibkaya-cherepitsa_bobrovyiy-hvost_krasnyiy.png" afterPath="$PROJECT_DIR$/img/gibkaya-cherepitsa_bobrovyiy-hvost_krasnyiy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/krovly-1.png" afterPath="$PROJECT_DIR$/img/krovly-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/krovly-12352.png" afterPath="$PROJECT_DIR$/img/krovly-12352.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/kryiltso_Korichnevoe.png" afterPath="$PROJECT_DIR$/img/kryiltso_Korichnevoe.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/nalichniki_Korichnevyiy.png" afterPath="$PROJECT_DIR$/img/nalichniki_Korichnevyiy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/ograzhdeniya_metallicheskiy-shtaketnik_figurnyiy_dub.png" afterPath="$PROJECT_DIR$/img/ograzhdeniya_metallicheskiy-shtaketnik_figurnyiy_dub.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/sofityi_korichnevyiy.png" afterPath="$PROJECT_DIR$/img/sofityi_korichnevyiy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tsokol_kamen_butovyiy_skifskiy.png" afterPath="$PROJECT_DIR$/img/tsokol_kamen_butovyiy_skifskiy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/uglyi_korichnevyiy.png" afterPath="$PROJECT_DIR$/img/uglyi_korichnevyiy.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/_main.scss" afterPath="$PROJECT_DIR$/src/scss/_main.scss" />
     </list>
     <ignored path="sevstroytorg-conf.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +42,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="201" column="64" selection-start-line="201" selection-start-column="64" selection-end-line="201" selection-end-column="64" />
+                <state relative-caret-position="360">
+                  <caret line="15" column="20" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="20" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -65,7 +75,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="_main.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/_main.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="341">
@@ -77,11 +87,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="302">
-                  <caret line="26" column="19" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="19" />
+                <state relative-caret-position="168">
+                  <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -101,8 +111,8 @@
         <option value="$PROJECT_DIR$/src/scss/_fonts.scss" />
         <option value="$PROJECT_DIR$/src/scss/_base.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/src/scss/_main.scss" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -299,12 +309,12 @@
       <workItem from="1481099606721" duration="9272000" />
       <workItem from="1481119069568" duration="2033000" />
       <workItem from="1481288217748" duration="3397000" />
-      <workItem from="1481521431439" duration="1434000" />
+      <workItem from="1481521431439" duration="1928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27273000" />
+    <option name="totallyTimeSpent" value="27767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="0" />
@@ -588,10 +598,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="131" column="12" selection-start-line="131" selection-start-column="12" selection-end-line="131" selection-end-column="12" />
+          <folding>
+            <marker date="1481523253825" expanded="true" signature="5:43" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="201" column="64" selection-start-line="201" selection-start-column="64" selection-end-line="201" selection-end-column="64" />
+        <state relative-caret-position="360">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -610,19 +630,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="19" />
+        <state relative-caret-position="168">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/_main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="131" column="12" selection-start-line="131" selection-start-column="12" selection-end-line="131" selection-end-column="12" />
-          <folding>
-            <marker date="1481523253825" expanded="true" signature="5:43" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
