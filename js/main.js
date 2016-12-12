@@ -24,6 +24,12 @@ $(document).ready(function() {
 
 
 
+	$('.detail-info_btn').on('click', function (e) {
+		e.preventDefault();
+		$('.detail-info_body').toggleClass('detail-info-show');
+	});
+
+
 
 
 

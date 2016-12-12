@@ -54,7 +54,7 @@ img, video {
   max-width: 100%;
   height: auto; }
 
-.conf-menu-icon, .detail-info_body, .conf-menu_item, .conf-menu_item:hover .conf-menu_link, .conf-menu_item:hover .conf-menu-icon, .conf-properties_btn, .conf-color_item, .color_is-active {
+.conf-menu-icon, .detail-info_body, .detail-info-show, .conf-menu_item, .conf-menu_item:hover .conf-menu_link, .conf-menu_item:hover .conf-menu-icon, .conf-properties_btn, .conf-color_item, .color_is-active {
   transition: all .2s ease-out; }
 
 .l-layout {
@@ -243,6 +243,10 @@ html {
   height: 41px; }
 
 /**/
+.conf-roof {
+  background: url("../img/gibkaya-cherepitsa_bobrovyiy-hvost_krasnyiy.png") 0 0 no-repeat; }
+
+/**/
 .conf-btn {
   display: inline-block;
   padding: 6px 8px;
@@ -268,6 +272,7 @@ html {
 /*detail-info*/
 .detail-info {
   position: absolute;
+  overflow: hidden;
   top: 24px;
   right: 24px;
   width: 482px;
@@ -276,6 +281,8 @@ html {
   z-index: 999; }
 
 .detail-info_top {
+  position: relative;
+  z-index: 2;
   padding: 10px 14px;
   background-color: #FFF;
   height: 50px; }
@@ -307,6 +314,11 @@ html {
   -webkit-transform: translateY(-2000px);
       -ms-transform: translateY(-2000px);
           transform: translateY(-2000px); }
+
+.detail-info-show {
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0); }
 
 .detail-info_list {
   margin-left: 14px;

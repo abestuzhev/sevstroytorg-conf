@@ -81,6 +81,11 @@ html {
   height: 41px;
 }
 
+/**/
+.conf-roof {
+  background: url($img-dir + 'gibkaya-cherepitsa_bobrovyiy-hvost_krasnyiy.png') 0 0 no-repeat;
+}
+
 
 /**/
 .conf-btn {
@@ -113,6 +118,7 @@ html {
 
 .detail-info {
   position: absolute;
+  overflow: hidden;
   top: 24px;
   right: 24px;
   width: 482px;
@@ -122,6 +128,8 @@ html {
 }
 
 .detail-info_top {
+  position: relative;
+  z-index: 2;
   padding: 10px 14px;
   background-color: #FFF;
   height: 50px;
@@ -152,6 +160,11 @@ html {
   opacity: 0.9;
   background-color: #FFF;
   transform: translateY(-2000px);
+  @extend %transition;
+}
+
+.detail-info-show {
+  transform: translateY(0);
   @extend %transition;
 }
 
