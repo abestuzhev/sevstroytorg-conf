@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 	$('.conf-color').css('display', 'none')
 
-
+	/*submenu*/
 	$('.conf-menu_link').on('click', function (e) {
 		e.preventDefault();
 		$(this).parent().siblings().children('.conf-submenu').removeClass('js-show-conf-submenu');
@@ -23,13 +23,14 @@ $(document).ready(function() {
 		$('.conf-submenu').removeClass('js-show-conf-submenu');
 	});
 
-
-
+	/*detail-info*/
 	$('.detail-info_btn').on('click', function (e) {
 		e.preventDefault();
 		$('.detail-info_body').toggleClass('detail-info-show');
 	});
 
+
+	/*палитры цветов*/
 	$('.conf-color_item').click(function(e){
 		e.preventDefault();
 		var $item = $(this),
@@ -38,7 +39,8 @@ $(document).ready(function() {
 		$item.addClass('color_is-active').siblings().removeClass('color_is-active');
 	});
 
-	/*current*/
+	/*выбор материала*/
+
 	$('.conf-properties_btn').on('click', function (e) {
 		e.preventDefault();
 		$(this).siblings().removeClass('conf-current');
@@ -49,10 +51,9 @@ $(document).ready(function() {
 			var $conf_material = $(this).data('properties');
 			var $conf_current = $('.conf-color[data-properties="color-' + $conf_material + '"]');
 			$conf_current.show();
-			$conf_current.show();
+			$conf_current.siblings('.conf-color').hide();
 		}
 	});
 
 
-
-});
+});//end ready
