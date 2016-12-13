@@ -54,7 +54,7 @@ img, video {
   max-width: 100%;
   height: auto; }
 
-.conf-menu-icon, .detail-info_body, .detail-info-show, .conf-menu_item, .conf-menu_item:hover .conf-menu_link, .conf-menu_item:hover .conf-menu-icon, .conf-properties_btn, .conf-color_item, .color_is-active {
+.conf-menu-icon, .detail-info_body, .detail-info-show, .conf-menu_item, .conf-menu_item:hover .conf-menu_link, .conf-menu_item:hover .conf-menu-icon, .conf-properties_btn, .conf-properties_btn:hover, .conf-current, .conf-color_item, .color_is-active {
   transition: all .2s ease-out; }
 
 .l-layout {
@@ -442,9 +442,13 @@ html {
   border-radius: 50px;
   margin-bottom: 6px; }
   .conf-properties_btn:hover {
-    transition: all .2s ease-out;
     background-color: #5598DE;
     color: #fff; }
+
+/*conf-curren*/
+.conf-current {
+  background-color: #5598DE;
+  color: #fff; }
 
 .conf-block {
   position: absolute;
@@ -544,11 +548,5 @@ html {
 .c-9003 {
   background-color: #474a50; }
 
-.c-8004 {
-  background-color: #fefefe; }
-
 .c-8017 {
   background-color: #8f4e35; }
-
-.c-5021 {
-  background-color: #44322d; }

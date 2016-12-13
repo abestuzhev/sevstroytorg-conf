@@ -36,7 +36,6 @@ html {
   @extend %transition;
 }
 
-
 /*========================*/
 /*menu icon*/
 /*========================*/
@@ -328,10 +327,17 @@ html {
   @extend %transition;
 
   &:hover {
-    transition: all .2s ease-out;
+    @extend %transition;
     background-color: #5598DE;
     color: #fff;
   }
+}
+
+/*conf-curren*/
+.conf-current {
+  background-color: #5598DE;
+  color: #fff;
+  @extend %transition;
 }
 
 .conf-block {

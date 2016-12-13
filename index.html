@@ -10,6 +10,14 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
     <!--<link rel="stylesheet" href="bower_components/normalize-css/normalize.css">-->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/color.css">
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".conf-bg").css("display", "none");
+        $(".conf-bg").delay(800).fadeIn(800);
+      });
+    </script>
 </head>
 
 
@@ -30,12 +38,22 @@
         <div class="conf-submenu_title"></div>
         <a href="#" class="conf-submenu_close"></a>
         <div class="conf-properties">
+          <div class="conf-properties_title">Гибкая черепица:</div>
+          <div class="conf-properties_body">
+            <a href="#" class="conf-properties_btn" data-properties="">Бобровый хвост</a>
+            <a href="#" class="conf-properties_btn" data-properties="">Вестерн</a>
+            <a href="#" class="conf-properties_btn" data-properties="">Драконий зуб</a>
+            <a href="#" class="conf-properties_btn" data-properties="">Финская</a>
+            <a href="#" class="conf-properties_btn" data-properties="">Трио</a>
+          </div>
+        </div><!--end conf-properties-->
+        <div class="conf-properties">
           <div class="conf-properties_title">Металлочерепица:</div>
           <div class="conf-properties_body">
-            <a href="#" class="conf-properties_btn" data-properties="">Quadro</a>
-            <a href="#" class="conf-properties_btn" data-properties="">Country</a>
-            <a href="#" class="conf-properties_btn" data-properties="">Classic</a>
-            <a href="#" class="conf-properties_btn" data-properties="">Cvinta</a>
+            <a href="#" class="conf-properties_btn" data-properties="quadro">Quadro</a>
+            <a href="#" class="conf-properties_btn" data-properties="country">Country</a>
+            <a href="#" class="conf-properties_btn" data-properties="classic">Classic</a>
+            <a href="#" class="conf-properties_btn" data-properties="cvinta">Cvinta</a>
           </div>
         </div><!--end conf-properties-->
         <div class="conf-properties">
@@ -52,29 +70,30 @@
             <a href="#" class="conf-properties_btn">Стандарт</a>
           </div>
         </div><!--end conf-properties-->
-        <div class="conf-properties conf-color">
+        <div class="conf-properties conf-color" data-properties="color-quadro">
           <div class="conf-properties_title">Выберите цвет:</div>
           <div class="conf-properties_subtitle">Палитра RAL:</div>
           <div class="conf-properties_body">
-            <a data-color="background-image: url('img/krovly-1.png')" href="#" class="conf-color_item c-5021"></a>
-            <a data-color="background-image: url('img/krovly-12352.png')" href="#" class="conf-color_item c-8017"></a>
-            <a data-color="" href="#" class="conf-color_item c-8004"></a>
-            <a data-color="" href="#" class="conf-color_item c-9003"></a>
-            <a data-color="" href="#" class="conf-color_item c-7024"></a>
-            <a data-color="" href="#" class="conf-color_item c-7005"></a>
-            <a data-color="" href="#" class="conf-color_item c-7004"></a>
-            <a data-color="" href="#" class="conf-color_item c-6005"></a>
-            <a data-color="" href="#" class="conf-color_item c-6002"></a >
-            <a data-color="" href="#" class="conf-color_item c-5005"></a >
-            <a data-color="" href="#" class="conf-color_item c-5002"></a >
-            <a data-color="" href="#" class="conf-color_item c-3011"></a >
-            <a data-color="" href="#" class="conf-color_item c-3009"></a >
-            <a data-color="" href="#" class="conf-color_item c-3005"></a >
-            <a data-color="" href="#" class="conf-color_item c-3003"></a >
-            <a data-color="" href="#" class="conf-color_item c-2004"></a >
-            <a data-color="" href="#" class="conf-color_item c-1018"></a >
-            <a data-color="" href="#" class="conf-color_item c-1015"></a >
-            <a data-color="" href="#" class="conf-color_item c-1014"></a >
+            <a data-color="background-image:url(img/metal/quadro/metal_quadro-profi_9003.png)" data-ral="9003" href="#" class="conf-color_item"></a>
+            <a data-color="background-image:url(img/metal/quadro/metal_quadro-profi_8017.png)" data-ral="8017" href="#" class="conf-color_item"></a>
+            <a data-color="background-image:url(img/metal/quadro/metal_quadro-profi_8004.png)" href="#" data-ral="8004" class="conf-color_item"></a>
+            <a data-color="background-image:url(img/metal/quadro/metal_quadro-profi_7024.png)" href="#" data-ral="7024" class="conf-color_item"></a>
+            <a data-color="background-image:url(img/metal/quadro/metal_quadro-profi_7005.png)" href="#" data-ral="7005" class="conf-color_item"></a>
+            <a data-color="background-image:url(img/metal/quadro/metal_quadro-profi_7004.png)" href="#" data-ral="7004" class="conf-color_item"></a>
+            <a data-color="background-image:url(img/metal/quadro/metal_quadro-profi_6005.png)" href="#" data-ral="6005" class="conf-color_item"></a>
+            <a data-color="background-image:url(img/metal/quadro/metal_quadro-profi_6002.png)" href="#" data-ral="6002" class="conf-color_item"></a>
+            <a data-color="background-image:url(img/metal/quadro/metal_quadro-profi_5021.png)" href="#" data-ral="5021" class="conf-color_item"></a>
+            <a data-color="background-image:url(img/metal/quadro/metal_quadro-profi_5005.png)" href="#" data-ral="5005" class="conf-color_item"></a>
+            <a data-color="background-image:url(img/metal/quadro/metal_quadro-profi_5002.png)" href="#" data-ral="5002" class="conf-color_item"></a>
+            <a data-color="background-image:url(img/metal/quadro/metal_quadro-profi_3011.png)" href="#" data-ral="3011" class="conf-color_item"></a>
+            <a data-color="background-image:url(img/metal/quadro/metal_quadro-profi_3009.png)" href="#" data-ral="3009" class="conf-color_item"></a>
+            <a data-color="background-image:url(img/metal/quadro/metal_quadro-profi_3005.png)" href="#" data-ral="3005" class="conf-color_item"></a>
+            <a data-color="background-image:url(img/metal/quadro/metal_quadro-profi_3003.png)" href="#" data-ral="3003" class="conf-color_item"></a>
+            <a data-color="background-image:url(img/metal/quadro/metal_quadro-profi_2004.png)" href="#" data-ral="2004" class="conf-color_item"></a>
+            <a data-color="background-image:url(img/metal/quadro/metal_quadro-profi_1018.png)" href="#" data-ral="1018" class="conf-color_item"></a>
+            <a data-color="background-image:url(img/metal/quadro/metal_quadro-profi_1015.png)" href="#" data-ral="1015" class="conf-color_item"></a>
+            <a data-color="background-image:url(img/metal/quadro/metal_quadro-profi_1014.png)" href="#" data-ral="1014" class="conf-color_item"></a>
+            <a data-color="background-image:url(img/metal/quadro/metal_quadro-profi_zn.png)" href="#" data-ral="zn" class="conf-color_item"></a>
           </div>
         </div><!--end conf-properties-->
       </div>
@@ -558,7 +577,6 @@
     <!--<img class="conf-block_img" src="img/krovly-1.png" alt="">-->
   <!--</div>-->
 
-  <script src="bower_components/jquery/dist/jquery.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

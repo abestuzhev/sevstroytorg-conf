@@ -30,6 +30,11 @@ gulp.task('html', function(){
     .pipe(browserSync.stream())
 });
 
+gulp.task('css', function(){
+  return gulp.src('css/**/*.css')
+    .pipe(browserSync.stream())
+});
+
 
 gulp.task('browser-sync', function(){
   browserSync.init({
@@ -51,6 +56,7 @@ gulp.task('watch', function(){
   gulp.watch(srcDir + 'scss/**/*.scss', ['sass'])
   gulp.watch(srcDir + 'js/**/*.js', ['js'])
   gulp.watch('**/*.html', ['html'])
+  gulp.watch('css/**/*.css', ['css'])
 });
 
-gulp.task('default', ['html', 'sass', 'js', 'browser-sync', 'watch'])
+gulp.task('default', ['html', 'css', 'sass', 'js', 'browser-sync', 'watch'])
