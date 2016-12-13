@@ -37,7 +37,23 @@ $(document).ready(function() {
 			image_path = $item.data('color');
 		$('.conf-roof').attr('style', image_path);
 		$item.addClass('color_is-active').siblings().removeClass('color_is-active');
+
 	});
+
+	// $('.conf-color_item').click(function(e){
+	// 	e.preventDefault();
+	// 	$(this).addClass('color_is-active').siblings().removeClass('color_is-active');
+	// 	$(this).siblings().removeClass('color_is-active');
+    //
+	// });
+	// if ($('.conf-color_item').hasClass("color_is-active")) {
+	// 	var $item = $('.conf-color_item'),
+	// 		image_path = $item.data('color');
+	// 	$('.conf-roof').attr('style', image_path);
+	// 	$item.addClass('color_is-active').siblings().removeClass('color_is-active');
+	// }
+
+
 
 	/*выбор материала*/
 
@@ -46,6 +62,20 @@ $(document).ready(function() {
 		$(this).siblings().removeClass('conf-current');
 		$(this).parents('.conf-properties').siblings().find('.conf-properties_btn').removeClass('conf-current');
 		$(this).addClass('conf-current');
+		// var image_material = $('.conf-color_item').hasClass('color_is-active').data('color');
+		// $('.conf-roof').attr('style', image_material);
+
+		// function showBlock() {
+		// 	var $image_material = $('.conf-color_item').hasClass('color_is-active'),
+		// 		image_data = $image_material.data('color');
+		// 	$('.conf-roof').attr('style', image_data);
+		// }
+		// showBlock();
+
+		if ($('.conf-color_item').hasClass("color_is-active")) {
+			var $confColor = $(this).data('color');
+			$('.conf-roof').attr('style', $confColor);
+		}
 
 		if($(".conf-properties_btn").hasClass("conf-current")) {
 			var $conf_material = $(this).data('properties');
