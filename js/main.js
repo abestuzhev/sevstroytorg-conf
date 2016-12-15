@@ -33,11 +33,56 @@ $(document).ready(function() {
 	/*палитры цветов*/
 	$('.conf-color_item').click(function(e){
 		e.preventDefault();
-		var $item = $(this),
-			image_path = $item.data('color');
-		$('.conf-roof').attr('style', image_path);
+		var $item = $(this);
 		$item.addClass('color_is-active').siblings().removeClass('color_is-active');
+	});
 
+	$('.conf-submenu--roof .conf-color_item').click(function(e){
+		e.preventDefault();
+		var image_path = $(this).data('color');
+		$('.conf-roof').attr('style', image_path).css('display', 'none').fadeIn(350);
+	});
+
+	$('.conf-submenu--facade .conf-color_item').click(function(e){
+		e.preventDefault();
+		var image_path = $(this).data('color');
+		$('.conf-facade').attr('style', image_path).css('display', 'none').fadeIn(350);
+	});
+
+	$('.conf-submenu--drains .conf-color_item').click(function(e){
+		e.preventDefault();
+		var image_path = $(this).data('color');
+		$('.conf-drain').attr('style', image_path).css('display', 'none').fadeIn(350);
+	});
+
+	$('.conf-submenu--plinth .conf-color_item').click(function(e){
+		e.preventDefault();
+		var image_path = $(this).data('color');
+		$('.conf-plinth').attr('style', image_path).css('display', 'none').fadeIn(350);
+	});
+
+	$('.conf-submenu--fence .conf-color_item').click(function(e){
+		e.preventDefault();
+		var image_path = $(this).data('color');
+		$('.conf-fences').attr('style', image_path).css('display', 'none').fadeIn(350);
+	});
+
+	$('.conf-submenu--angels .conf-color_item').click(function(e){
+		e.preventDefault();
+		var image_path = $(this).data('color');
+		$('.conf-angles').attr('style', image_path).css('display', 'none').fadeIn(350);
+	});
+
+	$('.conf-submenu--porch .conf-color_item').click(function(e){
+		e.preventDefault();
+		var image_path = $(this).data('color');
+		$('.conf-porch').attr('style', image_path).css('display', 'none').fadeIn(250);
+	});
+
+	$('.conf-submenu--plat .conf-color_item').click(function(e){
+		e.preventDefault();
+		var image_path = $(this).data('color');
+		$('.conf-plat').attr('style', image_path).css('display', 'none').fadeIn(350);
 	});
 
 	// $('.conf-color_item').click(function(e){
@@ -75,6 +120,10 @@ $(document).ready(function() {
 		if ($('.conf-color_item').hasClass("color_is-active")) {
 			var $confColor = $(this).data('color');
 			$('.conf-roof').attr('style', $confColor);
+			// $('.conf-facade').attr('style', $confColor);
+			// $('.conf-drain').attr('style', $confColor);
+			// $('.conf-fences').attr('style', $confColor);
+			// $('.conf-plinth').attr('style', $confColor);
 		}
 
 		if($(".conf-properties_btn").hasClass("conf-current")) {

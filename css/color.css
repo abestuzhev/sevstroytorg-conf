@@ -43,9 +43,92 @@
 [data-ral='toskana']{background-color: #928f76;}
 
 
-[data-ral='korichnevyy']{background-color: #;}
+[data-ral='korichnevyy']{background-color: #a45f00;}
 [data-ral='krasnyy']{background-color: #a4695b;}
 [data-ral='seryy']{background-color: #a4695b;}
 [data-ral='zelenyy']{background-color: #606654;}
+
+/*fasad_kamenj*/
+[data-ral='butovyy_baltiyskiy']{background-color: #d8c589;}
+[data-ral='butovyy_datskiy']{background-color: #3e302c;}
+[data-ral='butovyy_grecheskiy']{background-color: #dbbe85;}
+[data-ral='butovyy_normanskiy']{background-color: #beafa0;}
+[data-ral='butovyy_skandinavskiy']{background-color: #b3afac;}
+[data-ral='butovyy_skifskiy']{background-color: #815b41;}
+
+/*fasade-granit*/
+[data-ral='aljpiyskiy']{background-color: #514340;}
+[data-ral='balkanskiy']{background-color: #573d2f;}
+[data-ral='karpatskiy']{background-color: #9d745f;}
+[data-ral='krymskiy']{background-color: #dbc2a6;}
+[data-ral='sayanskiy']{background-color: #e9dacc;}
+[data-ral='uraljskiy']{background-color: #dab999;}
+
+/*facade-kanon*/
+[data-ral='arizona']{background-color: #b7aa95;}
+[data-ral='kanzas']{background-color: #755a3e;}
+[data-ral='kolorado']{background-color: #c6c4b5;}
+[data-ral='montana']{background-color: #d3cf97;}
+[data-ral='nevada']{background-color: #c18d6d;}
+
+/*facade-skalistyj-kamen*/
+[data-ral='aljpy']{background-color: #8d7e73;}
+[data-ral='altay']{background-color: #9b8264;}
+[data-ral='andy']{background-color: #b4a086;}
+[data-ral='kavkaz']{background-color: #ddc89a;}
+[data-ral='pamir']{background-color: #78503b;}
+[data-ral='tibet']{background-color: #694c32;}
+
+/*facade-severnyj-kamen*/
+[data-ral='bezhevyy']{background-color: #cfc3b2;}
+[data-ral='seryy']{background-color: #7a7a7a;}
+[data-ral='terrakot']{background-color: #9d8576;}
+
+/*facade-kamen*/
+[data-ral='belyy']{background-color: #fff;}
+[data-ral='bezhevyy']{background-color: #be8058;}
+[data-ral='kvarcit']{background-color: #8c6b5a;}
+[data-ral='malahit']{background-color: #868877;}
+[data-ral='zheltyy']{background-color: #dfc9a0;}
+[data-ral='zhzhenyy']{background-color: #402e2f;}
+
+/*brick-standart*/
+[data-ral='bezhevyy-kombi']{background-color: #a57d60;}
+[data-ral='gladkiy-bezhevyy']{background-color: #c7b974;}
+[data-ral='temno-korichnevyy']{background-color: #413736;}
+
+
+/*tree*/
+[data-ral='antichnyy-dub']{background-color: #5f3b23;}
+[data-ral='belenyy-dub']{background-color: #ebd7be;}
+[data-ral='braziljskaya-vishnya']{background-color: #351a13;}
+[data-ral='morenyy-dub']{background-color: #a58866;}
+[data-ral='sosna']{background-color: #e3ca9f;}
+[data-ral='svetloe-derevo']{background-color: #f9e9bf;}
+
+
+/*vinyl-siding*/
+[data-ral='amarantovyy']{background-color: #955b5b;}
+[data-ral='goluboy']{background-color: #74919c;}
+[data-ral='indigo']{background-color: #6f97c5;}
+[data-ral='karameljnyy']{background-color: #a18e68;}
+[data-ral='kremovyy']{background-color: #dfcdb1;}
+[data-ral='lamantin']{background-color: #7f858b;}
+[data-ral='persikovyy']{background-color: #e6cdb8;}
+[data-ral='sakura']{background-color: #e8cdcf;}
+[data-ral='salatovyy']{background-color: #a4bba0;}
+[data-ral='slonovaya']{background-color: #dad1b1;}
+[data-ral='temno-bezhevyy']{background-color: #745f57;}
+[data-ral='vaniljnyy']{background-color: #daceb4;}
+[data-ral='zheltyy']{background-color: #ded9ac;}
+
+
+[data-ral='imbirj']{background-color: #ded1ba;}
+[data-ral='korica']{background-color: #b2a08a;}
+[data-ral='shafran']{background-color: #d1c3a0;}
+
+
+
+
 
 
