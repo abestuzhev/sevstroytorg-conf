@@ -12,17 +12,27 @@
     <!--<link rel="stylesheet" href="bower_components/normalize-css/normalize.css">-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/color.css">
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script>
-      $(document).ready(function() {
-        $(".conf-bg").css("display", "none");
-        $(".conf-bg").delay(800).fadeIn(800);
-      });
-    </script>
+
 </head>
 
 
-<body class="conf-bg">
+<body onload="loadPage()">
+<div class="conf-bg">
+
+  <!-- <div class="conf-block_default">
+    <div class="conf-block conf-environment" style="background-image: url('img/environment.jpg')"></div>
+    <div class="conf-block" style="background-image: url('img/default-facade.png')"></div>
+    <div class="conf-block" style="background-image: url('img/default-plinth.png')"></div>
+    <div class="conf-block" style="background-image: url('img/default-angles.png')"></div>
+    <div class="conf-block" style="background-image: url('img/default-plat.png')"></div>
+    <div class="conf-block" style="background-image: url('img/default-porch.png')"></div>
+    <div class="conf-block" style="background-image: url('img/default-roof.png')"></div>
+    <div class="conf-block" style="background-image: url('img/default-drains.png')"></div>
+  </div> -->
+  <!--conf-block_default-->
+
+
+
   <ul class="conf-menu">
     <li class="conf-menu_item">
       <a href="#" class="conf-menu_link">
@@ -1132,9 +1142,6 @@
     </div>
   </div>
 
-  <!--<img src="img/krovly-1.png" class="conf-metal">-->
-
-
   <div class="conf-block conf-environment" style="background-image: url('img/environment.jpg')"></div>
   <div class="conf-block conf-fences" style="background-image: url('img/fences/metal-fence/ograzhdeniya_metallicheskiy-shtaketnik_figurnyy_dub.png')"></div>
   <div class="conf-block" style="background-image: url('img/default-facade.png')"></div>
@@ -1154,8 +1161,18 @@
   <div class="conf-block" style="background-image: url('img/default-drains.png')"></div>
   <div class="conf-block conf-drain" style="background-image: url('img/drains/metal/vodostok_metal_9003.png')"></div>
 
-  <!--<div class="conf-block_default" style="background-image: url('img/default-roof.png')"></div>-->
+</div><!--conf-bg-->
 
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script>
+    // $(document).ready(function() {
+    //   $(".conf-bg").css("display", "none");
+    //   $(".conf-bg").delay(1500).fadeIn(800);
+    // });
+    function loadPage() {
+    document.querySelector('.conf-bg').style.display = 'block';
+     }
+  </script>
   <script src="js/main.js"></script>
 </body>
 </html>
