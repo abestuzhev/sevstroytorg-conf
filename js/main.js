@@ -30,7 +30,7 @@ $(document).ready(function() {
 		e.preventDefault();
 		var $item = $(this);
 		$item.addClass('color_is-active').siblings().removeClass('color_is-active');
-		
+
 	});
 
 	$('.conf-submenu--roof .conf-color_item').click(function(e){

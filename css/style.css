@@ -227,24 +227,9 @@ html {
 *::before {
   box-sizing: border-box; }
 
-@-webkit-keyframes conf_transparent {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@keyframes conf_transparent {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
 .conf-bg {
   min-height: 100%;
-  background-size: cover;
-  display: none;
-  -webkit-animation: conf_transparent 3s;
-          animation: conf_transparent 3s; }
+  background-size: cover; }
 
 /*icon*/
 .icon {
@@ -417,7 +402,8 @@ html {
 .conf-menu_link {
   width: 68px;
   display: block;
-  position: relative; }
+  position: relative;
+  color: #000; }
 
 .js-show-pointer::after {
   content: '';

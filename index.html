@@ -12,27 +12,12 @@
     <!--<link rel="stylesheet" href="bower_components/normalize-css/normalize.css">-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/color.css">
-
+    <style type="text/css">#hellopreloader>#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 1000px;background: #2574A9 url(http://hello-site.ru//main/images/preloads/audio.svg) center center no-repeat;background-size:41px;}</style>
 </head>
-
-
-<body onload="loadPage()">
+<body>
+<div id="hellopreloader">
+<div id="hellopreloader_preload"></div>
 <div class="conf-bg">
-
-  <!-- <div class="conf-block_default">
-    <div class="conf-block conf-environment" style="background-image: url('img/environment.jpg')"></div>
-    <div class="conf-block" style="background-image: url('img/default-facade.png')"></div>
-    <div class="conf-block" style="background-image: url('img/default-plinth.png')"></div>
-    <div class="conf-block" style="background-image: url('img/default-angles.png')"></div>
-    <div class="conf-block" style="background-image: url('img/default-plat.png')"></div>
-    <div class="conf-block" style="background-image: url('img/default-porch.png')"></div>
-    <div class="conf-block" style="background-image: url('img/default-roof.png')"></div>
-    <div class="conf-block" style="background-image: url('img/default-drains.png')"></div>
-  </div> -->
-  <!--conf-block_default-->
-
-
-
   <ul class="conf-menu">
     <li class="conf-menu_item">
       <a href="#" class="conf-menu_link">
@@ -1162,6 +1147,7 @@
   <div class="conf-block conf-drain" style="background-image: url('img/drains/metal/vodostok_metal_9003.png')"></div>
 
 </div><!--conf-bg-->
+</div><!--hellopreloader-->
 
   <script src="bower_components/jquery/dist/jquery.js"></script>
   <script>
@@ -1169,10 +1155,13 @@
     //   $(".conf-bg").css("display", "none");
     //   $(".conf-bg").delay(1500).fadeIn(800);
     // });
-    function loadPage() {
-    document.querySelector('.conf-bg').style.display = 'block';
-     }
+    // function loadPage() {
+    // document.querySelector('.conf-bg').style.display = 'block';
+    //  }
   </script>
   <script src="js/main.js"></script>
+  <script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script>
+
+
 </body>
 </html>

@@ -12,17 +12,17 @@ html {
   box-sizing: border-box;
 }
 
-
-@keyframes conf_transparent {
-  from { opacity: 0; }
-  to { opacity: 1;}
- }
+//
+// @keyframes conf_transparent {
+//   from { opacity: 0; }
+//   to { opacity: 1;}
+//  }
 
 .conf-bg {
   min-height: 100%;
   background-size: cover;
-  display: none;
-  animation: conf_transparent 3s;
+  // display: none;
+  // animation: conf_transparent 5s ease 10s;
 }
 
 
@@ -237,6 +237,7 @@ html {
   width: 68px;
   display: block;
   position: relative;
+  color: #000;
 }
 
 .js-show-pointer::after {
