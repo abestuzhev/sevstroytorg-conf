@@ -48,7 +48,10 @@ $(document).ready(function() {
 	$('.conf-submenu--facade .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-facade').attr('style', image_path);
+		$('.conf-facade').attr('style', image_path).css('display', 'none').fadeIn(150);
+		setTimeout(function () {
+			$('.conf-facade-old').attr('style', image_path);
+		}, 1000); // время в мс
 	});
 
 	$('.conf-submenu--drains .conf-color_item').click(function(e){
