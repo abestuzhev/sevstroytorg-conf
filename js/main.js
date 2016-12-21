@@ -37,6 +37,11 @@ $(document).ready(function() {
 		e.preventDefault();
 		var image_path = $(this).data('color');
 		$('.conf-roof').attr('style', image_path);
+		setTimeout(function () {
+			$('.conf-roof-old').attr('style', image_path);
+		}, 500); // время в мс
+
+
 	});
 
 	$('.conf-submenu--facade .conf-color_item').click(function(e){
