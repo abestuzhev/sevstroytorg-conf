@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	$('.conf-color').css('display', 'none')
+	$('.conf-color').css('visibility', 'hidden');
 
 	/*submenu*/
 	$('.conf-menu_link').on('click', function (e) {
