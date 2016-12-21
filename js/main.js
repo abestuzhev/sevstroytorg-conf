@@ -36,49 +36,49 @@ $(document).ready(function() {
 	$('.conf-submenu--roof .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-roof').attr('style', image_path).css('display', 'none').fadeIn(350);
+		$('.conf-roof').attr('style', image_path);
 	});
 
 	$('.conf-submenu--facade .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-facade').attr('style', image_path).css('display', 'none').fadeIn(350);
+		$('.conf-facade').attr('style', image_path);
 	});
 
 	$('.conf-submenu--drains .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-drain').attr('style', image_path).css('display', 'none').fadeIn(350);
+		$('.conf-drain').attr('style', image_path);
 	});
 
 	$('.conf-submenu--plinth .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-plinth').attr('style', image_path).css('display', 'none').fadeIn(350);
+		$('.conf-plinth').attr('style', image_path);
 	});
 
 	$('.conf-submenu--fence .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-fences').attr('style', image_path).css('display', 'none').fadeIn(350);
+		$('.conf-fences').attr('style', image_path);
 	});
 
 	$('.conf-submenu--angels .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-angles').attr('style', image_path).css('display', 'none').fadeIn(350);
+		$('.conf-angles').attr('style', image_path);
 	});
 
 	$('.conf-submenu--porch .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-porch').attr('style', image_path).css('display', 'none').fadeIn(250);
+		$('.conf-porch').attr('style', image_path);
 	});
 
 	$('.conf-submenu--plat .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-plat').attr('style', image_path).css('display', 'none').fadeIn(350);
+		$('.conf-plat').attr('style', image_path);
 	});
 
 
