@@ -454,7 +454,7 @@ html {
 
 /*javascript*/
 .js-show-conf-submenu {
-  display: block; }
+  visibility: visible; }
 
 /**/
 .conf-properties {

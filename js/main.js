@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+
 	$('.conf-color').css('display', 'none');
 
 	/*submenu*/
