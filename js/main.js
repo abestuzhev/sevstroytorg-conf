@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
-	$('.conf-color').css('visibility', 'hidden');
+
+	$('.conf-color').css('display', 'none');
 
 	/*submenu*/
 	$('.conf-menu_link').on('click', function (e) {
@@ -36,49 +37,54 @@ $(document).ready(function() {
 	$('.conf-submenu--roof .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-roof').attr('style', image_path).css('display', 'none').fadeIn(350);
+		$('.conf-roof').attr('style', image_path).css('display', 'none').fadeIn(150);
+		setTimeout(function () {
+			$('.conf-roof-old').attr('style', image_path);
+		}, 500); // время в мс
+
+
 	});
 
 	$('.conf-submenu--facade .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-facade').attr('style', image_path).css('display', 'none').fadeIn(350);
+		$('.conf-facade').attr('style', image_path);
 	});
 
 	$('.conf-submenu--drains .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-drain').attr('style', image_path).css('display', 'none').fadeIn(350);
+		$('.conf-drain').attr('style', image_path);
 	});
 
 	$('.conf-submenu--plinth .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-plinth').attr('style', image_path).css('display', 'none').fadeIn(350);
+		$('.conf-plinth').attr('style', image_path);
 	});
 
 	$('.conf-submenu--fence .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-fences').attr('style', image_path).css('display', 'none').fadeIn(350);
+		$('.conf-fences').attr('style', image_path);
 	});
 
 	$('.conf-submenu--angels .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-angles').attr('style', image_path).css('display', 'none').fadeIn(350);
+		$('.conf-angles').attr('style', image_path);
 	});
 
 	$('.conf-submenu--porch .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-porch').attr('style', image_path).css('display', 'none').fadeIn(250);
+		$('.conf-porch').attr('style', image_path);
 	});
 
 	$('.conf-submenu--plat .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-plat').attr('style', image_path).css('display', 'none').fadeIn(350);
+		$('.conf-plat').attr('style', image_path);
 	});
 
 
