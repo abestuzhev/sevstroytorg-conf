@@ -37,10 +37,10 @@ $(document).ready(function() {
 	$('.conf-submenu--roof .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-roof').attr('style', image_path);
+		$('.conf-roof').css('background-image', image_path);
 		setTimeout(function () {
-			$('.conf-roof-old').attr('style', image_path);
-		}, 500); // время в мс
+			$('.conf-roof-old').css('background-image', image_path);
+		}, 500);
 
 
 	});
@@ -48,46 +48,62 @@ $(document).ready(function() {
 	$('.conf-submenu--facade .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-facade').attr('style', image_path);
+		$('.conf-facade').css('background-image', image_path);
 		setTimeout(function () {
-			$('.conf-facade-old').attr('style', image_path);
-		}, 1000); // время в мс
+			$('.conf-facade-old').css('background-image', image_path);
+		}, 1000); 
 	});
 
 	$('.conf-submenu--drains .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-drain').attr('style', image_path);
+		$('.conf-drains').css('background-image', image_path);
+		setTimeout(function () {
+			$('.conf-drains-old').css('background-image', image_path);
+		}, 300);
 	});
 
 	$('.conf-submenu--plinth .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-plinth').attr('style', image_path);
+		$('.conf-plinth').css('background-image', image_path);
+		setTimeout(function () {
+			$('.conf-plinth-old').css('background-image', image_path);
+		}, 1000);
 	});
 
 	$('.conf-submenu--fence .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-fences').attr('style', image_path);
+		$('.conf-fences').css('background-image', image_path);
+		
 	});
 
 	$('.conf-submenu--angels .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-angles').attr('style', image_path);
+		$('.conf-angles').css('background-image', image_path);
+		setTimeout(function () {
+			$('.conf-angels-old').css('background-image', image_path);
+		}, 1000);
 	});
 
 	$('.conf-submenu--porch .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-porch').attr('style', image_path);
+		$('.conf-porch').css('background-image', image_path);
+		setTimeout(function () {
+			$('.conf-porch-old').css('background-image', image_path);
+		}, 400);
 	});
 
 	$('.conf-submenu--plat .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-plat').attr('style', image_path);
+		$('.conf-plat').css('background-image', image_path);
+		setTimeout(function () {
+			$('.conf-plat-old').css('background-image', image_path);
+		}, 1000);
 	});
 
 
