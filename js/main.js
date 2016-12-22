@@ -37,7 +37,7 @@ $(document).ready(function() {
 	$('.conf-submenu--roof .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-roof').attr('style', image_path).css('display', 'none').fadeIn(150);
+		$('.conf-roof').attr('style', image_path);
 		setTimeout(function () {
 			$('.conf-roof-old').attr('style', image_path);
 		}, 500); // время в мс
@@ -48,7 +48,7 @@ $(document).ready(function() {
 	$('.conf-submenu--facade .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-facade').attr('style', image_path).css('display', 'none').fadeIn(150);
+		$('.conf-facade').attr('style', image_path);
 		setTimeout(function () {
 			$('.conf-facade-old').attr('style', image_path);
 		}, 1000); // время в мс
@@ -113,5 +113,19 @@ $(document).ready(function() {
 		}
 	});
 
-
 });//end ready
+
+
+//
+// var linkFacade = document.querySelector(".conf-submenu--facade .conf-color_item");
+// var blockFacade = document.querySelector(".conf-facade");
+// var blockFacadeOld = document.querySelector(".conf-facade-old");
+//
+// linkFacade.addEventListener("click", function (e) {
+// 	e.preventDefault();
+// 	var image_path = this.getAttribute('data-color');
+// 	blockFacade.setAttribute('style', image_path);
+// 	setTimeout(function () {
+// 		blockFacadeOld.setAttribute('style', image_path);
+// 	}, 1000);
+// });
