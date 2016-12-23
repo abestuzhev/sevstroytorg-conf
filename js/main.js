@@ -51,7 +51,7 @@ $(document).ready(function() {
 		$('.conf-facade').css('background-image', image_path);
 		setTimeout(function () {
 			$('.conf-facade-old').css('background-image', image_path);
-		}, 1000); 
+		}, 1000);
 	});
 
 	$('.conf-submenu--drains .conf-color_item').click(function(e){
@@ -75,17 +75,24 @@ $(document).ready(function() {
 	$('.conf-submenu--fence .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
+		$('.conf-pillars').hide();
 		$('.conf-fences').css('background-image', image_path);
-		
 	});
 
-
-	$('.conf-submenu--fence .conf-color_item').click(function(e){
+	$('.conf-color_item--pillar').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-pillars').css('background-image', image_path);
-
+		$('.conf-pillars').show().css('background-image', image_path);
 	});
+
+
+	$('.conf-color_item--figur').click(function(e){
+		e.preventDefault();
+		var image_path = $(this).data('color');
+		$('.conf-pillars').show();
+		$('.conf-fences').css('background-image', image_path);
+	});
+
 
 	$('.conf-submenu--angels .conf-color_item').click(function(e){
 		e.preventDefault();
@@ -131,6 +138,20 @@ $(document).ready(function() {
 			$conf_current.siblings('.conf-color').hide();
 		}
 	});
+
+	// $('.conf-properties_sub-btn').on('click', function (e) {
+	// 	e.preventDefault();
+	// 	$(this).siblings().removeClass('conf-current');
+	// 	$(this).parents('.conf-properties').siblings().find('.conf-properties_btn').removeClass('conf-current');
+	// 	$(this).addClass('conf-current');
+	//
+	// 	if($(".conf-properties_sub-btn").hasClass("conf-current")) {
+	// 		var $conf_material = $(this).data('properties');
+	// 		var $conf_current = $('.conf-color[data-properties="color-' + $conf_material + '"]');
+	// 		$conf_current.show();
+	// 		$conf_current.siblings('.conf-color').hide();
+	// 	}
+	// });
 
     //
 	// if($confBtnRoof.hasClass("conf-current")) {

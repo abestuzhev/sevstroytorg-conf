@@ -1,134 +1,128 @@
-[data-ral='9003']{background-color: #fefefe;}
-[data-ral='8017']{background-color: #44322d;}
-[data-ral='8004']{background-color: #8f4e35;}
-[data-ral='7024']{background-color: #474a50;}
-[data-ral='7005']{background-color: #6b716f;}
-[data-ral='7004']{background-color: #9ea0a1;}
-[data-ral='6005']{background-color: #0f4336;}
-[data-ral='6002']{background-color: #276235;}
-[data-ral='5021']{background-color: #07737a;}
-[data-ral='5005']{background-color: #154889;}
-[data-ral='5002']{background-color: #2b2c7c;}
-[data-ral='3011']{background-color: #7e292c;}
-[data-ral='3009']{background-color: #703731;}
-[data-ral='3005']{background-color: #5e2028;}
-[data-ral='3003']{background-color: #8d1d2c;}
-[data-ral='2004']{background-color: #e75b12;}
-[data-ral='1018']{background-color: #f3e03b;}
-[data-ral='1015']{background-color: #eadebd;}
-[data-ral='1014']{background-color: #ded09f;}
-[data-ral='zn']{background-color: #e7e7e7;}
+.ral-9003{background-color: #fefefe;}
+.ral-8017{background-color: #44322d;}
+.ral-8004{background-color: #8f4e35;}
+.ral-7024{background-color: #474a50;}
+.ral-7005{background-color: #6b716f;}
+.ral-7004{background-color: #9ea0a1;}
+.ral-6005{background-color: #0f4336;}
+.ral-6002{background-color: #276235;}
+.ral-5021{background-color: #07737a;}
+.ral-5005{background-color: #154889;}
+.ral-5002{background-color: #2b2c7c;}
+.ral-3011{background-color: #7e292c;}
+.ral-3009{background-color: #703731;}
+.ral-3005{background-color: #5e2028;}
+.ral-3003{background-color: #8d1d2c;}
+.ral-2004{background-color: #e75b12;}
+.ral-1018{background-color: #f3e03b;}
+.ral-1015{background-color: #eadebd;}
+.ral-1014{background-color: #ded09f;}
+.ral-zn{background-color: #e7e7e7;}
 
-[data-ral='blue']{background-color: #304357;}
-[data-ral='green']{background-color: #494b3e;}
-[data-ral='brown']{background-color: #4c3633;}
-[data-ral='red']{background-color: #722f32;}
-
-
-[data-ral='hvost_osenniy']{background-color: #957058;}
-[data-ral='hvost_krasnyy']{background-color: #d77966;}
-[data-ral='hvost_osenniy']{background-color: #9e9d95;}
-[data-ral='hvost_zelenyy']{background-color: #6b7769;}
-
-[data-ral='vestern_kanjon']{background-color: #7f706b;}
-[data-ral='vestern_klondayk']{background-color: #9c8272;}
-[data-ral='vestern_niagara']{background-color: #757884;}
-[data-ral='vestern_preriya']{background-color: #978b82;}
-
-[data-ral='alikante']{background-color: #978a70;}
-[data-ral='indigo']{background-color: #d4ccc1;}
-[data-ral='kastiliya']{background-color: #acb7b1;}
-[data-ral='korrida']{background-color: #99806e;}
-[data-ral='seviljya']{background-color: #847976;}
-[data-ral='toskana']{background-color: #928f76;}
+.blue{background-color: #304357;}
+.green{background-color: #494b3e;}
+.brown{background-color: #4c3633;}
+.red{background-color: #722f32;}
 
 
-[data-ral='korichnevyy']{background-color: #a45f00;}
-[data-ral='krasnyy']{background-color: #a4695b;}
-[data-ral='seryy']{background-color: #a4695b;}
-[data-ral='zelenyy']{background-color: #606654;}
+.hvost_osenniy{background-color: #957058;}
+.hvost_krasnyy{background-color: #d77966;}
+.hvost_osenniy{background-color: #9e9d95;}
+.hvost_zelenyy{background-color: #6b7769;}
+
+.vestern_kanjon{background-color: #7f706b;}
+.vestern_klondayk{background-color: #9c8272;}
+.vestern_niagara{background-color: #757884;}
+.vestern_preriya{background-color: #978b82;}
+
+.alikante{background-color: #978a70;}
+.indigo{background-color: #d4ccc1;}
+.kastiliya{background-color: #acb7b1;}
+.korrida{background-color: #99806e;}
+.seviljya{background-color: #847976;}
+.toskana{background-color: #928f76;}
+
+
+.korichnevyy{background-color: #a45f00;}
+.krasnyy{background-color: #a4695b;}
+.seryy{background-color: #a4695b;}
+.zelenyy{background-color: #606654;}
 
 /*fasad_kamenj*/
-[data-ral='butovyy_baltiyskiy']{background-color: #d8c589;}
-[data-ral='butovyy_datskiy']{background-color: #3e302c;}
-[data-ral='butovyy_grecheskiy']{background-color: #dbbe85;}
-[data-ral='butovyy_normanskiy']{background-color: #beafa0;}
-[data-ral='butovyy_skandinavskiy']{background-color: #b3afac;}
-[data-ral='butovyy_skifskiy']{background-color: #815b41;}
+.butovyy_baltiyskiy{background-color: #d8c589;}
+.butovyy_datskiy{background-color: #3e302c;}
+.butovyy_grecheskiy{background-color: #dbbe85;}
+.butovyy_normanskiy{background-color: #beafa0;}
+.butovyy_skandinavskiy{background-color: #b3afac;}
+.butovyy_skifskiy{background-color: #815b41;}
 
 /*fasade-granit*/
-[data-ral='aljpiyskiy']{background-color: #514340;}
-[data-ral='balkanskiy']{background-color: #573d2f;}
-[data-ral='karpatskiy']{background-color: #9d745f;}
-[data-ral='krymskiy']{background-color: #dbc2a6;}
-[data-ral='sayanskiy']{background-color: #e9dacc;}
-[data-ral='uraljskiy']{background-color: #dab999;}
+.aljpiyskiy{background-color: #514340;}
+.balkanskiy{background-color: #573d2f;}
+.karpatskiy{background-color: #9d745f;}
+.krymskiy{background-color: #dbc2a6;}
+.sayanskiy{background-color: #e9dacc;}
+.uraljskiy{background-color: #dab999;}
 
 /*facade-kanon*/
-[data-ral='arizona']{background-color: #b7aa95;}
-[data-ral='kanzas']{background-color: #755a3e;}
-[data-ral='kolorado']{background-color: #c6c4b5;}
-[data-ral='montana']{background-color: #d3cf97;}
-[data-ral='nevada']{background-color: #c18d6d;}
+.arizona{background-color: #b7aa95;}
+.kanzas{background-color: #755a3e;}
+.kolorado{background-color: #c6c4b5;}
+.montana{background-color: #d3cf97;}
+.nevada{background-color: #c18d6d;}
 
 /*facade-skalistyj-kamen*/
-[data-ral='aljpy']{background-color: #8d7e73;}
-[data-ral='altay']{background-color: #9b8264;}
-[data-ral='andy']{background-color: #b4a086;}
-[data-ral='kavkaz']{background-color: #ddc89a;}
-[data-ral='pamir']{background-color: #78503b;}
-[data-ral='tibet']{background-color: #694c32;}
+.aljpy{background-color: #8d7e73;}
+.altay{background-color: #9b8264;}
+.andy{background-color: #b4a086;}
+.kavkaz{background-color: #ddc89a;}
+.pamir{background-color: #78503b;}
+.tibet{background-color: #694c32;}
 
 /*facade-severnyj-kamen*/
-[data-ral='bezhevyy']{background-color: #cfc3b2;}
-[data-ral='seryy']{background-color: #7a7a7a;}
-[data-ral='terrakot']{background-color: #9d8576;}
+.bezhevyy{background-color: #cfc3b2;}
+.seryy{background-color: #7a7a7a;}
+.terrakot{background-color: #9d8576;}
 
 /*facade-kamen*/
-[data-ral='belyy']{background-color: #fff;}
-[data-ral='bezhevyy']{background-color: #be8058;}
-[data-ral='kvarcit']{background-color: #8c6b5a;}
-[data-ral='malahit']{background-color: #868877;}
-[data-ral='zheltyy']{background-color: #dfc9a0;}
-[data-ral='zhzhenyy']{background-color: #402e2f;}
+.belyy{background-color: #fff;}
+.bezhevyy{background-color: #be8058;}
+.kvarcit{background-color: #8c6b5a;}
+.malahit{background-color: #868877;}
+.zheltyy{background-color: #dfc9a0;}
+.zhzhenyy{background-color: #402e2f;}
 
 /*brick-standart*/
-[data-ral='bezhevyy-kombi']{background-color: #a57d60;}
-[data-ral='gladkiy-bezhevyy']{background-color: #c7b974;}
-[data-ral='temno-korichnevyy']{background-color: #413736;}
+.bezhevyy-kombi{background-color: #a57d60;}
+.gladkiy-bezhevyy{background-color: #c7b974;}
+.temno-korichnevyy{background-color: #413736;}
 
 
 /*tree*/
-[data-ral='antichnyy-dub']{background-color: #5f3b23;}
-[data-ral='belenyy-dub']{background-color: #ebd7be;}
-[data-ral='braziljskaya-vishnya']{background-color: #351a13;}
-[data-ral='morenyy-dub']{background-color: #a58866;}
-[data-ral='sosna']{background-color: #e3ca9f;}
-[data-ral='svetloe-derevo']{background-color: #f9e9bf;}
+.antichnyy-dub{background-color: #5f3b23;}
+.belenyy-dub{background-color: #ebd7be;}
+.braziljskaya-vishnya{background-color: #351a13;}
+.morenyy-dub{background-color: #a58866;}
+.sosna{background-color: #e3ca9f;}
+.svetloe-derevo{background-color: #f9e9bf;}
 
 
 /*vinyl-siding*/
-[data-ral='amarantovyy']{background-color: #955b5b;}
-[data-ral='goluboy']{background-color: #74919c;}
-[data-ral='indigo']{background-color: #dad1bf;}
-[data-ral='karameljnyy']{background-color: #a18e68;}
-[data-ral='kremovyy']{background-color: #dfcdb1;}
-[data-ral='lamantin']{background-color: #7f858b;}
-[data-ral='persikovyy']{background-color: #e6cdb8;}
-[data-ral='sakura']{background-color: #e8cdcf;}
-[data-ral='salatovyy']{background-color: #a4bba0;}
-[data-ral='slonovaya']{background-color: #dad1b1;}
-[data-ral='temno-bezhevyy']{background-color: #745f57;}
-[data-ral='vaniljnyy']{background-color: #daceb4;}
-[data-ral='zheltyy']{background-color: #ded9ac;}
+.amarantovyy{background-color: #955b5b;}
+.goluboy{background-color: #74919c;}
+.indigo{background-color: #dad1bf;}
+.karameljnyy{background-color: #a18e68;}
+.kremovyy{background-color: #dfcdb1;}
+.lamantin{background-color: #7f858b;}
+.persikovyy{background-color: #e6cdb8;}
+.sakura{background-color: #e8cdcf;}
+.salatovyy{background-color: #a4bba0;}
+.slonovaya{background-color: #dad1b1;}
+.temno-bezhevyy{background-color: #745f57;}
+.vaniljnyy{background-color: #daceb4;}
+.zheltyy{background-color: #ded9ac;}
 
 
-[data-ral='imbirj']{background-color: #ded1ba;}
-[data-ral='korica']{background-color: #b2a08a;}
-[data-ral='shafran']{background-color: #d1c3a0;}
-
-
-
-
-
-
+.imbirj{background-color: #ded1ba;}
+.korica{background-color: #b2a08a;}
+.shafran{background-color: #d1c3a0;}

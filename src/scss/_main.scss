@@ -334,7 +334,7 @@ html {
   margin-bottom: 4px;
 }
 
-.conf-properties_btn {
+.conf-properties_btn  {
   display: inline-block;
   padding: 5px 13px;
   color: #1B1B1B;
@@ -377,7 +377,9 @@ html {
 }
 
 /*conf-color_item*/
-.conf-color_item {
+.conf-color_item,
+.conf-color_item--pillar,
+.conf-color_item--figur {
   display: inline-block;
   width: 30px;
   height: 30px;
