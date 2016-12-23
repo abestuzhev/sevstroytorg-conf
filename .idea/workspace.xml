@@ -2,348 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f86c7218-23cd-4d68-972c-5cc40e216226" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_svetloe_derevo.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/environment-2.png" afterPath="$PROJECT_DIR$/img/environment-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/environment.jpg" afterPath="$PROJECT_DIR$/img/environment.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/brick/fasad_kirpich_aljta-profilj-belyy.png" afterPath="$PROJECT_DIR$/img/facade/brick/fasad_kirpich_aljta-profilj-belyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/brick/fasad_kirpich_aljta-profilj-bezhevyy-kombi.png" afterPath="$PROJECT_DIR$/img/facade/brick/fasad_kirpich_aljta-profilj-bezhevyy-kombi.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/brick/fasad_kirpich_aljta-profilj-krasnyy.png" afterPath="$PROJECT_DIR$/img/facade/brick/fasad_kirpich_aljta-profilj-krasnyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/brick/fasad_kirpich_aljta-profilj-zhzhenyy.png" afterPath="$PROJECT_DIR$/img/facade/brick/fasad_kirpich_aljta-profilj-zhzhenyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/brick/fasad_kirpich_nordside-gladkiy-belyy.png" afterPath="$PROJECT_DIR$/img/facade/brick/fasad_kirpich_nordside-gladkiy-belyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/brick/fasad_kirpich_nordside-gladkiy-bezhevyy.png" afterPath="$PROJECT_DIR$/img/facade/brick/fasad_kirpich_nordside-gladkiy-bezhevyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/brick/fasad_kirpich_nordside-gladkiy-krasnyy.png" afterPath="$PROJECT_DIR$/img/facade/brick/fasad_kirpich_nordside-gladkiy-krasnyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/brick/fasad_kirpich_nordside-gladkiy-temno-korichnevyy.png" afterPath="$PROJECT_DIR$/img/facade/brick/fasad_kirpich_nordside-gladkiy-temno-korichnevyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/butovyj/fasad_kamenj_butovyy_baltiyskiy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/butovyj/fasad_kamenj_butovyy_baltiyskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/butovyj/fasad_kamenj_butovyy_datskiy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/butovyj/fasad_kamenj_butovyy_datskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/butovyj/fasad_kamenj_butovyy_grecheskiy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/butovyj/fasad_kamenj_butovyy_grecheskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/butovyj/fasad_kamenj_butovyy_normanskiy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/butovyj/fasad_kamenj_butovyy_normanskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/butovyj/fasad_kamenj_butovyy_skandinavskiy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/butovyj/fasad_kamenj_butovyy_skandinavskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/butovyj/fasad_kamenj_butovyy_skifskiy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/butovyj/fasad_kamenj_butovyy_skifskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/granit/fasad_kamenj_granit_aljpiyskiy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/granit/fasad_kamenj_granit_aljpiyskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/granit/fasad_kamenj_granit_balkanskiy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/granit/fasad_kamenj_granit_balkanskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/granit/fasad_kamenj_granit_karpatskiy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/granit/fasad_kamenj_granit_karpatskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/granit/fasad_kamenj_granit_krymskiy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/granit/fasad_kamenj_granit_krymskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/granit/fasad_kamenj_granit_sayanskiy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/granit/fasad_kamenj_granit_sayanskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/granit/fasad_kamenj_granit_uraljskiy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/granit/fasad_kamenj_granit_uraljskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/kamen/fasad_kamenj_belyy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/kamen/fasad_kamenj_belyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/kamen/fasad_kamenj_bezhevyy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/kamen/fasad_kamenj_bezhevyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/kamen/fasad_kamenj_kvarcit.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/kamen/fasad_kamenj_kvarcit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/kamen/fasad_kamenj_malahit.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/kamen/fasad_kamenj_malahit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/kamen/fasad_kamenj_seryy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/kamen/fasad_kamenj_seryy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/kamen/fasad_kamenj_zheltyy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/kamen/fasad_kamenj_zheltyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/kamen/fasad_kamenj_zhzhenyy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/kamen/fasad_kamenj_zhzhenyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/kanon/fasad_kamenj_kanjon_arizona.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/kanon/fasad_kamenj_kanjon_arizona.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/kanon/fasad_kamenj_kanjon_kanzas.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/kanon/fasad_kamenj_kanjon_kanzas.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/kanon/fasad_kamenj_kanjon_kolorado.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/kanon/fasad_kamenj_kanjon_kolorado.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/kanon/fasad_kamenj_kanjon_montana.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/kanon/fasad_kamenj_kanjon_montana.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/kanon/fasad_kamenj_kanjon_nevada.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/kanon/fasad_kamenj_kanjon_nevada.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/severnyj-kamen/fasad_kamenj_severnyy_bezhevyy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/severnyj-kamen/fasad_kamenj_severnyy_bezhevyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/severnyj-kamen/fasad_kamenj_severnyy_seryy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/severnyj-kamen/fasad_kamenj_severnyy_seryy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/severnyj-kamen/fasad_kamenj_severnyy_terrakot.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/severnyj-kamen/fasad_kamenj_severnyy_terrakot.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/skalistyj-kamen/fasad_kamenj_skalistyy_aljpy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/skalistyj-kamen/fasad_kamenj_skalistyy_aljpy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/skalistyj-kamen/fasad_kamenj_skalistyy_altay.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/skalistyj-kamen/fasad_kamenj_skalistyy_altay.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/skalistyj-kamen/fasad_kamenj_skalistyy_andy.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/skalistyj-kamen/fasad_kamenj_skalistyy_andy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/skalistyj-kamen/fasad_kamenj_skalistyy_kavkaz.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/skalistyj-kamen/fasad_kamenj_skalistyy_kavkaz.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/skalistyj-kamen/fasad_kamenj_skalistyy_pamir.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/skalistyj-kamen/fasad_kamenj_skalistyy_pamir.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/facade-kamen/skalistyj-kamen/fasad_kamenj_skalistyy_tibet.png" afterPath="$PROJECT_DIR$/img/facade/facade-kamen/skalistyj-kamen/fasad_kamenj_skalistyy_tibet.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_1014.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_1014.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_1015.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_1015.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_1018.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_1018.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_2004.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_2004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_3003.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_3003.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_3005.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_3005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_3009.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_3009.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_3011.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_3011.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_5002.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_5002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_5005.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_5005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_5021.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_5021.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_6002.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_6002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_6005.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_6005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_7004.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_7004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_7005.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_7005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_7024.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_7024.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_8004.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_8004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_8017.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_8017.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_9003.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_9003.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_zn.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_zn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_1014.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_1014.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_1015.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_1015.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_1018.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_1018.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_2004.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_2004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_3003.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_3003.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_3005.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_3005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_3009.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_3009.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_3011.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_3011.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_5002.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_5002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_5005.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_5005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_5021.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_5021.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_6002.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_6002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_6005.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_6005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_7004.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_7004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_7005.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_7005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_7024.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_7024.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_8004.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_8004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_8017.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_8017.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_9003.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_9003.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_zn.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_zn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_1014.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_1014.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_1015.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_1015.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_1018.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_1018.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_2004.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_2004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_3003.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_3003.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_3005.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_3005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_3009.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_3009.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_3011.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_3011.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_5002.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_5002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_5005.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_5005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_5021.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_5021.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_6002.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_6002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_6005.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_6005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_7004.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_7004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_7005.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_7005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_7024.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_7024.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_8004.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_8004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_8017.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_8017.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_9003.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_9003.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_zn.png" afterPath="$PROJECT_DIR$/img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_zn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/tree/blok-haus/fasad_derevo_blok-haus_antichnyy_dub.png" afterPath="$PROJECT_DIR$/img/facade/tree/blok-haus/fasad_derevo_blok-haus_antichnyy_dub.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/tree/blok-haus/fasad_derevo_blok-haus_belenyy_dub.png" afterPath="$PROJECT_DIR$/img/facade/tree/blok-haus/fasad_derevo_blok-haus_belenyy_dub.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/tree/blok-haus/fasad_derevo_blok-haus_braziljskaya_vishnya.png" afterPath="$PROJECT_DIR$/img/facade/tree/blok-haus/fasad_derevo_blok-haus_braziljskaya_vishnya.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/tree/blok-haus/fasad_derevo_blok-haus_morenyy_dub.png" afterPath="$PROJECT_DIR$/img/facade/tree/blok-haus/fasad_derevo_blok-haus_morenyy_dub.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/tree/blok-haus/fasad_derevo_blok-haus_sosna.png" afterPath="$PROJECT_DIR$/img/facade/tree/blok-haus/fasad_derevo_blok-haus_sosna.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/tree/blok-haus/fasad_derevo_blok-haus_svetloe_derevo.png" afterPath="$PROJECT_DIR$/img/facade/tree/blok-haus/fasad_derevo_blok-haus_svetloe_derevo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/tree/ehkobrus/fasad_derevo_ekobrus_antichnyy_dub.png" afterPath="$PROJECT_DIR$/img/facade/tree/ehkobrus/fasad_derevo_ekobrus_antichnyy_dub.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/tree/ehkobrus/fasad_derevo_ekobrus_belenyy_dub.png" afterPath="$PROJECT_DIR$/img/facade/tree/ehkobrus/fasad_derevo_ekobrus_belenyy_dub.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/tree/ehkobrus/fasad_derevo_ekobrus_braziljskaya_vishnya.png" afterPath="$PROJECT_DIR$/img/facade/tree/ehkobrus/fasad_derevo_ekobrus_braziljskaya_vishnya.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/tree/ehkobrus/fasad_derevo_ekobrus_morenyy_dub.png" afterPath="$PROJECT_DIR$/img/facade/tree/ehkobrus/fasad_derevo_ekobrus_morenyy_dub.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/tree/ehkobrus/fasad_derevo_ekobrus_sosna.png" afterPath="$PROJECT_DIR$/img/facade/tree/ehkobrus/fasad_derevo_ekobrus_sosna.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/tree/ehkobrus/fasad_derevo_ekobrus_svetloe_derevo.png" afterPath="$PROJECT_DIR$/img/facade/tree/ehkobrus/fasad_derevo_ekobrus_svetloe_derevo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_antichnyy_dub.png" afterPath="$PROJECT_DIR$/img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_antichnyy_dub.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_belenyy_dub.png" afterPath="$PROJECT_DIR$/img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_belenyy_dub.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_braziljskaya_vishnya.png" afterPath="$PROJECT_DIR$/img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_braziljskaya_vishnya.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_morenyy_dub.png" afterPath="$PROJECT_DIR$/img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_morenyy_dub.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_sosna.png" afterPath="$PROJECT_DIR$/img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_sosna.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/blok-haus/fasad_vinilovyy-sayding_blok-haus_bezhevyy.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/blok-haus/fasad_vinilovyy-sayding_blok-haus_bezhevyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/blok-haus/fasad_vinilovyy-sayding_blok-haus_imbirj.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/blok-haus/fasad_vinilovyy-sayding_blok-haus_imbirj.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/blok-haus/fasad_vinilovyy-sayding_blok-haus_karameljnyy.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/blok-haus/fasad_vinilovyy-sayding_blok-haus_karameljnyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/blok-haus/fasad_vinilovyy-sayding_blok-haus_korica.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/blok-haus/fasad_vinilovyy-sayding_blok-haus_korica.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/blok-haus/fasad_vinilovyy-sayding_blok-haus_shafran.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/blok-haus/fasad_vinilovyy-sayding_blok-haus_shafran.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/blok-haus/fasad_vinilovyy-sayding_blok-haus_temno-bezhevyy.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/blok-haus/fasad_vinilovyy-sayding_blok-haus_temno-bezhevyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/blok-haus/fasad_vinilovyy-sayding_blok-haus_vaniljnyy.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/blok-haus/fasad_vinilovyy-sayding_blok-haus_vaniljnyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_amarantovyy.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_amarantovyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_belyy.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_belyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_bezhevyy.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_bezhevyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_goluboy.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_goluboy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_indigo.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_indigo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_karameljnyy.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_karameljnyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_kremovyy.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_kremovyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_lamantin.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_lamantin.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_persikovyy.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_persikovyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_sakura.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_sakura.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_salatovyy.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_salatovyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_seryy.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_seryy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_slonovaya.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_slonovaya.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_temno-bezhevyy.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_temno-bezhevyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_vaniljnyy.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_vaniljnyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_zheltyy.png" afterPath="$PROJECT_DIR$/img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_zheltyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/brick/cokolj_kirpich_aljta-profilj-belyy.png" afterPath="$PROJECT_DIR$/img/plinth/brick/cokolj_kirpich_aljta-profilj-belyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/brick/cokolj_kirpich_aljta-profilj-bezhevyy-kombi.png" afterPath="$PROJECT_DIR$/img/plinth/brick/cokolj_kirpich_aljta-profilj-bezhevyy-kombi.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/brick/cokolj_kirpich_aljta-profilj-krasnyy.png" afterPath="$PROJECT_DIR$/img/plinth/brick/cokolj_kirpich_aljta-profilj-krasnyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/brick/cokolj_kirpich_aljta-profilj-zhzhenyy.png" afterPath="$PROJECT_DIR$/img/plinth/brick/cokolj_kirpich_aljta-profilj-zhzhenyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/brick/cokolj_kirpich_nordside-gladkiy-belyy.png" afterPath="$PROJECT_DIR$/img/plinth/brick/cokolj_kirpich_nordside-gladkiy-belyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/brick/cokolj_kirpich_nordside-gladkiy-bezhevyy.png" afterPath="$PROJECT_DIR$/img/plinth/brick/cokolj_kirpich_nordside-gladkiy-bezhevyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/brick/cokolj_kirpich_nordside-gladkiy-krasnyy.png" afterPath="$PROJECT_DIR$/img/plinth/brick/cokolj_kirpich_nordside-gladkiy-krasnyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/brick/cokolj_kirpich_nordside-gladkiy-temno-korichnevyy.png" afterPath="$PROJECT_DIR$/img/plinth/brick/cokolj_kirpich_nordside-gladkiy-temno-korichnevyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_1014.png" afterPath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_1014.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_1015.png" afterPath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_1015.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_1018.png" afterPath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_1018.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_2004.png" afterPath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_2004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_3003.png" afterPath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_3003.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_3005.png" afterPath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_3005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_3009.png" afterPath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_3009.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_3011.png" afterPath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_3011.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_5002.png" afterPath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_5002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_5005.png" afterPath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_5005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_5021.png" afterPath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_5021.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_6002.png" afterPath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_6002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_6005.png" afterPath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_6005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_7004.png" afterPath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_7004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_7005.png" afterPath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_7005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_7024.png" afterPath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_7024.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_8004.png" afterPath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_8004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_8017.png" afterPath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_8017.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_9003.png" afterPath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_9003.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_zn.png" afterPath="$PROJECT_DIR$/img/plinth/c8/cokolj_profnastil_s8_zn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/butovyj/cokolj_kamenj_butovyy_baltiyskiy.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/butovyj/cokolj_kamenj_butovyy_baltiyskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/butovyj/cokolj_kamenj_butovyy_datskiy.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/butovyj/cokolj_kamenj_butovyy_datskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/butovyj/cokolj_kamenj_butovyy_grecheskiy.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/butovyj/cokolj_kamenj_butovyy_grecheskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/butovyj/cokolj_kamenj_butovyy_normanskiy.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/butovyj/cokolj_kamenj_butovyy_normanskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/butovyj/cokolj_kamenj_butovyy_skandinavskiy.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/butovyj/cokolj_kamenj_butovyy_skandinavskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/butovyj/cokolj_kamenj_butovyy_skifskiy.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/butovyj/cokolj_kamenj_butovyy_skifskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/granit/cokolj_kamenj_granit_aljpiyskiy.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/granit/cokolj_kamenj_granit_aljpiyskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/granit/cokolj_kamenj_granit_balkanskiy.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/granit/cokolj_kamenj_granit_balkanskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/granit/cokolj_kamenj_granit_karpatskiy.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/granit/cokolj_kamenj_granit_karpatskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/granit/cokolj_kamenj_granit_krymskiy.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/granit/cokolj_kamenj_granit_krymskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/granit/cokolj_kamenj_granit_sayanskiy.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/granit/cokolj_kamenj_granit_sayanskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/granit/cokolj_kamenj_granit_uraljskiy.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/granit/cokolj_kamenj_granit_uraljskiy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/kamen/cokolj_kamenj_belyy.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/kamen/cokolj_kamenj_belyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/kamen/cokolj_kamenj_bezhevyy.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/kamen/cokolj_kamenj_bezhevyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/kamen/cokolj_kamenj_kvarcit.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/kamen/cokolj_kamenj_kvarcit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/kamen/cokolj_kamenj_malahit.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/kamen/cokolj_kamenj_malahit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/kamen/cokolj_kamenj_seryy.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/kamen/cokolj_kamenj_seryy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/kamen/cokolj_kamenj_zheltyy.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/kamen/cokolj_kamenj_zheltyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/kamen/cokolj_kamenj_zhzhenyy.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/kamen/cokolj_kamenj_zhzhenyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/skalistyj-kamen/cokolj_kamenj_skalistyy_aljpy.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/skalistyj-kamen/cokolj_kamenj_skalistyy_aljpy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/skalistyj-kamen/cokolj_kamenj_skalistyy_altay.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/skalistyj-kamen/cokolj_kamenj_skalistyy_altay.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/skalistyj-kamen/cokolj_kamenj_skalistyy_andy.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/skalistyj-kamen/cokolj_kamenj_skalistyy_andy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/skalistyj-kamen/cokolj_kamenj_skalistyy_kavkaz.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/skalistyj-kamen/cokolj_kamenj_skalistyy_kavkaz.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/skalistyj-kamen/cokolj_kamenj_skalistyy_pamir.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/skalistyj-kamen/cokolj_kamenj_skalistyy_pamir.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/plinth/plinth-kamen/skalistyj-kamen/cokolj_kamenj_skalistyy_tibet.png" afterPath="$PROJECT_DIR$/img/plinth/plinth-kamen/skalistyj-kamen/cokolj_kamenj_skalistyy_tibet.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_1014.png" afterPath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_1014.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_1015.png" afterPath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_1015.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_1018.png" afterPath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_1018.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_2004.png" afterPath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_2004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_3003.png" afterPath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_3003.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_3005.png" afterPath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_3005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_3009.png" afterPath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_3009.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_3011.png" afterPath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_3011.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_5002.png" afterPath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_5002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_5005.png" afterPath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_5005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_5021.png" afterPath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_5021.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_6002.png" afterPath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_6002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_6005.png" afterPath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_6005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_7004.png" afterPath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_7004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_7005.png" afterPath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_7005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_7024.png" afterPath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_7024.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_8004.png" afterPath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_8004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_8017.png" afterPath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_8017.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_zn.png" afterPath="$PROJECT_DIR$/img/roof/dec/c20/decking_c20_zn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_1014.png" afterPath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_1014.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_1015.png" afterPath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_1015.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_1018.png" afterPath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_1018.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_2004.png" afterPath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_2004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_3003.png" afterPath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_3003.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_3005.png" afterPath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_3005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_3009.png" afterPath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_3009.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_3011.png" afterPath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_3011.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_5002.png" afterPath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_5002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_5005.png" afterPath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_5005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_5021.png" afterPath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_5021.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_6002.png" afterPath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_6002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_6005.png" afterPath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_6005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_7004.png" afterPath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_7004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_7005.png" afterPath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_7005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_7024.png" afterPath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_7024.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_8004.png" afterPath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_8004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_8017.png" afterPath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_8017.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_9003.png" afterPath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_9003.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_zn.png" afterPath="$PROJECT_DIR$/img/roof/dec/c21/decking_c21_zn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_1014.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_1014.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_1015.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_1015.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_1018.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_1018.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_2004.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_2004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_3003.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_3003.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_3005.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_3005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_3009.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_3009.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_3011.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_3011.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_5002.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_5002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_5005.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_5005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_5021.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_5021.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_6002.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_6002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_6005.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_6005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_7004.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_7004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_7005.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_7005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_7024.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_7024.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_8004.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_8004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_8017.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_8017.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_zn.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_zn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_1014.png" afterPath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_1014.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_1015.png" afterPath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_1015.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_1018.png" afterPath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_1018.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_2004.png" afterPath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_2004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_3003.png" afterPath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_3003.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_3005.png" afterPath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_3005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_3009.png" afterPath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_3009.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_3011.png" afterPath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_3011.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_5002.png" afterPath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_5002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_5005.png" afterPath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_5005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_5021.png" afterPath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_5021.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_6002.png" afterPath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_6002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_6005.png" afterPath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_6005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_7004.png" afterPath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_7004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_7005.png" afterPath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_7005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_7024.png" afterPath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_7024.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_8004.png" afterPath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_8004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_8017.png" afterPath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_8017.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_9003.png" afterPath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_9003.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_zn.png" afterPath="$PROJECT_DIR$/img/roof/metal/classic/metal_classic_zn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_1014.png" afterPath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_1014.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_1015.png" afterPath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_1015.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_1018.png" afterPath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_1018.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_2004.png" afterPath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_2004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_3003.png" afterPath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_3003.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_3005.png" afterPath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_3005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_3009.png" afterPath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_3009.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_3011.png" afterPath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_3011.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_8004.png" afterPath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_8004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_9003.png" afterPath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_9003.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_zn.png" afterPath="$PROJECT_DIR$/img/roof/metal/countri/metal_countri_zn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_1014.png" afterPath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_1014.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_1015.png" afterPath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_1015.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_1018.png" afterPath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_1018.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_2004.png" afterPath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_2004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_3003.png" afterPath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_3003.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_3005.png" afterPath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_3005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_3009.png" afterPath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_3009.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_3011.png" afterPath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_3011.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_5002.png" afterPath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_5002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_5005.png" afterPath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_5005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_5021.png" afterPath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_5021.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_6002.png" afterPath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_6002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_6005.png" afterPath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_6005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_7004.png" afterPath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_7004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_7005.png" afterPath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_7005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_7024.png" afterPath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_7024.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_8004.png" afterPath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_8004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_8017.png" afterPath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_8017.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_9003.png" afterPath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_9003.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_zn.png" afterPath="$PROJECT_DIR$/img/roof/metal/cvinta/metal_cvinta_zn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_1014.png" afterPath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_1014.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_1015.png" afterPath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_1015.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_1018.png" afterPath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_1018.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_2004.png" afterPath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_2004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_3003.png" afterPath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_3003.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_3005.png" afterPath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_3005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_3009.png" afterPath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_3009.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_3011.png" afterPath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_3011.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_5002.png" afterPath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_5002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_5005.png" afterPath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_5005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_5021.png" afterPath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_5021.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_6002.png" afterPath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_6002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_6005.png" afterPath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_6005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_7004.png" afterPath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_7004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_7005.png" afterPath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_7005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_7024.png" afterPath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_7024.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_8004.png" afterPath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_8004.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_8017.png" afterPath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_8017.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_9003.png" afterPath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_9003.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_zn.png" afterPath="$PROJECT_DIR$/img/roof/metal/quadro/metal_quadro-profi_zn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/shingles/finskaya/gibkaya-cherepica_finskaya_korichnevyy.png" afterPath="$PROJECT_DIR$/img/roof/shingles/finskaya/gibkaya-cherepica_finskaya_korichnevyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/shingles/finskaya/gibkaya-cherepica_finskaya_krasnyy.png" afterPath="$PROJECT_DIR$/img/roof/shingles/finskaya/gibkaya-cherepica_finskaya_krasnyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/shingles/finskaya/gibkaya-cherepica_finskaya_seryy.png" afterPath="$PROJECT_DIR$/img/roof/shingles/finskaya/gibkaya-cherepica_finskaya_seryy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/shingles/finskaya/gibkaya-cherepica_finskaya_zelenyy.png" afterPath="$PROJECT_DIR$/img/roof/shingles/finskaya/gibkaya-cherepica_finskaya_zelenyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/shingles/trio/gibkaya-cherepica_trio_antik.png" afterPath="$PROJECT_DIR$/img/roof/shingles/trio/gibkaya-cherepica_trio_antik.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/shingles/trio/gibkaya-cherepica_trio_aragon.png" afterPath="$PROJECT_DIR$/img/roof/shingles/trio/gibkaya-cherepica_trio_aragon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/shingles/trio/gibkaya-cherepica_trio_granada.png" afterPath="$PROJECT_DIR$/img/roof/shingles/trio/gibkaya-cherepica_trio_granada.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/shingles/trio/gibkaya-cherepica_trio_korichnevyy.png" afterPath="$PROJECT_DIR$/img/roof/shingles/trio/gibkaya-cherepica_trio_korichnevyy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/shingles/trio/gibkaya-cherepica_trio_toledo.png" afterPath="$PROJECT_DIR$/img/roof/shingles/trio/gibkaya-cherepica_trio_toledo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/shingles/trio/gibkaya-cherepica_trio_valensiya.png" afterPath="$PROJECT_DIR$/img/roof/shingles/trio/gibkaya-cherepica_trio_valensiya.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/shingles/vestern/gibkaya-cherepica_vestern_kanjon.png" afterPath="$PROJECT_DIR$/img/roof/shingles/vestern/gibkaya-cherepica_vestern_kanjon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/shingles/vestern/gibkaya-cherepica_vestern_klondayk.png" afterPath="$PROJECT_DIR$/img/roof/shingles/vestern/gibkaya-cherepica_vestern_klondayk.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/shingles/vestern/gibkaya-cherepica_vestern_niagara.png" afterPath="$PROJECT_DIR$/img/roof/shingles/vestern/gibkaya-cherepica_vestern_niagara.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/shingles/vestern/gibkaya-cherepica_vestern_preriya.png" afterPath="$PROJECT_DIR$/img/roof/shingles/vestern/gibkaya-cherepica_vestern_preriya.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="sevstroytorg-conf.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -364,24 +24,25 @@
     <favorites_list name="sevstroytorg-conf" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.55074185">
+    <splitter split-orientation="horizontal" split-proportion="0.62762934">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-16568">
-                  <caret line="399" column="37" selection-start-line="399" selection-start-column="37" selection-end-line="399" selection-end-column="37" />
+                <state relative-caret-position="-60">
+                  <caret line="873" column="10" selection-start-line="873" selection-start-column="10" selection-end-line="873" selection-end-column="10" />
                   <folding>
                     <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#8;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#10;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#12;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#15;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#17;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#7;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#9;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#11;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#13;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#16;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#18;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#19;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -424,8 +85,8 @@
           <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1890">
-                  <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
+                <state relative-caret-position="588">
+                  <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -450,8 +111,8 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/src/scss/_main.scss" />
         <option value="$PROJECT_DIR$/css/color.css" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -499,110 +160,7 @@
     </navigator>
     <panes>
       <pane id="ColorIdeProjectViewPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sevstroytorg-conf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sevstroytorg-conf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sevstroytorg-conf" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sevstroytorg-conf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sevstroytorg-conf" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sevstroytorg-conf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sevstroytorg-conf" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sevstroytorg-conf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sevstroytorg-conf" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sevstroytorg-conf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sevstroytorg-conf" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sevstroytorg-conf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sevstroytorg-conf" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -699,18 +257,18 @@
       <workItem from="1482288600256" duration="3060000" />
       <workItem from="1482342633932" duration="8200000" />
       <workItem from="1482388344742" duration="4120000" />
-      <workItem from="1482428266749" duration="1434000" />
+      <workItem from="1482428266749" duration="8860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96988000" />
+    <option name="totallyTimeSpent" value="104414000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-8" width="1873" height="1096" extended-state="6" />
+    <frame x="55" y="-8" width="1873" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07060121" sideWeight="0.49636552" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16988418" sideWeight="0.49636552" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -790,14 +348,15 @@
           <caret line="44" column="66" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#10;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#12;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#15;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#17;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#11;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#13;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#16;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#18;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#19;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -854,14 +413,15 @@
           <caret line="87" column="45" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#10;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#12;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#15;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#17;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#11;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#13;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#16;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#18;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#19;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -918,14 +478,15 @@
           <caret line="15" column="20" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#10;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#12;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#15;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#17;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#11;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#13;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#16;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#18;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#19;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -959,14 +520,15 @@
           <caret line="227" column="24" selection-start-line="227" selection-start-column="14" selection-end-line="227" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#10;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#12;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#15;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#17;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#11;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#13;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#16;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#18;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#19;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1000,14 +562,15 @@
           <caret line="137" column="24" selection-start-line="137" selection-start-column="14" selection-end-line="137" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#10;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#12;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#15;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#17;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#11;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#13;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#16;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#18;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#19;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1041,14 +604,15 @@
           <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#10;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#12;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#15;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#17;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#11;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#13;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#16;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#18;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#19;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1082,14 +646,15 @@
           <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#10;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#12;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#15;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#17;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#11;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#13;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#16;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#18;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#19;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1199,29 +764,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="-60">
+          <caret line="873" column="10" selection-start-line="873" selection-start-column="10" selection-end-line="873" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#11;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#13;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#16;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#18;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#19;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16568">
-          <caret line="399" column="37" selection-start-line="399" selection-start-column="37" selection-end-line="399" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#10;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#12;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#15;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#17;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#18;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="588">
+          <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

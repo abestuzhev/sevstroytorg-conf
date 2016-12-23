@@ -79,14 +79,23 @@ $(document).ready(function() {
 		
 	});
 
+
+	$('.conf-submenu--fence .conf-color_item').click(function(e){
+		e.preventDefault();
+		var image_path = $(this).data('color');
+		$('.conf-pillars').css('background-image', image_path);
+
+	});
+
 	$('.conf-submenu--angels .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
 		$('.conf-angles').css('background-image', image_path);
 		setTimeout(function () {
-			$('.conf-angels-old').css('background-image', image_path);
+			$('.conf-angles-old').css('background-image', image_path);
 		}, 1000);
 	});
+
 
 	$('.conf-submenu--porch .conf-color_item').click(function(e){
 		e.preventDefault();
@@ -115,12 +124,6 @@ $(document).ready(function() {
 		$(this).parents('.conf-properties').siblings().find('.conf-properties_btn').removeClass('conf-current');
 		$(this).addClass('conf-current');
 
-
-		// if ($('.conf-color_item').hasClass("color_is-active")) {
-		// 	var $confColor = $(this).data('color');
-		// 	$('.conf-roof').attr('style', $confColor);
-		// }
-
 		if($(".conf-properties_btn").hasClass("conf-current")) {
 			var $conf_material = $(this).data('properties');
 			var $conf_current = $('.conf-color[data-properties="color-' + $conf_material + '"]');
@@ -128,6 +131,40 @@ $(document).ready(function() {
 			$conf_current.siblings('.conf-color').hide();
 		}
 	});
+
+    //
+	// if($confBtnRoof.hasClass("conf-current")) {
+	// 	var $conf_material = $confBtnRoof.data('properties');
+	// 	var $conf_current = $('.conf-color[data-properties="color-' + $conf_material + '"]');
+	// 	$conf_current.show();
+	// 	$conf_current.siblings('.conf-color').hide();
+	// }
+    //
+	// if($confBtnFasade.hasClass("conf-current")) {
+	// 	var $conf_material = $confBtnFasade.data('properties');
+	// 	var $conf_current = $('.conf-color[data-properties="color-' + $conf_material + '"]');
+	// 	$conf_current.show();
+	// 	$conf_current.siblings('.conf-color').hide();
+	// }
+
+	var $confBtnRoof = $('.conf-submenu--roof .conf-current');
+	var $confBtnFasade = $('.conf-submenu--fasade .conf-current');
+
+	function ConfDefault(confCurrent) {
+		if(confCurrent == true) {
+			console.log(true);
+			var $conf_material = confCurrent.data('properties');
+			var $conf_current = $('.conf-color[data-properties="color-' + $conf_material + '"]');
+			$conf_current.show();
+			$conf_current.siblings('.conf-color').hide();
+		}
+	}
+
+
+
+	ConfDefault($confBtnRoof);
+	ConfDefault($confBtnFasade);
+
 
 });//end ready
 
