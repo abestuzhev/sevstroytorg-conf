@@ -44,36 +44,36 @@ $(document).ready(function() {
 	$('.conf-submenu--roof .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-roof').css('background-image', image_path);
+		$('.conf-roof').css('background-image', 'url("'+ image_path +'")');
 		setTimeout(function () {
-			$('.conf-roof-old').css('background-image', image_path);
+			$('.conf-roof-old').css('background-image', 'url("'+ image_path +'")');
 		}, 500);
 	});
 
 	$('.conf-submenu--facade .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-facade').css('background-image', image_path);
+		$('.conf-facade').css('background-image', 'url("'+ image_path +'")');
 		setTimeout(function () {
-			$('.conf-facade-old').css('background-image', image_path);
+			$('.conf-facade-old').css('background-image', 'url("'+ image_path +'")');
 		}, 1000);
 	});
 
 	$('.conf-submenu--drains .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-drains').css('background-image', image_path);
+		$('.conf-drains').css('background-image', 'url("'+ image_path +'")');
 		setTimeout(function () {
-			$('.conf-drains-old').css('background-image', image_path);
+			$('.conf-drains-old').css('background-image', 'url("'+ image_path +'")');
 		}, 300);
 	});
 
 	$('.conf-submenu--plinth .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-plinth').css('background-image', image_path);
+		$('.conf-plinth').css('background-image', 'url("'+ image_path +'")');
 		setTimeout(function () {
-			$('.conf-plinth-old').css('background-image', image_path);
+			$('.conf-plinth-old').css('background-image', 'url("'+ image_path +'")');
 		}, 1000);
 	});
 
@@ -81,13 +81,13 @@ $(document).ready(function() {
 		e.preventDefault();
 		var image_path = $(this).data('color');
 		$('.conf-pillars').hide();
-		$('.conf-fences').css('background-image', image_path);
+		$('.conf-fences').css('background-image', 'url("'+ image_path +'")');
 	});
 
 	$('.conf-color_item--pillar').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-pillars').show().css('background-image', image_path);
+		$('.conf-pillars').show().css('background-image', 'url("'+ image_path +'")');
 	});
 
 
@@ -95,31 +95,31 @@ $(document).ready(function() {
 		e.preventDefault();
 		var image_path = $(this).data('color');
 		$('.conf-pillars').show();
-		$('.conf-fences').css('background-image', image_path);
+		$('.conf-fences').css('background-image', 'url("'+ image_path +'")');
 	});
 
 
 	$('.conf-submenu--angels .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-angles').css('background-image', image_path);
+		$('.conf-angles').css('background-image', 'url("'+ image_path +'")');
 		setTimeout(function () {
-			$('.conf-angles-old').css('background-image', image_path);
+			$('.conf-angles-old').css('background-image', 'url("'+ image_path +'")');
 		}, 1000);
 	});
 
 	$('.conf-submenu--porch .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-porch').css('background-image', image_path);
+		$('.conf-porch').css('background-image', 'url("'+ image_path +'")');
 	});
 
 	$('.conf-submenu--plat .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-plat').css('background-image', image_path);
+		$('.conf-plat').css('background-image', 'url("'+ image_path +'")');
 		setTimeout(function () {
-			$('.conf-plat-old').css('background-image', image_path);
+			$('.conf-plat-old').css('background-image', 'url("'+ image_path +'")');
 		}, 1000);
 	});
 
@@ -172,6 +172,7 @@ $(document).ready(function() {
 	};
 	ShowColorName('.conf-color_item');
 	ShowColorName('.conf-color_item--pillar');
+	ShowColorName('.conf-color_item--figur');
 
 	/*предзагрузка изображений*/
 	function LoadImage(imagePath) {
