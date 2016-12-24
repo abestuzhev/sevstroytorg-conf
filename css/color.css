@@ -49,12 +49,12 @@
 .zelenyy{background-color: #606654;}
 
 /*fasad_kamenj*/
-.butovyy_baltiyskiy{background-color: #d8c589;}
-.butovyy_datskiy{background-color: #3e302c;}
-.butovyy_grecheskiy{background-color: #dbbe85;}
-.butovyy_normanskiy{background-color: #beafa0;}
-.butovyy_skandinavskiy{background-color: #b3afac;}
-.butovyy_skifskiy{background-color: #815b41;}
+.baltiyskiy{background-color: #d8c589;}
+.datskiy{background-color: #3e302c;}
+.grecheskiy{background-color: #dbbe85;}
+.normanskiy{background-color: #beafa0;}
+.skandinavskiy{background-color: #815b41;}
+.skifskiy{background-color: #92735c;}
 
 /*fasade-granit*/
 .aljpiyskiy{background-color: #514340;}
@@ -87,6 +87,7 @@
 /*facade-kamen*/
 .belyy{background-color: #fff;}
 .bezhevyy{background-color: #be8058;}
+.svetlo-bezhevyy{background-color: #ddc89a;}
 .kvarcit{background-color: #8c6b5a;}
 .malahit{background-color: #868877;}
 .zheltyy{background-color: #dfc9a0;}
@@ -99,7 +100,7 @@
 
 
 /*tree*/
-.antichnyy-dub{background-color: #5f3b23;}
+.antichnyy-dub{background-color: #b98148;}
 .belenyy-dub{background-color: #ebd7be;}
 .braziljskaya-vishnya{background-color: #351a13;}
 .morenyy-dub{background-color: #a58866;}
@@ -126,3 +127,7 @@
 .imbirj{background-color: #ded1ba;}
 .korica{background-color: #b2a08a;}
 .shafran{background-color: #d1c3a0;}
+.toledo {background-color: #dda27a;}
+.sand-stone {background-color: #a49c7e;}
+.find-stone {background-color: #c2b6a4;}
+.dub {background-color: #faeec8;}

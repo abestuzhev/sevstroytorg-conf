@@ -1,9 +1,8 @@
 $(document).ready(function() {
 
-
 	$('.conf-color').css('display', 'none');
 
-	/*submenu*/
+	/*Появление подменю*/
 	$('.conf-menu_link').on('click', function (e) {
 		e.preventDefault();
 		$(this).parent().siblings().children('.conf-submenu').removeClass('js-show-conf-submenu');
@@ -13,27 +12,35 @@ $(document).ready(function() {
 	});
 
 
+	/*Закрытие меню*/
 	$('.conf-submenu_close').on('click', function (e) {
 		e.preventDefault();
 		$('.conf-menu_link').removeClass('js-show-pointer');
 		$('.conf-submenu').removeClass('js-show-conf-submenu');
 	});
 
-	/*detail-info*/
+
+	/*разворачивание/сворачивание детальной информации*/
 	$('.detail-info_btn').on('click', function (e) {
 		e.preventDefault();
 		$('.detail-info_body').toggleClass('detail-info-show');
 	});
 
 
-	/*палитры цветов*/
-	$('.conf-color_item').click(function(e){
-		e.preventDefault();
-		var $item = $(this);
-		$item.addClass('color_is-active').siblings().removeClass('color_is-active');
+	/*выбор активного цвета*/
+	function GetColorActive(colorActive) {
+		$(colorActive).click(function(e){
+			e.preventDefault();
+			var $item = $(this);
+			$item.addClass('color_is-active').siblings().removeClass('color_is-active');
+		});
+	};
+	GetColorActive('.conf-color_item');
+	GetColorActive('.conf-color_item--figur');
+	GetColorActive('.conf-color_item--pillar');
 
-	});
 
+	/*показ материалов на доме*/
 	$('.conf-submenu--roof .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
@@ -41,8 +48,6 @@ $(document).ready(function() {
 		setTimeout(function () {
 			$('.conf-roof-old').css('background-image', image_path);
 		}, 500);
-
-
 	});
 
 	$('.conf-submenu--facade .conf-color_item').click(function(e){
@@ -103,7 +108,6 @@ $(document).ready(function() {
 		}, 1000);
 	});
 
-
 	$('.conf-submenu--porch .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
@@ -123,8 +127,8 @@ $(document).ready(function() {
 	});
 
 
-	/*выбор материала*/
 
+	/*выбор материала*/
 	$('.conf-properties_btn').on('click', function (e) {
 		e.preventDefault();
 		$(this).siblings().removeClass('conf-current');
@@ -139,67 +143,52 @@ $(document).ready(function() {
 		}
 	});
 
-	// $('.conf-properties_sub-btn').on('click', function (e) {
-	// 	e.preventDefault();
-	// 	$(this).siblings().removeClass('conf-current');
-	// 	$(this).parents('.conf-properties').siblings().find('.conf-properties_btn').removeClass('conf-current');
-	// 	$(this).addClass('conf-current');
-	//
-	// 	if($(".conf-properties_sub-btn").hasClass("conf-current")) {
-	// 		var $conf_material = $(this).data('properties');
-	// 		var $conf_current = $('.conf-color[data-properties="color-' + $conf_material + '"]');
-	// 		$conf_current.show();
-	// 		$conf_current.siblings('.conf-color').hide();
-	// 	}
-	// });
 
-    //
-	// if($confBtnRoof.hasClass("conf-current")) {
-	// 	var $conf_material = $confBtnRoof.data('properties');
-	// 	var $conf_current = $('.conf-color[data-properties="color-' + $conf_material + '"]');
-	// 	$conf_current.show();
-	// 	$conf_current.siblings('.conf-color').hide();
-	// }
-    //
-	// if($confBtnFasade.hasClass("conf-current")) {
-	// 	var $conf_material = $confBtnFasade.data('properties');
-	// 	var $conf_current = $('.conf-color[data-properties="color-' + $conf_material + '"]');
-	// 	$conf_current.show();
-	// 	$conf_current.siblings('.conf-color').hide();
-	// }
-
-	var $confBtnRoof = $('.conf-submenu--roof .conf-current');
-	var $confBtnFasade = $('.conf-submenu--fasade .conf-current');
+	/*показ набора цветов по умолчанию*/
 
 	function ConfDefault(confCurrent) {
-		if(confCurrent == true) {
-			console.log(true);
-			var $conf_material = confCurrent.data('properties');
-			var $conf_current = $('.conf-color[data-properties="color-' + $conf_material + '"]');
-			$conf_current.show();
-			$conf_current.siblings('.conf-color').hide();
-		}
+		var $conf_material = $(confCurrent).data('properties');
+		var $conf_current = $('.conf-color[data-properties="color-' + $conf_material + '"]');
+		$conf_current.show();
+		$conf_current.siblings('.conf-color').hide();
+
 	}
+	ConfDefault('.conf-submenu--roof .conf-current');
+	ConfDefault('.conf-submenu--facade .conf-current');
+	ConfDefault('.conf-submenu--drains .conf-current');
+	ConfDefault('.conf-submenu--plinth .conf-current');
+	ConfDefault('.conf-submenu--fence .conf-current');
+	ConfDefault('.conf-submenu--angels .conf-current');
+	ConfDefault('.conf-submenu--porch .conf-current');
+	ConfDefault('.conf-submenu--plat .conf-current');
 
+	
+	/*вывод названия цвета*/
+	function ShowColorName(colorItem) {
+		$(colorItem).on('click', function (e) {
+			e.preventDefault();
+			var $this_subtitle = $(this).parents('.conf-properties_body').siblings('.conf-properties_subtitle').children('span');
+			var $this_colorName = $(this).data('color-name');
+			$this_subtitle.empty();
+			$this_subtitle.append($this_colorName);
+		});
+	};
+	ShowColorName('.conf-color_item');
+	ShowColorName('.conf-color_item--pillar');
 
+	/*предзагрузка изображений*/
+	$('.conf-menu_link').on('click', function (e) {
+		e.preventDefault();
+		console.log('клик работает');
+		$(this).find('.conf-color_item').each(function(){
+			var imageLoad = new Image();
+			imageLoad.src = $(this).attr('data-color');
+			imageLoad.onload = function() {
+				$(this).css('background-image', 'url("'+ imageLoad.src +'")');
+			};
+		});
 
-	ConfDefault($confBtnRoof);
-	ConfDefault($confBtnFasade);
-
+	});
 
 });//end ready
 
-
-//
-// var linkFacade = document.querySelector(".conf-submenu--facade .conf-color_item");
-// var blockFacade = document.querySelector(".conf-facade");
-// var blockFacadeOld = document.querySelector(".conf-facade-old");
-//
-// linkFacade.addEventListener("click", function (e) {
-// 	e.preventDefault();
-// 	var image_path = this.getAttribute('data-color');
-// 	blockFacade.setAttribute('style', image_path);
-// 	setTimeout(function () {
-// 		blockFacadeOld.setAttribute('style', image_path);
-// 	}, 1000);
-// });
