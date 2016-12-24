@@ -174,16 +174,33 @@ $(document).ready(function() {
 	ShowColorName('.conf-color_item--pillar');
 
 	/*предзагрузка изображений*/
-	$('.conf-menu_link').on('click', function (e) {
-		e.preventDefault();
-		console.log('клик работает');
-		$(this).find('.conf-color_item').each(function(){
-			var imageLoad = new Image();
-			imageLoad.src = $(this).attr('data-color');
-			imageLoad.onload = function() {
-				$(this).css('background-image', 'url("'+ imageLoad.src +'")');			};
+	function LoadImage(imagePath) {
+		$(imagePath).siblings('.conf-menu_link').on('click', function (e) {
+			e.preventDefault();
+			console.log('загрузка нового блока');
+			$imagePath = imagePath + ' .conf-color_item';
+
+
+
+			$($imagePath).each(function(){
+				var imageLoad = new Image();
+				imageLoad.src = $(this).attr('data-color');
+				imageLoad.onload = function() {
+					$(this).css('background-image', 'url("'+ imageLoad.src +'")');
+				};
+			});
 		});
-	});
+	};
+
+	LoadImage('.conf-submenu--roof');
+	LoadImage('.conf-submenu--facade');
+	LoadImage('.conf-submenu--drains');
+	LoadImage('.conf-submenu--plinth');
+	LoadImage('.conf-submenu--fence');
+	LoadImage('.conf-submenu--angels');
+	LoadImage('.conf-submenu--porch');
+	LoadImage('.conf-submenu--plat');
+
 
 });//end ready
 
