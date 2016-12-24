@@ -112,9 +112,6 @@ $(document).ready(function() {
 		e.preventDefault();
 		var image_path = $(this).data('color');
 		$('.conf-porch').css('background-image', image_path);
-		setTimeout(function () {
-			$('.conf-porch-old').css('background-image', image_path);
-		}, 400);
 	});
 
 	$('.conf-submenu--plat .conf-color_item').click(function(e){
@@ -184,10 +181,8 @@ $(document).ready(function() {
 			var imageLoad = new Image();
 			imageLoad.src = $(this).attr('data-color');
 			imageLoad.onload = function() {
-				$(this).css('background-image', 'url("'+ imageLoad.src +'")');
-			};
+				$(this).css('background-image', 'url("'+ imageLoad.src +'")');			};
 		});
-
 	});
 
 });//end ready
