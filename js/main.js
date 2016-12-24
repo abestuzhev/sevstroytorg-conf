@@ -193,29 +193,29 @@ $(document).ready(function() {
 	// 	});
 	// };
     //
-	// $('.conf-menu_link').on('click', function (e) {
-	// 	e.preventDefault();
-	// 	console.log('загрузка нового блока');
-    //
-	// 	var block = $(this).siblings().attr('class').split(' ')[1];//$('.conf-submenu--drains')
-	// 	block = '.'+ block;
-    //
-	// 	function LoadImage(imagePath) {
-	// 		$imagePath = imagePath + ' .conf-color_item';
-    //
-	// 		$($imagePath).each(function(){
-	// 			var imageLoad = new Image();
-	// 			imageLoad.src = $(this).attr('data-color');
-	// 			imageLoad.onload = function() {
-	// 				$(this).css('background-image', 'url("'+ imageLoad.src +'")');
-	// 			};
-	// 		});
-	// 	};
-    //
-	// 	LoadImage(block);
-    //
-	// });
-    //
+	$('.conf-menu_link').on('click', function (e) {
+		e.preventDefault();
+		console.log('загрузка нового блока');
+
+		var block = $(this).siblings().attr('class').split(' ')[1];//$('.conf-submenu--drains')
+		block = '.'+ block;
+
+		function LoadImage(imagePath) {
+			$imagePath = imagePath + ' .conf-color_item';
+
+			$($imagePath).each(function(){
+				var imageLoad = new Image();
+				imageLoad.src = $(this).attr('data-color');
+				imageLoad.onload = function() {
+					$(this).css('background-image', 'url("'+ imageLoad.src +'")');
+				};
+			});
+		};
+
+		LoadImage(block);
+
+	});
+    
 
 	// LoadImage('.conf-submenu--roof');
 	// LoadImage('.conf-submenu--facade');
