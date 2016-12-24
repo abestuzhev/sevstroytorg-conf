@@ -175,32 +175,60 @@ $(document).ready(function() {
 	ShowColorName('.conf-color_item--figur');
 
 	/*предзагрузка изображений*/
-	function LoadImage(imagePath) {
-		$(imagePath).siblings('.conf-menu_link').on('click', function (e) {
-			e.preventDefault();
-			console.log('загрузка нового блока');
+	// function LoadImage(imagePath) {
+	// 	$(imagePath).siblings('.conf-menu_link').on('click', function (e) {
+	// 		e.preventDefault();
+	// 		console.log('загрузка нового блока');
+	// 		$imagePath = imagePath + ' .conf-color_item';
+    //
+    //
+    //
+	// 		$($imagePath).each(function(){
+	// 			var imageLoad = new Image();
+	// 			imageLoad.src = $(this).attr('data-color');
+	// 			imageLoad.onload = function() {
+	// 				$(this).css('background-image', 'url("'+ imageLoad.src +'")');
+	// 			};
+	// 		});
+	// 	});
+	// };
+
+	$('.conf-menu_link').on('click', function (e) {
+		e.preventDefault();
+		console.log('загрузка нового блока');
+
+		var block = $(this).siblings().attr('class').split(' ')[1];//$('.conf-submenu--drains')
+		block = '.'+ block;
+		// console.log(block);
+
+		function LoadImage(imagePath) {
 			$imagePath = imagePath + ' .conf-color_item';
-
-
+			// console.log($imagePath);
 
 			$($imagePath).each(function(){
 				var imageLoad = new Image();
 				imageLoad.src = $(this).attr('data-color');
+
+				// console.log(imageLoad.src);
 				imageLoad.onload = function() {
 					$(this).css('background-image', 'url("'+ imageLoad.src +'")');
 				};
 			});
-		});
-	};
+		};
 
-	LoadImage('.conf-submenu--roof');
-	LoadImage('.conf-submenu--facade');
-	LoadImage('.conf-submenu--drains');
-	LoadImage('.conf-submenu--plinth');
-	LoadImage('.conf-submenu--fence');
-	LoadImage('.conf-submenu--angels');
-	LoadImage('.conf-submenu--porch');
-	LoadImage('.conf-submenu--plat');
+		LoadImage(block);
+
+	});
+
+
+	// LoadImage('.conf-submenu--roof');
+	// LoadImage('.conf-submenu--facade');
+	// LoadImage('.conf-submenu--drains');
+	// LoadImage('.conf-submenu--plinth');
+	// LoadImage('.conf-submenu--fence');
+	// LoadImage('.conf-submenu--angels');
+	// LoadImage('.conf-submenu--porch');
+	// LoadImage('.conf-submenu--plat');
 
 
 });//end ready
