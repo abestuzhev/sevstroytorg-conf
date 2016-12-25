@@ -539,6 +539,9 @@ html {
     -ms-transform: translateY(0);
     transform: translateY(0); } }
 
+.conf-angles {
+  top: -1px; }
+
 .ral-9003 {
   background-color: #fefefe; }
 
