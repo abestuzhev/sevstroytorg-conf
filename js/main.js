@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	$('.conf-color').css('display', 'none');
 
-	/*Появление подменю*/
+	//Появление подменю
 	$('.conf-menu_link').on('click', function (e) {
 		e.preventDefault();
 		$(this).parent().siblings().children('.conf-submenu').removeClass('js-show-conf-submenu');
@@ -12,7 +12,7 @@ $(document).ready(function() {
 	});
 
 
-	/*Закрытие меню*/
+	//Закрытие меню
 	$('.conf-submenu_close').on('click', function (e) {
 		e.preventDefault();
 		$('.conf-menu_link').removeClass('js-show-pointer');
@@ -20,14 +20,14 @@ $(document).ready(function() {
 	});
 
 
-	/*разворачивание/сворачивание детальной информации*/
+	//разворачивание/сворачивание детальной информации
 	$('.detail-info_btn').on('click', function (e) {
 		e.preventDefault();
 		$('.detail-info_body').toggleClass('detail-info-show');
 	});
 
 
-	/*выбор активного цвета*/
+	//выбор активного цвета
 	function GetColorActive(colorActive) {
 		$(colorActive).click(function(e){
 			e.preventDefault();
@@ -38,18 +38,20 @@ $(document).ready(function() {
 	GetColorActive('.conf-color_item');
 	GetColorActive('.conf-color_item--figur');
 	GetColorActive('.conf-color_item--pillar');
+	GetColorActive('.conf-color_item--soffits');
 
-
-	/*показ материалов на доме*/
+	//показ материалов на доме
+	//кровля
 	$('.conf-submenu--roof .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
 		$('.conf-roof').css('background-image', 'url("'+ image_path +'")');
 		setTimeout(function () {
 			$('.conf-roof-old').css('background-image', 'url("'+ image_path +'")');
-		}, 500);
+		}, 200);
 	});
 
+	//фасад
 	$('.conf-submenu--facade .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
@@ -59,15 +61,17 @@ $(document).ready(function() {
 		}, 1000);
 	});
 
+	//водостоки
 	$('.conf-submenu--drains .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
 		$('.conf-drains').css('background-image', 'url("'+ image_path +'")');
-		setTimeout(function () {
-			$('.conf-drains-old').css('background-image', 'url("'+ image_path +'")');
-		}, 300);
+		// setTimeout(function () {
+		// 	$('.conf-drains-old').css('background-image', 'url("'+ image_path +'")');
+		// }, 300);
 	});
 
+	//цоколь
 	$('.conf-submenu--plinth .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
@@ -77,6 +81,7 @@ $(document).ready(function() {
 		}, 1000);
 	});
 
+	//ограждения
 	$('.conf-submenu--fence .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
@@ -84,13 +89,14 @@ $(document).ready(function() {
 		$('.conf-fences').css('background-image', 'url("'+ image_path +'")');
 	});
 
+	//столбы
 	$('.conf-color_item--pillar').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
 		$('.conf-pillars').show().css('background-image', 'url("'+ image_path +'")');
 	});
 
-
+	//фигурные ограждения
 	$('.conf-color_item--figur').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
@@ -98,34 +104,39 @@ $(document).ready(function() {
 		$('.conf-fences').css('background-image', 'url("'+ image_path +'")');
 	});
 
+	//софиты
+	$('.conf-color_item--soffits').click(function(e){
+		e.preventDefault();
+		var image_path = $(this).data('color');
+		$('.conf-soffits').css('background-image', 'url("'+ image_path +'")');
+	});
 
+	//углы
 	$('.conf-submenu--angels .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
 		$('.conf-angles').css('background-image', 'url("'+ image_path +'")');
-		setTimeout(function () {
-			$('.conf-angles-old').css('background-image', 'url("'+ image_path +'")');
-		}, 1000);
+
 	});
 
+	//крыльцо
 	$('.conf-submenu--porch .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
 		$('.conf-porch').css('background-image', 'url("'+ image_path +'")');
 	});
 
+
+	//окна
 	$('.conf-submenu--plat .conf-color_item').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
 		$('.conf-plat').css('background-image', 'url("'+ image_path +'")');
-		setTimeout(function () {
-			$('.conf-plat-old').css('background-image', 'url("'+ image_path +'")');
-		}, 1000);
 	});
 
 
 
-	/*выбор материала*/
+	//выбор материала
 	$('.conf-properties_btn').on('click', function (e) {
 		e.preventDefault();
 		$(this).siblings().removeClass('conf-current');
@@ -141,7 +152,7 @@ $(document).ready(function() {
 	});
 
 
-	/*показ набора цветов по умолчанию*/
+	//показ набора цветов по умолчанию
 
 	function ConfDefault(confCurrent) {
 		var $conf_material = $(confCurrent).data('properties');
@@ -160,7 +171,7 @@ $(document).ready(function() {
 	ConfDefault('.conf-submenu--plat .conf-current');
 
 	
-	/*вывод названия цвета*/
+	//вывод названия цвета
 	function ShowColorName(colorItem) {
 		$(colorItem).on('click', function (e) {
 			e.preventDefault();
@@ -173,26 +184,9 @@ $(document).ready(function() {
 	ShowColorName('.conf-color_item');
 	ShowColorName('.conf-color_item--pillar');
 	ShowColorName('.conf-color_item--figur');
+	ShowColorName('.conf-color_item--soffits');
 
-	/*предзагрузка изображений*/
-	// function LoadImage(imagePath) {
-	// 	$(imagePath).siblings('.conf-menu_link').on('click', function (e) {
-	// 		e.preventDefault();
-	// 		console.log('загрузка нового блока');
-	// 		$imagePath = imagePath + ' .conf-color_item';
-    //
-    //
-    //
-	// 		$($imagePath).each(function(){
-	// 			var imageLoad = new Image();
-	// 			imageLoad.src = $(this).attr('data-color');
-	// 			imageLoad.onload = function() {
-	// 				$(this).css('background-image', 'url("'+ imageLoad.src +'")');
-	// 			};
-	// 		});
-	// 	});
-	// };
-    //
+	//предзагрузка изображений
 	$('.conf-menu_link').on('click', function (e) {
 		e.preventDefault();
 		console.log('загрузка нового блока');
@@ -211,21 +205,7 @@ $(document).ready(function() {
 				};
 			});
 		};
-
 		LoadImage(block);
-
 	});
-    
-
-	// LoadImage('.conf-submenu--roof');
-	// LoadImage('.conf-submenu--facade');
-	// LoadImage('.conf-submenu--drains');
-	// LoadImage('.conf-submenu--plinth');
-	// LoadImage('.conf-submenu--fence');
-	// LoadImage('.conf-submenu--angels');
-	// LoadImage('.conf-submenu--porch');
-	// LoadImage('.conf-submenu--plat');
-
-
 });//end ready
 
