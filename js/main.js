@@ -149,6 +149,8 @@ $(document).ready(function() {
 			$conf_current.show();
 			$conf_current.siblings('.conf-color').hide();
 		}
+		var $firstChildActive = $conf_current.children('.conf-properties_body').find('a:first-child');
+		$firstChildActive.addClass('color_is-active').siblings().removeClass('color_is-active');
 	});
 
 
