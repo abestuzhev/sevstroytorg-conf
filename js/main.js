@@ -48,7 +48,7 @@ $(document).ready(function() {
 		$('.conf-roof').css('background-image', 'url("'+ image_path +'")');
 		setTimeout(function () {
 			$('.conf-roof-old').css('background-image', 'url("'+ image_path +'")');
-		}, 200);
+		}, 500);
 	});
 
 	//фасад
@@ -170,7 +170,7 @@ $(document).ready(function() {
 	ConfDefault('.conf-submenu--porch .conf-current');
 	ConfDefault('.conf-submenu--plat .conf-current');
 
-	
+
 	//вывод названия цвета
 	function ShowColorName(colorItem) {
 		$(colorItem).on('click', function (e) {
@@ -208,4 +208,3 @@ $(document).ready(function() {
 		LoadImage(block);
 	});
 });//end ready
-
