@@ -614,17 +614,23 @@ html {
 .red {
   background-color: #722f32; }
 
+.granada {
+  background-color: #d38161; }
+
+.aragone {
+  background-color: #7f7773; }
+
 .hvost_osenniy {
-  background-color: #957058; }
+  background-color: #ab7d60; }
 
 .hvost_krasnyy {
   background-color: #d77966; }
 
-.hvost_osenniy {
-  background-color: #9e9d95; }
-
 .hvost_zelenyy {
-  background-color: #6b7769; }
+  background-color: #85817e; }
+
+.hvost_pangovyy {
+  background-color: #7a7f8c; }
 
 .vestern_kanjon {
   background-color: #7f706b; }
@@ -676,7 +682,7 @@ html {
   background-color: #3e302c; }
 
 .grecheskiy {
-  background-color: #dbbe85; }
+  background-color: #3e312b; }
 
 .normanskiy {
   background-color: #beafa0; }

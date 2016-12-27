@@ -137,40 +137,121 @@ $(document).ready(function() {
 
 
 	//выбор материала
-	$('.conf-properties_btn').on('click', function (e) {
-		e.preventDefault();
-		$(this).siblings().removeClass('conf-current');
-		$(this).parents('.conf-properties').siblings().find('.conf-properties_btn').removeClass('conf-current');
-		$(this).addClass('conf-current');
 
-		if($(".conf-properties_btn").hasClass("conf-current")) {
-			var $conf_material = $(this).data('properties');
+	function getActiveBlock(element) {
+		element.siblings().removeClass('conf-current');
+		element.parents('.conf-properties').siblings().find('.conf-properties_btn').removeClass('conf-current');
+		element.addClass('conf-current');
+
+
+		if(element.hasClass("conf-current")) {
+			var $conf_material = element.data('properties');
 			var $conf_current = $('.conf-color[data-properties="color-' + $conf_material + '"]');
 			$conf_current.show();
 			$conf_current.siblings('.conf-color').hide();
+			var $firstChildActive = $conf_current.children('.conf-properties_body').find('a:first-child');
+			$firstChildActive.addClass('color_is-active').siblings().removeClass('color_is-active');
+			var image_pathActive = $firstChildActive.data('color');
+			console.log(image_pathActive);
+
+
 		}
-		var $firstChildActive = $conf_current.children('.conf-properties_body').find('a:first-child');
-		$firstChildActive.addClass('color_is-active').siblings().removeClass('color_is-active');
+		return image_pathActive;
+	};
+
+	//кровля
+	$('.conf-submenu--roof .conf-properties_btn').on('click', function (e) {
+		e.preventDefault();
+		var $this = $(this);
+		var image_pathCurrent = getActiveBlock($this);
+		$('.conf-roof').css('background-image', 'url("'+ image_pathCurrent +'")');
+	});
+
+	//фасад
+	$('.conf-submenu--facade .conf-properties_btn').on('click', function (e) {
+		e.preventDefault();
+		var $this = $(this);
+		var image_pathCurrent = getActiveBlock($this);
+		$('.conf-facade').css('background-image', 'url("'+ image_pathCurrent +'")');
+	});
+
+	//водосток
+	$('.conf-submenu--drains .conf-properties_btn').on('click', function (e) {
+		e.preventDefault();
+		var $this = $(this);
+		var image_pathCurrent = getActiveBlock($this);
+		$('.conf-drains').css('background-image', 'url("'+ image_pathCurrent +'")');
+	});
+
+	//цоколь
+	$('.conf-submenu--plinth .conf-properties_btn').on('click', function (e) {
+		e.preventDefault();
+		var $this = $(this);
+		var image_pathCurrent = getActiveBlock($this);
+		$('.conf-plinth').css('background-image', 'url("'+ image_pathCurrent +'")');
+	});
+
+	//ограждение
+	$('.conf-submenu--fence .conf-properties_btn').on('click', function (e) {
+		e.preventDefault();
+		var $this = $(this);
+		var image_pathCurrent = getActiveBlock($this);
+		$('.conf-fences').css('background-image', 'url("'+ image_pathCurrent +'")');
+	});
+
+	//софиты
+	$('.conf-submenu--soffits .conf-properties_btn').on('click', function (e) {
+		e.preventDefault();
+		var $this = $(this);
+		var image_pathCurrent = getActiveBlock($this);
+		$('.conf-soffits').css('background-image', 'url("'+ image_pathCurrent +'")');
+	});
+
+	//углы
+	$('.conf-submenu--angels .conf-properties_btn').on('click', function (e) {
+		e.preventDefault();
+		var $this = $(this);
+		var image_pathCurrent = getActiveBlock($this);
+		$('.conf-angels').css('background-image', 'url("'+ image_pathCurrent +'")');
+	});
+
+	//крыльцо
+	$('.conf-submenu--porch .conf-properties_btn').on('click', function (e) {
+		e.preventDefault();
+		var $this = $(this);
+		var image_pathCurrent = getActiveBlock($this);
+		$('.conf-porch').css('background-image', 'url("'+ image_pathCurrent +'")');
+	});
+
+	//наличники
+	$('.conf-submenu--plat .conf-properties_btn').on('click', function (e) {
+		e.preventDefault();
+		var $this = $(this);
+		var image_pathCurrent = getActiveBlock($this);
+		$('.conf-plat').css('background-image', 'url("'+ image_pathCurrent +'")');
 	});
 
 
 	//показ набора цветов по умолчанию
 
-	function ConfDefault(confCurrent) {
+	function ConfDefault(confCurrent, confPlace) {
 		var $conf_material = $(confCurrent).data('properties');
 		var $conf_current = $('.conf-color[data-properties="color-' + $conf_material + '"]');
 		$conf_current.show();
 		$conf_current.siblings('.conf-color').hide();
-
+		// var $firstChildActive = $conf_current.children('.conf-properties_body').find('a:first-child');
+		// $firstChildActive.addClass('color_is-active').siblings().removeClass('color_is-active');
 	}
-	ConfDefault('.conf-submenu--roof .conf-current');
-	ConfDefault('.conf-submenu--facade .conf-current');
-	ConfDefault('.conf-submenu--drains .conf-current');
-	ConfDefault('.conf-submenu--plinth .conf-current');
-	ConfDefault('.conf-submenu--fence .conf-current');
-	ConfDefault('.conf-submenu--angels .conf-current');
-	ConfDefault('.conf-submenu--porch .conf-current');
-	ConfDefault('.conf-submenu--plat .conf-current');
+
+	ConfDefault('.conf-submenu--roof .conf-current, .conf-roof');
+	ConfDefault('.conf-submenu--facade .conf-current, .conf-facade');
+	ConfDefault('.conf-submenu--drains .conf-current, .conf-drains');
+	ConfDefault('.conf-submenu--plinth .conf-current, .conf-plinth');
+	ConfDefault('.conf-submenu--fence .conf-current, .conf-fences');
+	ConfDefault('.conf-submenu--angels .conf-current, .conf-angels');
+	ConfDefault('.conf-submenu--porch .conf-current, .conf-porch');
+	ConfDefault('.conf-submenu--plat .conf-current, .conf-plat');
+	ConfDefault('.conf-color_item--soffits .conf-current, .conf-soffits');
 
 
 	//вывод названия цвета
