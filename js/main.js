@@ -196,8 +196,31 @@ $(document).ready(function() {
 		e.preventDefault();
 		var $this = $(this);
 		var image_pathCurrent = getActiveBlock($this);
+		$('.conf-pillars').hide();
 		$('.conf-fences').css('background-image', 'url("'+ image_pathCurrent +'")');
 	});
+
+
+
+	//столбы
+	$('.conf-properties_btn[data-properties="fence-metal-pillar"]').on('click', function (e) {
+		e.preventDefault();
+		var $this = $(this);
+		var image_pathCurrent = getActiveBlock($this);
+
+		$('.conf-pillars').css('background-image', 'url("'+ image_pathCurrent +'")');
+	});
+
+	//фигурные ограждения
+	$('.conf-properties_btn[data-properties="fence-metal-figur"]').on('click', function (e) {
+		e.preventDefault();
+		var $this = $(this);
+		var image_pathCurrent = getActiveBlock($this);
+		$('.conf-pillars').show();
+		$('.conf-fences').css('background-image', 'url("'+ image_pathCurrent +'")');
+	});
+
+
 
 	//софиты
 	$('.conf-submenu--soffits .conf-properties_btn').on('click', function (e) {
