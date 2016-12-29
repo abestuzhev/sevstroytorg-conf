@@ -220,8 +220,7 @@ $(document).ready(function() {
 		$('.conf-fences').css('background-image', 'url("'+ image_pathFigur +'")');
 		$('.conf-pillars').show().css('background-image', 'url("'+ image_pathCurrent +'")');
 	});
-
-
+	
 	//софиты
 	$('.conf-submenu--soffits .conf-properties_btn').on('click', function (e) {
 		e.preventDefault();
