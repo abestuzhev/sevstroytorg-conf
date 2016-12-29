@@ -140,9 +140,8 @@ $(document).ready(function() {
 
 	function getActiveBlock(element) {
 		element.siblings().removeClass('conf-current');
-		element.parents('.conf-properties').siblings().find('.conf-properties_btn').removeClass('conf-current');
+		element.parents('.conf-properties').siblings().find('a').removeClass('conf-current');
 		element.addClass('conf-current');
-
 
 		if(element.hasClass("conf-current")) {
 			var $conf_material = element.data('properties');
@@ -150,11 +149,10 @@ $(document).ready(function() {
 			$conf_current.show();
 			$conf_current.siblings('.conf-color').hide();
 			var $firstChildActive = $conf_current.children('.conf-properties_body').find('a:first-child');
+			console.log($firstChildActive);
 			$firstChildActive.addClass('color_is-active').siblings().removeClass('color_is-active');
 			var image_pathActive = $firstChildActive.data('color');
 			console.log(image_pathActive);
-
-
 		}
 		return image_pathActive;
 	};
@@ -188,6 +186,7 @@ $(document).ready(function() {
 		e.preventDefault();
 		var $this = $(this);
 		var image_pathCurrent = getActiveBlock($this);
+
 		$('.conf-plinth').css('background-image', 'url("'+ image_pathCurrent +'")');
 	});
 
@@ -201,25 +200,26 @@ $(document).ready(function() {
 	});
 
 
+	//фигурные ограждения
+
+	$('.conf-properties_btn--figur').on('click', function (e) {
+		e.preventDefault();
+		var $this = $(this);
+		var image_pathCurrentFigur = getActiveBlock($this);
+		$('.conf-pillars').show();
+		$('.conf-fences').css('background-image', 'url("'+ image_pathCurrentFigur +'")');
+	});
+
 
 	//столбы
-	$('.conf-properties_btn[data-properties="fence-metal-pillar"]').on('click', function (e) {
+	$('.conf-properties_btn--pillar').on('click', function (e) {
 		e.preventDefault();
 		var $this = $(this);
 		var image_pathCurrent = getActiveBlock($this);
-
-		$('.conf-pillars').css('background-image', 'url("'+ image_pathCurrent +'")');
+		var image_pathFigur =  $('.conf-color_item--figur').data('color');
+		$('.conf-fences').css('background-image', 'url("'+ image_pathFigur +'")');
+		$('.conf-pillars').show().css('background-image', 'url("'+ image_pathCurrent +'")');
 	});
-
-	//фигурные ограждения
-	$('.conf-properties_btn[data-properties="fence-metal-figur"]').on('click', function (e) {
-		e.preventDefault();
-		var $this = $(this);
-		var image_pathCurrent = getActiveBlock($this);
-		$('.conf-pillars').show();
-		$('.conf-fences').css('background-image', 'url("'+ image_pathCurrent +'")');
-	});
-
 
 
 	//софиты
