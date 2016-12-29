@@ -46,9 +46,11 @@ img, video {
 
 .conf-menu-icon, .detail-info_body, .detail-info-show, .conf-menu_item, .conf-menu_item:hover .conf-menu_link, .conf-menu_item:hover .conf-menu-icon, .conf-properties_btn,
 .conf-properties_btn--pillar,
-.conf-properties_btn--figur, .conf-properties_btn:hover,
+.conf-properties_btn--figur,
+.conf-properties_btn--soffits, .conf-properties_btn:hover,
 .conf-properties_btn--pillar:hover,
-.conf-properties_btn--figur:hover, .conf-current, .conf-color_item,
+.conf-properties_btn--figur:hover,
+.conf-properties_btn--soffits:hover, .conf-current, .conf-color_item,
 .conf-color_item--pillar,
 .conf-color_item--figur,
 .conf-color_item--soffits, .color_is-active {
@@ -473,7 +475,8 @@ html {
 
 .conf-properties_btn,
 .conf-properties_btn--pillar,
-.conf-properties_btn--figur {
+.conf-properties_btn--figur,
+.conf-properties_btn--soffits {
   display: inline-block;
   padding: 5px 13px;
   color: #1B1B1B;
@@ -485,7 +488,8 @@ html {
   margin-bottom: 6px; }
   .conf-properties_btn:hover,
   .conf-properties_btn--pillar:hover,
-  .conf-properties_btn--figur:hover {
+  .conf-properties_btn--figur:hover,
+  .conf-properties_btn--soffits:hover {
     background-color: #5598DE;
     color: #fff; }
 
@@ -891,3 +895,6 @@ html {
 
 .indigo {
   background-color: #719ac6; }
+
+.finskaya_korichnevyy {
+  background-color: #63544c; }

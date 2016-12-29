@@ -149,10 +149,14 @@ $(document).ready(function() {
 			$conf_current.show();
 			$conf_current.siblings('.conf-color').hide();
 			var $firstChildActive = $conf_current.children('.conf-properties_body').find('a:first-child');
-			console.log($firstChildActive);
 			$firstChildActive.addClass('color_is-active').siblings().removeClass('color_is-active');
 			var image_pathActive = $firstChildActive.data('color');
 			console.log(image_pathActive);
+
+			var $this_subtitle = $firstChildActive.parents('.conf-properties_body').siblings('.conf-properties_subtitle').children('span');
+			var $this_colorName = $firstChildActive.data('color-name');
+			$this_subtitle.empty();
+			$this_subtitle.append($this_colorName);
 		}
 		return image_pathActive;
 	};
@@ -220,9 +224,9 @@ $(document).ready(function() {
 		$('.conf-fences').css('background-image', 'url("'+ image_pathFigur +'")');
 		$('.conf-pillars').show().css('background-image', 'url("'+ image_pathCurrent +'")');
 	});
-	
+
 	//софиты
-	$('.conf-submenu--soffits .conf-properties_btn').on('click', function (e) {
+	$('.conf-properties_btn--soffits').on('click', function (e) {
 		e.preventDefault();
 		var $this = $(this);
 		var image_pathCurrent = getActiveBlock($this);
