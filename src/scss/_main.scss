@@ -417,3 +417,25 @@ html {
 .conf-porch-default {
   top:-1px;
 }
+
+//tooltip
+.tooltip {
+  position:absolute;
+  z-index: 999;
+  bottom: -20px;
+  left: 75%;
+  text-align: left;
+  background-color: #fdffe2;
+  border: 1px solid #b5b5b5;
+  color: #1B1B1B;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 3px 5px;
+  white-space: nowrap;
+  box-shadow: 0 6px 5px -5px rgba(0,0,0,0.2);
+}
+
+.color_is-active .tooltip {
+  transform: scale(1);
+}

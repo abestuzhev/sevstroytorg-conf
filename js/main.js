@@ -316,4 +316,20 @@ $(document).ready(function() {
 		};
 		LoadImage(block);
 	});
+
+
+	//tooltip
+
+
+
+	$("a[data-color-name]").hover(function(){
+		$('.tooltip').remove();
+		$(this).css('position','relative');
+		var $toolTiptext = $(this).attr('data-color-name');
+		$(this).append("<div class='tooltip'>"+$toolTiptext +"</div>");
+	}, function(){
+		$(this).css('position','');
+		$('.tooltip').remove();
+	});
+
 });//end ready
