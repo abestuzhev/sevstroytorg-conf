@@ -442,6 +442,16 @@ html {
   text-transform: uppercase;
   margin-bottom: 15px; }
 
+.conf-submenu_subtitle {
+  color: #5598DE;
+  font-family: "roboto_condensedbold";
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  color: #454545; }
+
 .conf-submenu_close {
   position: absolute;
   top: 24px;
