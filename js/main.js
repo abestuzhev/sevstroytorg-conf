@@ -153,6 +153,7 @@ $(document).ready(function() {
 			var image_pathActive = $firstChildActive.data('color');
 			console.log(image_pathActive);
 
+
 			var $this_subtitle = $firstChildActive.parents('.conf-properties_body').siblings('.conf-properties_subtitle').children('span');
 			var $this_colorName = $firstChildActive.data('color-name');
 			$this_subtitle.empty();
@@ -294,6 +295,7 @@ $(document).ready(function() {
 	ShowColorName('.conf-color_item--pillar');
 	ShowColorName('.conf-color_item--figur');
 	ShowColorName('.conf-color_item--soffits');
+	ShowColorName('.conf-properties_additional .conf-color_item');
 
 	//предзагрузка изображений
 	$('.conf-menu_link').on('click', function (e) {
