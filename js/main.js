@@ -39,6 +39,7 @@ $(document).ready(function() {
 	GetColorActive('.conf-color_item--figur');
 	GetColorActive('.conf-color_item--pillar');
 	GetColorActive('.conf-color_item--soffits');
+	GetColorActive('.conf-color_item--additional');
 
 	//показ материалов на доме
 	//кровля
@@ -287,15 +288,32 @@ $(document).ready(function() {
 			e.preventDefault();
 			var $this_subtitle = $(this).parents('.conf-properties_body').siblings('.conf-properties_subtitle').children('span');
 			var $this_colorName = $(this).data('color-name');
+			var $other_subtitle = $(this).siblings('.conf-properties_subtitle').children('span');
 			$this_subtitle.empty();
+			$other_subtitle.empty();
 			$this_subtitle.append($this_colorName);
 		});
 	};
+
+	function ShowAdditionalName(colorItem) {
+		$(colorItem).on('click', function (e) {
+			e.preventDefault();
+			var $this_subtitle = $(this).siblings('.conf-properties_subtitle').children('span');
+			var $this_colorName = $(this).data('color-name');
+			var $other_subtitle = $(this).parents('.conf-properties_body').siblings('.conf-properties_subtitle').children('span');
+			$this_subtitle.empty();
+			$other_subtitle.empty();
+			$this_subtitle.append($this_colorName);
+		});
+	};
+
+
+
 	ShowColorName('.conf-color_item');
 	ShowColorName('.conf-color_item--pillar');
 	ShowColorName('.conf-color_item--figur');
 	ShowColorName('.conf-color_item--soffits');
-	ShowColorName('.conf-properties_additional .conf-color_item');
+	ShowAdditionalName('.conf-color_item--additional');
 
 	//предзагрузка изображений
 	$('.conf-menu_link').on('click', function (e) {

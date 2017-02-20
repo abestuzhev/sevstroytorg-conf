@@ -53,7 +53,8 @@ img, video {
 .conf-properties_btn--soffits:hover, .conf-current, .conf-color_item,
 .conf-color_item--pillar,
 .conf-color_item--figur,
-.conf-color_item--soffits, .color_is-active {
+.conf-color_item--soffits,
+.conf-color_item--additional, .color_is-active {
   transition: all .2s ease-out; }
 
 .l-layout {
@@ -483,7 +484,7 @@ html {
   font-style: italic;
   margin-bottom: 4px; }
 
-.conf-properties_additional {
+.conf-properties_additional-title {
   margin-top: 15px; }
 
 .conf-properties_btn,
@@ -529,7 +530,8 @@ html {
 .conf-color_item,
 .conf-color_item--pillar,
 .conf-color_item--figur,
-.conf-color_item--soffits {
+.conf-color_item--soffits,
+.conf-color_item--additional {
   display: inline-block;
   width: 30px;
   height: 30px;
