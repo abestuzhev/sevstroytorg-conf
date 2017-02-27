@@ -2,27 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f86c7218-23cd-4d68-972c-5cc40e216226" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facade/tree/blok-haus/fasad_derevo_blok-haus_antichnyy_dub.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facade/tree/blok-haus/fasad_derevo_blok-haus_belenyy_dub.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facade/tree/blok-haus/fasad_derevo_blok-haus_braziljskaya_vishnya.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facade/tree/blok-haus/fasad_derevo_blok-haus_morenyy_dub.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facade/tree/blok-haus/fasad_derevo_blok-haus_sosna.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facade/tree/blok-haus/fasad_derevo_blok-haus_svetloe_derevo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facade/tree/ehkobrus/fasad_derevo_ekobrus_antichnyy_dub.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facade/tree/ehkobrus/fasad_derevo_ekobrus_belenyy_dub.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facade/tree/ehkobrus/fasad_derevo_ekobrus_braziljskaya_vishnya.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facade/tree/ehkobrus/fasad_derevo_ekobrus_morenyy_dub.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facade/tree/ehkobrus/fasad_derevo_ekobrus_sosna.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facade/tree/ehkobrus/fasad_derevo_ekobrus_svetloe_derevo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_antichnyy_dub.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_belenyy_dub.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_braziljskaya_vishnya.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_morenyy_dub.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_sosna.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_svetloe-derevo.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_1014.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_1014.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_1015.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_1015.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_1018.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_1018.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_2004.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_2004.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_3003.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_3003.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_3005.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_3005.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_3009.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_3009.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_3011.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_3011.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_5002.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_5002.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_5005.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_5005.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_5021.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_5021.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_6002.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_6002.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_6005.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_6005.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_7004.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_7004.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_7005.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_7005.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_7024.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_7024.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_8004.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_8004.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_8017.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_8017.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_9003.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_9003.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_zn.png" afterPath="$PROJECT_DIR$/img/roof/dec/hc35/decking_hc35_zn.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="sevstroytorg-conf.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -144,7 +144,7 @@
           <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/_main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="314">
+                <state relative-caret-position="9504">
                   <caret line="396" column="28" selection-start-line="396" selection-start-column="28" selection-end-line="396" selection-end-column="28" />
                   <folding />
                 </state>
@@ -170,8 +170,8 @@
         <option value="$PROJECT_DIR$/src/scss/_fonts.scss" />
         <option value="$PROJECT_DIR$/src/scss/_color.scss" />
         <option value="$PROJECT_DIR$/src/scss/_main.scss" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -361,15 +361,16 @@
       <workItem from="1487523267289" duration="5843000" />
       <workItem from="1487616961424" duration="3373000" />
       <workItem from="1487656573705" duration="2537000" />
+      <workItem from="1488204861837" duration="608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158725000" />
+    <option name="totallyTimeSpent" value="159333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-8" width="1873" height="1096" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.045228902" sideWeight="0.49636552" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -378,7 +379,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -841,7 +842,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
+        <state relative-caret-position="9504">
           <caret line="396" column="28" selection-start-line="396" selection-start-column="28" selection-end-line="396" selection-end-column="28" />
           <folding />
         </state>
