@@ -600,27 +600,55 @@ html {
   margin-left: -380px;
   margin-top: -200px;
   width: 760px;
-  padding: 28px 26px;
   background-color: #FFF;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.08);
   border-radius: 6px;
   opacity: 0;
   font-family: "Roboto", sans-serif;
-  font-size: 0; }
+  font-size: 0;
+  height: 423px;
+  box-shadow: 0px 10px 41px 1px rgba(5, 20, 35, 0.37); }
   .popup_info {
     display: inline-block;
     width: 50%;
     height: 100%;
-    padding: 0 10px;
-    vertical-align: top; }
+    vertical-align: top;
+    overflow: hidden;
+    position: relative; }
     .popup_info .detail-info_list {
-      margin: 0; }
+      width: 100%;
+      margin: 0;
+      position: absolute;
+      bottom: 0;
+      padding: 10px;
+      padding-top: 60px;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,000000+58&0+0,0.72+58 */
+      /* FF3.6-15 */
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.72) 70%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+    .popup_info .detail-info_properties {
+      font-weight: 400;
+      text-decoration: none;
+      border-right-color: #fff; }
+    .popup_info .detail-info_item {
+      margin-bottom: 4px; }
+      .popup_info .detail-info_item span {
+        color: #fff; }
   .popup_img {
+    position: absolute;
+    width: 100%;
+    left: -35%;
+    top: 45%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     margin-bottom: 14px; }
     .popup_img img {
-      max-width: 100%;
+      max-width: 180%;
       height: auto; }
   .popup_body {
+    padding: 28px 26px;
     display: inline-block;
     width: 50%;
     vertical-align: top; }
