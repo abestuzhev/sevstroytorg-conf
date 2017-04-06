@@ -352,4 +352,20 @@ $(document).ready(function() {
 		$('.tooltip').remove();
 	});
 
+    $(".js-application").click(function(event) {
+        event.preventDefault();
+        $('.popup_application').toggleClass('popup-show');
+        $('.popup_bg').toggleClass('is-visible');
+        $('body').toggleClass('body-popup');
+    });
+
+    $(".popup_bg").click(function(event) {
+        event.preventDefault();
+        $('.popup').removeClass('popup-show');
+        $(this).toggleClass('is-visible');
+        $('body').removeClass('body-popup');
+    });
+
+    $('.phone-mask').mask('+7(000)000-00-00');
+
 });//end ready

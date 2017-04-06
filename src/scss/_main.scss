@@ -109,6 +109,11 @@ html {
     border: none;
     background-color: #5598de;
     color: #fff;
+
+    &:hover {
+      background-color: #3573b4;
+      @extend %transition;
+    }
   }
 }
 
@@ -130,7 +135,7 @@ html {
   width: 482px;
   border-radius: 4px;
   font-family: "Arial";
-  z-index: 998;
+  z-index: 98;
 }
 
 .detail-info_top {
@@ -218,7 +223,7 @@ html {
   background-color: #fff;
   text-align: center;
   font-family: "Arial";
-  z-index: 999;
+  z-index: 98;
 }
 
 .conf-menu_item {
@@ -455,4 +460,180 @@ html {
 
 .color_is-active .tooltip {
   transform: scale(1);
+}
+
+
+//popup style
+.popup {
+  position: fixed;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  //margin-left: -190px;
+  //margin-top: -200px;
+  //width: 380px;
+  margin-left: -380px;
+  margin-top: -200px;
+  width: 760px;
+  padding: 28px 26px;
+  background-color: #FFF;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  opacity: 0;
+  font-family: "Roboto", sans-serif;
+  @extend %transition;
+  font-size: 0;
+  //
+  &_info {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    padding: 0 10px;
+    vertical-align: top;
+
+    .detail-info_list {
+      margin: 0;
+    }
+  }
+
+  &_img {
+    margin-bottom: 14px;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  &_body {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+  }
+  //
+
+  &_bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: .5;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 99;
+    @extend %transition;
+  }
+
+  &_back {
+    display: none;
+    vertical-align: middle;
+  }
+
+  &_title {
+    text-align: center;
+    color: #5598DE;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+
+  }
+
+  &-form {
+    &_item {
+      margin-bottom: 14px;
+    }
+  }
+  input, textarea {
+    bottom: 0;
+    outline: 0;
+    padding: 8px 14px;
+    width: 100%;
+    border: 1px solid #98c7f7;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.08);
+    resize: vertical;
+    font-family: "Roboto", sans-serif;
+    @extend %transition;
+  }
+
+  input:focus, textarea:focus {
+    box-shadow: 0 0 8px #5598de;
+    @extend %transition;
+  }
+  
+  button {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 8px;
+    background-color: #5598de;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-family: "Calibri", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    @extend %transition;
+
+    &:hover {
+      //background-color: #da3431;
+      background-color: #3573b4;
+      @extend %transition;
+    }
+  }
+}
+
+.popup-sent {
+  display: none;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+
+  &_title {
+    color: #6C6C6C;
+    font-size: 28px;
+    font-weight: 100;
+  }
+}
+
+
+/*popup show*/
+.popup-show {
+  opacity: 1;
+  z-index: 9999;
+  -webkit-animation: transform 0.3s;
+  -o-animation: transform 0.3s;
+  animation: transform 0.3s;
+  @extend %transition;
+}
+
+@keyframes transform {
+  0% {
+    -webkit-transform: translateY(-20px) perspective( 600px ) rotateX(10deg);
+    -moz-transform: translateY(-20px) perspective( 600px ) rotateX(10deg);
+    -ms-transform: translateY(-20px) perspective( 600px ) rotateX(10deg);
+    -o-transform: translateY(-20px) perspective( 600px ) rotateX(10deg);
+    transform: translateY(-20px) perspective( 600px ) rotateX(10deg);
+
+  }
+  100% {
+    -webkit-transform: translateY(0) perspective( 600px ) rotateX(0deg);
+    -moz-transform: translateY(0) perspective( 600px ) rotateX(0deg);
+    -ms-transform: translateY(0) perspective( 600px ) rotateX(0deg);
+    -o-transform: translateY(0) perspective( 600px ) rotateX(0deg);
+    transform: translateY(0) perspective( 600px ) rotateX(0deg);
+  }
+}
+
+.body-popup {
+  overflow: hidden;
+  padding-right: 17px;
+}
+
+.is-visible {
+  display: block !important;
+  @extend %transition;
 }

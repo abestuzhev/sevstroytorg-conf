@@ -323,7 +323,6 @@
           </div>
         </div><!--end conf-properties-->
 
-
         <!--еврошифер-->
         <div class="conf-properties conf-color" data-properties="color-evroshifer">
           <div class="conf-properties_title">Выберите цвет:</div>
@@ -1214,6 +1213,7 @@
           <path fill-rule="evenodd" clip-rule="evenodd" d="M1.4,0v1h0.5l-1,1L0,1h0.5V0H1.4z"/>
           </svg>
         </i>Скачать изображение</a>
+        <a href="#" class="conf-btn conf-btn--bg js-application">Оставить заявку</a>
     </div>
   </div>
 
@@ -1246,9 +1246,8 @@
   <div class="conf-block conf-environment-2" style="background-image: url('img/environment-2.png')"></div>
   <div class="conf-block conf-soffits" style="background-image: url('img/soffits/sofityi_korichnevyiy.png')"></div>
 
-    <div class="conf-block conf-roof-old" style="background-image: url('img/roof/shingles/bobrovyj/gibkaya-cherepica_bobrovyy-hvost_krasnyy.png')"></div>
-    <div class="conf-block conf-roof" style="background-image: url('img/roof/shingles/bobrovyj/gibkaya-cherepica_bobrovyy-hvost_krasnyy.png')"></div>
-
+  <div class="conf-block conf-roof-old" style="background-image: url('img/roof/shingles/bobrovyj/gibkaya-cherepica_bobrovyy-hvost_krasnyy.png')"></div>
+  <div class="conf-block conf-roof" style="background-image: url('img/roof/shingles/bobrovyj/gibkaya-cherepica_bobrovyy-hvost_krasnyy.png')"></div>
 
   <!--<div class="conf-block conf-drains-old" style="background-image: url('img/drains/metal/vodostok_metal_9003.png')"></div>-->
   <div class="conf-block conf-drains" style="background-image: url('img/drains/metal/vodostok_metal_9003.png')"></div>
@@ -1256,11 +1255,72 @@
 </div><!--conf-bg-->
 </div><!--hellopreloader-->
 
+    <!--popup-->
+    <div class="popup popup_application">
+        <div class="popup_title">Оставить заявку</div>
+        <div class="popup_info">
+            <div class="popup_img"><img src="img/img-popup.jpg" alt=""></div>
+            <ul class="detail-info_list">
+                <li class="detail-info_item">
+                    <span class="detail-info_point">Кровля:</span>
+                    <span class="detail-info_properties">Металлочерепица Classic</span>
+                    <span class="detail-info_properties">RAL 7005</span>
+                </li>
+                <li class="detail-info_item">
+                    <span class="detail-info_point">Фасад:</span>
+                    <span class="detail-info_properties">Виниловый сайдинг D4</span>
+                    <span class="detail-info_properties">Кремовый</span>
+                </li>
+                <li class="detail-info_item">
+                    <span class="detail-info_point">Водосток:</span>
+                    <span class="detail-info_properties">Grand Line 125x90</span>
+                    <span class="detail-info_properties">RAL 9003</span>
+                </li>
+                <li class="detail-info_item">
+                    <span class="detail-info_point">Ограждения:</span>
+                    <span class="detail-info_properties">Модульные ограждения Премиум Плюс</span>
+                    <span class="detail-info_properties">RAL 6005</span>
+                </li>
+            </ul>
+        </div>
+        <div class="popup_body">
+            <form action="#" class="popup-form">
+                <div class="popup-form_item"><input type="text" placeholder="ФИО"></div>
+                <div class="popup-form_item"><input type="text" placeholder="Тел: +7(___)___-__-__" class="phone-mask"></div>
+                <div class="popup-form_item"><input type="text" placeholder="Email:"></div>
+                <div class="popup-form_item">
+                    <textarea name="" id="popup_mail-text" rows="7" placeholder="Здесь вы можете указать желаемое время звонка или задать вопрос."></textarea>
+                </div>
+                <div class="l-button">
+                    <a href="#" class="popup_back"><img src="img/icon-arrow-menu.png" alt=""></a>
+                    <button class="c-button mb-1">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--<div class="popup popup_application">-->
+        <!--<div class="popup_title">Оставить заявку</div>-->
+        <!--<form action="#" class="popup-form">-->
+            <!--<div class="popup-form_item"><input type="text" placeholder="ФИО"></div>-->
+            <!--<div class="popup-form_item"><input type="text" placeholder="Тел: +7(___)___-__-__" class="phone-mask"></div>-->
+            <!--<div class="popup-form_item"><input type="text" placeholder="Email:"></div>-->
+            <!--<div class="popup-form_item">-->
+                <!--<textarea name="" id="popup_mail-text" rows="7" placeholder="Здесь вы можете указать желаемое время звонка или задать вопрос."></textarea>-->
+            <!--</div>-->
+            <!--<div class="l-button">-->
+                <!--<a href="#" class="popup_back"><img src="img/icon-arrow-menu.png" alt=""></a>-->
+                <!--<button class="c-button mb-1">Отправить</button>-->
+            <!--</div>-->
+        <!--</form>-->
+    <!--</div>-->
+    <!--задний фон модального окна-->
+    <div class="popup_bg"></div>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+  <script src="bower_components/jquery-mask-plugin/dist/jquery.mask.js"></script>
   <script src="js/main.js"></script>
   <script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script>
-
 
 </body>
 </html>
