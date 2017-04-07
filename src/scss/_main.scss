@@ -620,6 +620,15 @@ html {
       @extend %transition;
     }
   }
+
+  &_close {
+    position: absolute;
+    top: 24px;
+    right: 16px;
+    width: 10px;
+    height: 10px;
+    background: url($img-dir + 'close-icon.png') 0 0 no-repeat;
+  }
 }
 
 .popup-sent {

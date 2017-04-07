@@ -352,7 +352,7 @@ $(document).ready(function() {
 		$('.tooltip').remove();
 	});
 
-    $(".js-application").click(function(event) {
+    $(".js-application, .popup_close").click(function(event) {
         event.preventDefault();
         $('.popup_application').toggleClass('popup-show');
         $('.popup_bg').toggleClass('is-visible');

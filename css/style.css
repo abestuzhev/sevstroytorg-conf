@@ -703,6 +703,13 @@ html {
     cursor: pointer; }
     .popup button:hover {
       background-color: #3573b4; }
+  .popup_close {
+    position: absolute;
+    top: 24px;
+    right: 16px;
+    width: 10px;
+    height: 10px;
+    background: url("../img/close-icon.png") 0 0 no-repeat; }
 
 .popup-sent {
   display: none;
