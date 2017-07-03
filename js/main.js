@@ -62,6 +62,16 @@ $(document).ready(function() {
 		}, 1000);
 	});
 
+	//фронтон
+	$('.conf-submenu--fronton .conf-color_item').click(function(e){
+		e.preventDefault();
+		var image_path = $(this).data('color');
+		$('.conf-fronton').css('background-image', 'url("'+ image_path +'")');
+		setTimeout(function () {
+			$('.conf-fronton-old').css('background-image', 'url("'+ image_path +'")');
+		}, 1000);
+	});
+
 	//водостоки
 	$('.conf-submenu--drains .conf-color_item').click(function(e){
 		e.preventDefault();
@@ -179,6 +189,14 @@ $(document).ready(function() {
 		$('.conf-facade').css('background-image', 'url("'+ image_pathCurrent +'")');
 	});
 
+	//фронтон
+	$('.conf-submenu--fronton .conf-properties_btn').on('click', function (e) {
+		e.preventDefault();
+		var $this = $(this);
+		var image_pathCurrent = getActiveBlock($this);
+		$('.conf-fronton').css('background-image', 'url("'+ image_pathCurrent +'")');
+	});
+
 	//водосток
 	$('.conf-submenu--drains .conf-properties_btn').on('click', function (e) {
 		e.preventDefault();
@@ -273,6 +291,7 @@ $(document).ready(function() {
 
 	ConfDefault('.conf-submenu--roof .conf-current, .conf-roof');
 	ConfDefault('.conf-submenu--facade .conf-current, .conf-facade');
+	ConfDefault('.conf-submenu--facade .conf-current, .conf-fronton');
 	ConfDefault('.conf-submenu--drains .conf-current, .conf-drains');
 	ConfDefault('.conf-submenu--plinth .conf-current, .conf-plinth');
 	ConfDefault('.conf-submenu--fence .conf-current, .conf-fences');
@@ -368,5 +387,16 @@ $(document).ready(function() {
     });
 
     $('.phone-mask').mask('+7(000)000-00-00');
+
+
+//    переключатель conf-tab
+    $(".conf-tabs_link").click(function(event) {
+        event.preventDefault();
+        $(this).addClass('conf-tabs_link--active');
+        $(this).parents('.conf-tabs_item').siblings().find('.conf-tabs_link').removeClass('conf-tabs_link--active');
+        var $tabsName = $(this).attr('data-tabs-name');
+        $('.' + $tabsName).addClass('conf-tab--active');
+        $('.' + $tabsName).siblings().removeClass('conf-tab--active');
+    });
 
 });//end ready

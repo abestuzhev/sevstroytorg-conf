@@ -360,9 +360,16 @@
         </svg>
       </a>
       <!--submenu-->
-      <div class="conf-submenu conf-submenu--facade">
+      <div class="conf-submenu">
         <div class="conf-submenu_title">Выберите конфигурацию:</div>
         <a href="#" class="conf-submenu_close"></a>
+        <ul class="conf-tabs">
+        	<li class="conf-tabs_item"><a href="#" data-tabs-name="conf-submenu--facade" class="conf-tabs_link conf-tabs_link--active">Фасад</a></li>
+        	<li class="conf-tabs_item"><a href="#" data-tabs-name="conf-submenu--fronton" class="conf-tabs_link">Фронтон</a></li>
+        </ul>
+        <!--conf-tab-->
+        <div class="conf-tab conf-submenu--facade conf-tab--active">
+
         <div class="conf-submenu_subtitle">Фасадные панели</div>
         <div class="conf-properties">
           <div class="conf-properties_title">Камень:</div>
@@ -698,6 +705,348 @@
           </div>
         </div><!--end conf-properties-->
 
+        </div><!--end conf-tab-->
+
+
+        <!--conf-tab-->
+        <div class="conf-tab conf-submenu--fronton">
+
+        <div class="conf-submenu_subtitle">Фасадные панели (фронтон)</div>
+        <div class="conf-properties">
+          <div class="conf-properties_title">Камень:</div>
+          <div class="conf-properties_body">
+            <a href="#" class="conf-properties_btn conf-current" data-properties="facade-butovyj" data-title="Камень Бутовый камень">Бутовый камень</a>
+            <a href="#" class="conf-properties_btn" data-properties="facade-granit" data-title="Камень Гранит">Гранит</a>
+            <a href="#" class="conf-properties_btn" data-properties="facade-kanon" data-title="Камень Каньон">Каньон</a>
+            <a href="#" class="conf-properties_btn" data-properties="facade-skalistyj-kamen" data-title="Камень Скалистый камень">Скалистый камень</a>
+            <a href="#" class="conf-properties_btn" data-properties="facade-severnyj-kamen" data-title="Камень Северный камень">Северный камень</a>
+            <a href="#" class="conf-properties_btn" data-properties="facade-kamen" data-title="Камень Камень">Камень</a>
+          </div>
+        </div><!--end conf-properties-->
+        <div class="conf-properties">
+          <div class="conf-properties_title">Кирпич:</div>
+          <div class="conf-properties_body">
+            <a href="#" class="conf-properties_btn" data-properties="fronton-brick-standart" data-title="Кирпич Стандарт">Стандарт</a>
+          </div>
+        </div><!--end conf-properties-->
+              <!-- <div class="conf-properties">
+				<div class="conf-properties_title">Дерево:</div>
+				<div class="conf-properties_body">
+				  <a href="#" class="conf-properties_btn" data-properties="tree-korabelnaya-doska">Корабельная доска</a>
+				  <a href="#" class="conf-properties_btn" data-properties="tree-ehkobrus">Экобрус</a>
+				  <a href="#" class="conf-properties_btn" data-properties="tree-blok-haus">Блок-хаус</a>
+				</div>
+			  </div> -->
+              <!--end conf-properties-->
+        <div class="conf-submenu_subtitle">Виниловый сайдинг</div>
+        <div class="conf-properties">
+          <!-- <div class="conf-properties_title">Виниловый сайдинг:</div> -->
+          <div class="conf-properties_body">
+            <a href="#" class="conf-properties_btn" data-properties="vinyl-siding-korabelnaya-doska"  data-title="Виниловый сайдинг Корабельная доска">Корабельная доска</a>
+            <a href="#" class="conf-properties_btn" data-properties="vinyl-siding-blok-haus"  data-title="Виниловый сайдинг Блок-хаус">Блок-хаус</a>
+          </div>
+        </div><!--end conf-properties-->
+
+        <div class="conf-submenu_subtitle">Металлический сайдинг</div>
+        <div class="conf-properties">
+          <!-- <div class="conf-properties_title">Металлический сайдинг:</div> -->
+          <div class="conf-properties_body">
+            <a href="#" class="conf-properties_btn" data-properties="metal-siding-korabelnaya-doska" data-title="Металлический сайдинг Корабельная доска">Корабельная доска</a>
+            <a href="#" class="conf-properties_btn" data-properties="metal-siding-ehkobrus" data-title="Металлический сайдинг Экобрус">Экобрус</a>
+            <a href="#" class="conf-properties_btn" data-properties="metal-siding-blok-haus" data-title="Металлический сайдинг Блок-хаус">Блок-хаус</a>
+          </div>
+        </div><!--end conf-properties-->
+
+              <!-- color -->
+
+        <div class="conf-properties conf-color" data-properties="color-facade-butovyj">
+          <div class="conf-properties_title">Выберите цвет:</div>
+          <div class="conf-properties_subtitle">Палитра: <span></span></div>
+          <div class="conf-properties_body">
+            <a data-color="img/facade/facade-kamen/butovyj/fasad_kamenj_butovyy_baltiyskiy.png" href="#" data-color-name="Балтийский" class="conf-color_item baltiyskiy"></a>
+            <a data-color="img/facade/facade-kamen/butovyj/fasad_kamenj_butovyy_datskiy.png" href="#" data-color-name="Датский" class="conf-color_item datskiy"></a>
+            <a data-color="img/facade/facade-kamen/butovyj/fasad_kamenj_butovyy_grecheskiy.png" href="#" data-color-name="Греческий" class="conf-color_item butovyy_grecheskiy"></a>
+            <a data-color="img/facade/facade-kamen/butovyj/fasad_kamenj_butovyy_normanskiy.png" href="#" data-color-name="Нормандский" class="conf-color_item normanskiy"></a>
+            <a data-color="img/facade/facade-kamen/butovyj/fasad_kamenj_butovyy_skandinavskiy.png" href="#" data-color-name="Скандинавский" class="conf-color_item butovyy_skandinavskiy"></a>
+            <a data-color="img/facade/facade-kamen/butovyj/fasad_kamenj_butovyy_skifskiy.png" href="#" data-color-name="Скифский" class="conf-color_item skifskiy"></a>
+          </div>
+        </div><!--end conf-properties-->
+
+        <div class="conf-properties conf-color" data-properties="color-facade-granit">
+          <div class="conf-properties_title">Выберите цвет:</div>
+          <div class="conf-properties_subtitle">Палитра: <span></span></div>
+          <div class="conf-properties_body">
+            <a data-color="img/facade/facade-kamen/granit/fasad_kamenj_granit_aljpiyskiy.png" href="#" data-color-name="Альпийкий" class="conf-color_item aljpiyskiy"></a>
+            <a data-color="img/facade/facade-kamen/granit/fasad_kamenj_granit_balkanskiy.png" href="#" data-color-name="Балканский" class="conf-color_item balkanskiy"></a>
+            <a data-color="img/facade/facade-kamen/granit/fasad_kamenj_granit_karpatskiy.png" href="#" data-color-name="Карпатский" class="conf-color_item karpatskiy"></a>
+            <a data-color="img/facade/facade-kamen/granit/fasad_kamenj_granit_krymskiy.png" href="#" data-color-name="Крымский" class="conf-color_item krymskiy"></a>
+            <a data-color="img/facade/facade-kamen/granit/fasad_kamenj_granit_sayanskiy.png" href="#" data-color-name="Саянский" class="conf-color_item sayanskiy"></a>
+            <a data-color="img/facade/facade-kamen/granit/fasad_kamenj_granit_uraljskiy.png" href="#" data-color-name="Уральский" class="conf-color_item uraljskiy"></a>
+          </div>
+        </div><!--end conf-properties-->
+
+        <div class="conf-properties conf-color" data-properties="color-facade-kanon">
+          <div class="conf-properties_title">Выберите цвет:</div>
+          <div class="conf-properties_subtitle">Палитра: <span></span></div>
+          <div class="conf-properties_body">
+            <a data-color="img/facade/facade-kamen/kanon/fasad_kamenj_kanjon_arizona.png" href="#" data-color-name="Аризона" class="conf-color_item arizona"></a>
+            <a data-color="img/facade/facade-kamen/kanon/fasad_kamenj_kanjon_kanzas.png" href="#" data-color-name="Канзас" class="conf-color_item kanzas"></a>
+            <a data-color="img/facade/facade-kamen/kanon/fasad_kamenj_kanjon_kolorado.png" href="#" data-color-name="Колорадо" class="conf-color_item kolorado"></a>
+            <a data-color="img/facade/facade-kamen/kanon/fasad_kamenj_kanjon_montana.png" href="#" data-color-name="Монтана" class="conf-color_item montana"></a>
+            <a data-color="img/facade/facade-kamen/kanon/fasad_kamenj_kanjon_nevada.png" href="#" data-color-name="Невада" class="conf-color_item nevada"></a>
+          </div>
+        </div><!--end conf-properties-->
+
+        <div class="conf-properties conf-color" data-properties="color-facade-skalistyj-kamen">
+          <div class="conf-properties_title">Выберите цвет:</div>
+          <div class="conf-properties_subtitle">Палитра: <span></span></div>
+          <div class="conf-properties_body">
+            <a data-color="img/facade/facade-kamen/skalistyj-kamen/fasad_kamenj_skalistyy_aljpy.png" href="#" data-color-name="Альпы" class="conf-color_item aljpy"></a>
+            <a data-color="img/facade/facade-kamen/skalistyj-kamen/fasad_kamenj_skalistyy_altay.png" href="#" data-color-name="Алтай" class="conf-color_item altay"></a>
+            <a data-color="img/facade/facade-kamen/skalistyj-kamen/fasad_kamenj_skalistyy_andy.png" href="#" data-color-name="Анды" class="conf-color_item andy"></a>
+            <a data-color="img/facade/facade-kamen/skalistyj-kamen/fasad_kamenj_skalistyy_kavkaz.png" href="#" data-color-name="Кавказ" class="conf-color_item kavkaz"></a>
+            <a data-color="img/facade/facade-kamen/skalistyj-kamen/fasad_kamenj_skalistyy_pamir.png" href="#" data-color-name="Памир" class="conf-color_item pamir"></a>
+            <a data-color="img/facade/facade-kamen/skalistyj-kamen/fasad_kamenj_skalistyy_tibet.png" href="#" data-color-name="Тибет" class="conf-color_item tibet"></a>
+          </div>
+        </div><!--end conf-properties-->
+
+        <div class="conf-properties conf-color" data-properties="color-facade-severnyj-kamen">
+          <div class="conf-properties_title">Выберите цвет:</div>
+          <div class="conf-properties_subtitle">Палитра: <span></span></div>
+          <div class="conf-properties_body">
+            <a data-color="img/facade/facade-kamen/severnyj-kamen/fasad_kamenj_severnyy_bezhevyy.png" href="#" data-color-name="Светло-бежевый" class="conf-color_item svetlo-bezhevyy"></a>
+            <a data-color="img/facade/facade-kamen/severnyj-kamen/fasad_kamenj_severnyy_seryy.png" href="#" data-color-name="Серый" class="conf-color_item seryy"></a>
+            <a data-color="img/facade/facade-kamen/severnyj-kamen/fasad_kamenj_severnyy_terrakot.png" href="#" data-color-name="Терракот" class="conf-color_item terrakot"></a>
+          </div>
+        </div><!--end conf-properties-->
+
+
+        <div class="conf-properties conf-color" data-properties="color-facade-kamen">
+          <div class="conf-properties_title">Выберите цвет:</div>
+          <div class="conf-properties_subtitle">Палитра: <span></span></div>
+          <div class="conf-properties_body">
+            <a data-color="img/facade/facade-kamen/kamen/fasad_kamenj_belyy.png" href="#" data-color-name="Белый" class="conf-color_item belyy"></a>
+            <a data-color="img/facade/facade-kamen/kamen/fasad_kamenj_bezhevyy.png" href="#" data-color-name="Бежевый" class="conf-color_item bezhevyy"></a>
+            <a data-color="img/facade/facade-kamen/kamen/fasad_kamenj_kvarcit.png" href="#" data-color-name="Кварц" class="conf-color_item kvarcit"></a>
+            <a data-color="img/facade/facade-kamen/kamen/fasad_kamenj_malahit.png" href="#" data-color-name="Малахит" class="conf-color_item malahit" ></a>
+            <a data-color="img/facade/facade-kamen/kamen/fasad_kamenj_seryy.png" href="#" data-color-name="Серый" class="conf-color_item seryy"></a>
+            <a data-color="img/facade/facade-kamen/kamen/fasad_kamenj_zheltyy.png" href="#" data-color-name="Желтый" class="conf-color_item zheltyy"></a>
+            <a data-color="img/facade/facade-kamen/kamen/fasad_kamenj_zhzhenyy.png" href="#" data-color-name="Жжёный" class="conf-color_item zhzhenyy"></a>
+          </div>
+        </div><!--end conf-properties-->
+
+        <div class="conf-properties conf-color" data-properties="color-fronton-brick-standart">
+          <div class="conf-properties_title">Выберите цвет:</div>
+          <div class="conf-properties_subtitle">Палитра: <span></span></div>
+          <div class="conf-properties_body">
+            <a data-color="img/fronton/brick/fronton_kirpich_aljta-profilj-belyy.png" href="#" data-color-name="Белый" class="conf-color_item belyy"></a>
+            <a data-color="img/facade/brick/fasad_kirpich_aljta-profilj-bezhevyy-kombi.png" href="#" data-color-name="Бежевый комби" class="conf-color_item bezhevyy-kombi"></a>
+            <a data-color="img/facade/brick/fasad_kirpich_aljta-profilj-krasnyy.png" href="#" data-color-name="Красный" class="conf-color_item krasnyy"></a>
+            <a data-color="img/facade/brick/fasad_kirpich_aljta-profilj-zhzhenyy.png" href="#" data-color-name="Жжёный" class="conf-color_item zhzhenyy"></a>
+            <a data-color="img/facade/brick/fasad_kirpich_nordside-gladkiy-belyy.png" href="#" data-color-name="Белый клинкерный" class="conf-color_item belyy"></a>
+            <a data-color="img/facade/brick/fasad_kirpich_nordside-gladkiy-bezhevyy.png" href="#" data-color-name="Гладкий бежевый" class="conf-color_item gladkiy-bezhevyy"></a>
+            <a data-color="img/facade/brick/fasad_kirpich_nordside-gladkiy-krasnyy.png" href="#" data-color-name="Гладкий красный" class="conf-color_item krasnyy"></a>
+            <a data-color="img/facade/brick/fasad_kirpich_nordside-gladkiy-temno-korichnevyy.png" href="#" data-color-name="Тёмно-коричневый" class="conf-color_item temno-korichnevyy"></a>
+          </div>
+        </div><!--end conf-properties-->
+
+
+              <!--tree-->
+              <!-- <div class="conf-properties conf-color" data-properties="color-tree-korabelnaya-doska">
+				<div class="conf-properties_title">Выберите цвет:</div>
+				<div class="conf-properties_subtitle">Палитра: <span></span></div>
+				<div class="conf-properties_body">
+				  <a data-color="img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_antichnyy_dub.png" href="#" data-color-name="Античный дуб" class="conf-color_item antichnyy-dub"></a>
+				  <a data-color="img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_belenyy_dub.png" href="#" data-color-name="Белый дуб" class="conf-color_item belenyy-dub"></a>
+				  <a data-color="img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_braziljskaya_vishnya.png" href="#" data-color-name="Бразильская вишня" class="conf-color_item braziljskaya-vishnya"></a>
+				  <a data-color="img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_morenyy_dub.png" href="#" data-color-name="Дуб" class="conf-color_item morenyy-dub"></a>
+				  <a data-color="img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_sosna.png" href="#" data-color-name="Сосна" class="conf-color_item sosna"></a>
+				  <a data-color="img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_svetloe-derevo.png" href="#" data-color-name="Светлое дерево" class="conf-color_item svetloe-derevo"></a>
+				</div>
+			  </div> -->
+              <!--end conf-properties-->
+
+              <!-- <div class="conf-properties conf-color" data-properties="color-tree-ehkobrus">
+				<div class="conf-properties_title">Выберите цвет:</div>
+				<div class="conf-properties_subtitle">Палитра: <span></span></div>
+				<div class="conf-properties_body">
+				  <a data-color="img/facade/tree/ehkobrus/fasad_derevo_ekobrus_antichnyy_dub.png" href="#" data-color-name="Античный дуб" class="conf-color_item antichnyy-dub"></a>
+				  <a data-color="img/facade/tree/ehkobrus/fasad_derevo_ekobrus_belenyy_dub.png" href="#" data-color-name="Белый дуб" class="conf-color_item belenyy-dub"></a>
+				  <a data-color="img/facade/tree/ehkobrus/fasad_derevo_ekobrus_braziljskaya_vishnya.png" href="#" data-color-name="Бразильская вишня" class="conf-color_item braziljskaya-vishnya"></a>
+				  <a data-color="img/facade/tree/ehkobrus/fasad_derevo_ekobrus_morenyy_dub.png" href="#" data-color-name="Дуб" class="conf-color_item morenyy-dub"></a>
+				  <a data-color="img/facade/tree/ehkobrus/fasad_derevo_ekobrus_sosna.png" href="#" data-color-name="Сосна" class="conf-color_item sosna"></a>
+				  <a data-color="img/facade/tree/ehkobrus/fasad_derevo_ekobrus_svetloe_derevo.png" href="#" data-color-name="Светлое дерево" class="conf-color_item svetloe-derevo"></a>
+				</div>
+			  </div> -->
+              <!--end conf-properties-->
+
+              <!-- <div class="conf-properties conf-color" data-properties="color-tree-blok-haus">
+				<div class="conf-properties_title">Выберите цвет:</div>
+				<div class="conf-properties_subtitle">Палитра: <span></span></div>
+				<div class="conf-properties_body">
+				  <a data-color="img/facade/tree/blok-haus/fasad_derevo_blok-haus_antichnyy_dub.png" href="#" data-color-name="Античный дуб" class="conf-color_item antichnyy-dub"></a>
+				  <a data-color="img/facade/tree/blok-haus/fasad_derevo_blok-haus_belenyy_dub.png" href="#" data-color-name="Белый дуб" class="conf-color_item belenyy-dub"></a>
+				  <a data-color="img/facade/tree/blok-haus/fasad_derevo_blok-haus_braziljskaya_vishnya.png" href="#" data-color-name="Бразильская вишня" class="conf-color_item braziljskaya-vishnya"></a>
+				  <a data-color="img/facade/tree/blok-haus/fasad_derevo_blok-haus_morenyy_dub.png" href="#" data-color-name="Морёный дуб" class="conf-color_item morenyy-dub"></a>
+				  <a data-color="img/facade/tree/blok-haus/fasad_derevo_blok-haus_sosna.png" href="#" data-color-name="Сосна" class="conf-color_item sosna"></a>
+				  <a data-color="img/facade/tree/blok-haus/fasad_derevo_blok-haus_svetloe_derevo.png" href="#" data-color-name="Светлое дерево" class="conf-color_item svetloe-derevo"></a>
+				</div>
+			  </div> -->
+              <!--end conf-properties-->
+
+
+        <div class="conf-properties conf-color" data-properties="color-vinyl-siding-korabelnaya-doska">
+          <div class="conf-properties_title">Выберите цвет:</div>
+          <div class="conf-properties_subtitle">Палитра: <span></span></div>
+          <div class="conf-properties_body">
+            <a data-color="img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_amarantovyy.png" href="#" data-color-name="Амарантовый" class="conf-color_item amarantovyy"></a>
+            <a data-color="img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_belyy.png" href="#" data-color-name="Белый" class="conf-color_item belyy"></a>
+            <a data-color="img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_bezhevyy.png" href="#" data-color-name="Бежевый" class="conf-color_item bezhevyy-vinil"></a>
+            <a data-color="img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_goluboy.png" href="#" data-color-name="Голубой" class="conf-color_item goluboy"></a>
+            <a data-color="img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_indigo.png" href="#" data-color-name="Индиго" class="conf-color_item indigo"></a>
+            <a data-color="img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_karameljnyy.png" href="#" data-color-name="Карамельный" class="conf-color_item karameljnyy"></a>
+            <a data-color="img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_kremovyy.png" href="#" data-color-name="Кремовый" class="conf-color_item kremovyy"></a>
+            <a data-color="img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_lamantin.png" href="#" data-color-name="Ламантин" class="conf-color_item lamantin"></a>
+            <a data-color="img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_persikovyy.png" href="#" data-color-name="Персиковый" class="conf-color_item persikovyy"></a>
+            <a data-color="img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_sakura.png" href="#" data-color-name="Сакура" class="conf-color_item sakura"></a>
+            <a data-color="img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_salatovyy.png" href="#" data-color-name="Салатовый" class="conf-color_item salatovyy"></a>
+            <a data-color="img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_seryy.png" href="#" data-color-name="Серый" class="conf-color_item seryy"></a>
+            <a data-color="img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_slonovaya.png" href="#" data-color-name="Слоновая кость" class="conf-color_item slonovaya"></a>
+            <a data-color="img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_temno-bezhevyy.png" href="#" data-color-name="Темно-бежевый" class="conf-color_item temno-bezhevyy"></a>
+            <a data-color="img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_vaniljnyy.png" href="#" data-color-name="Ванильный" class="conf-color_item vaniljnyy"></a>
+            <a data-color="img/facade/vinyl-siding/korabelnaya-doska/fasad_vinilovyy-sayding_korabeljnaya-doska_zheltyy.png" href="#" data-color-name="Жёлтый" class="conf-color_item zheltyy"></a>
+          </div>
+        </div><!--end conf-properties-->
+
+        <div class="conf-properties conf-color" data-properties="color-vinyl-siding-blok-haus">
+          <div class="conf-properties_title">Выберите цвет:</div>
+          <div class="conf-properties_subtitle">Палитра: <span></span></div>
+          <div class="conf-properties_body">
+            <a data-color="img/facade/vinyl-siding/blok-haus/fasad_vinilovyy-sayding_blok-haus_bezhevyy.png" href="#" data-color-name="Бежевый" class="conf-color_item blok-haus_bezhevyy"></a>
+            <a data-color="img/facade/vinyl-siding/blok-haus/fasad_vinilovyy-sayding_blok-haus_imbirj.png" href="#" data-color-name="Имбирь" class="conf-color_item imbirj"></a>
+            <a data-color="img/facade/vinyl-siding/blok-haus/fasad_vinilovyy-sayding_blok-haus_karameljnyy.png" href="#" data-color-name="Карамельный" class="conf-color_item karameljnyy"></a>
+            <a data-color="img/facade/vinyl-siding/blok-haus/fasad_vinilovyy-sayding_blok-haus_korica.png" href="#" data-color-name="Корица" class="conf-color_item korica"></a>
+            <a data-color="img/facade/vinyl-siding/blok-haus/fasad_vinilovyy-sayding_blok-haus_shafran.png" href="#" data-color-name="Шафран" class="conf-color_item shafran"></a>
+            <a data-color="img/facade/vinyl-siding/blok-haus/fasad_vinilovyy-sayding_blok-haus_temno-bezhevyy.png" href="#" data-color-name="Темно-бежевый" class="conf-color_item temno-bezhevyy"></a>
+          </div>
+        </div><!--end conf-properties-->
+
+        <div class="conf-properties conf-color" data-properties="color-metal-siding-korabelnaya-doska">
+          <div class="conf-properties_title">Выберите цвет:</div>
+          <div class="conf-properties_subtitle">Палитра: <span></span></div>
+          <div class="conf-properties_body">
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_9003.png" href="#" data-color-name="RAL 9003" class="conf-color_item ral-9003"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_8017.png" href="#" data-color-name="RAL 8017" class="conf-color_item ral-8017"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_8004.png" href="#" data-color-name="RAL 8004" class="conf-color_item ral-8004"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_7024.png" href="#" data-color-name="RAL 7024" class="conf-color_item ral-7024"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_7005.png" href="#" data-color-name="RAL 7005" class="conf-color_item ral-7005"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_7004.png" href="#" data-color-name="RAL 7004" class="conf-color_item ral-7004"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_6005.png" href="#" data-color-name="RAL 6005" class="conf-color_item ral-6005"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_6002.png" href="#" data-color-name="RAL 6002" class="conf-color_item ral-6002"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_5021.png" href="#" data-color-name="RAL 5021" class="conf-color_item ral-5021"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_5005.png" href="#" data-color-name="RAL 5005" class="conf-color_item ral-5005"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_5002.png" href="#" data-color-name="RAL 5002" class="conf-color_item ral-5002"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_3011.png" href="#" data-color-name="RAL 3011" class="conf-color_item ral-3011"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_3009.png" href="#" data-color-name="RAL 3009" class="conf-color_item ral-3009"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_3005.png" href="#" data-color-name="RAL 3005" class="conf-color_item ral-3005"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_3003.png" href="#" data-color-name="RAL 3003" class="conf-color_item ral-3003"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_2004.png" href="#" data-color-name="RAL 2004" class="conf-color_item ral-2004"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_1018.png" href="#" data-color-name="RAL 1018" class="conf-color_item ral-1018"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_1015.png" href="#" data-color-name="RAL 1015" class="conf-color_item ral-1015"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_1014.png" href="#" data-color-name="RAL 1014" class="conf-color_item ral-1014"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_metallicheskiy-sayding_korabeljnaya-doska_zn.png" href="#" data-color-name="RAL ZN" class="conf-color_item ral-zn"></a>
+
+            <div class="conf-properties_subtitle conf-properties_additional-title">Дополнительные цвета: <span></span></div>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_antichnyy_dub.png" href="#" data-color-name="Античный дуб" class="conf-color_item conf-color_item--additional antichnyy-dub"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_belenyy_dub.png" href="#" data-color-name="Белый дуб" class="conf-color_item conf-color_item--additional belenyy-dub"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_braziljskaya_vishnya.png" href="#" data-color-name="Бразильская вишня" class="conf-color_item conf-color_item--additional braziljskaya-vishnya"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_morenyy_dub.png" href="#" data-color-name="Дуб" class="conf-color_item conf-color_item--additional morenyy-dub"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_sosna.png" href="#" data-color-name="Сосна" class="conf-color_item conf-color_item--additional sosna"></a>
+            <a data-color="img/facade/metal-siding/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_svetloe-derevo.png" href="#" data-color-name="Светлое дерево" class="conf-color_item conf-color_item--additional svetloe-derevo"></a>
+          </div>
+          <!--<div class="conf-properties_subtitle conf-properties_additional-title">Дополнительные цвета: <span></span></div>-->
+          <!--<div class="conf-properties_body">-->
+          <!--<a data-color="img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_antichnyy_dub.png" href="#" data-color-name="Античный дуб" class="conf-color_item antichnyy-dub"></a>-->
+          <!--<a data-color="img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_belenyy_dub.png" href="#" data-color-name="Белый дуб" class="conf-color_item belenyy-dub"></a>-->
+          <!--<a data-color="img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_braziljskaya_vishnya.png" href="#" data-color-name="Бразильская вишня" class="conf-color_item braziljskaya-vishnya"></a>-->
+          <!--<a data-color="img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_morenyy_dub.png" href="#" data-color-name="Дуб" class="conf-color_item morenyy-dub"></a>-->
+          <!--<a data-color="img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_sosna.png" href="#" data-color-name="Сосна" class="conf-color_item sosna"></a>-->
+          <!--<a data-color="img/facade/tree/korabelnaya-doska/fasad_derevo_korabeljnaya-doska_svetloe-derevo.png" href="#" data-color-name="Светлое дерево" class="conf-color_item svetloe-derevo"></a>-->
+          <!--</div>-->
+        </div><!--end conf-properties-->
+
+        <div class="conf-properties conf-color" data-properties="color-metal-siding-ehkobrus">
+          <div class="conf-properties_title">Выберите цвет:</div>
+          <div class="conf-properties_subtitle">Палитра: <span></span></div>
+          <div class="conf-properties_body">
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_9003.png" href="#" data-color-name="RAL 9003" class="conf-color_item ral-9003"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_8017.png" href="#" data-color-name="RAL 8017" class="conf-color_item ral-8017"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_8004.png" href="#" data-color-name="RAL 8004" class="conf-color_item ral-8004"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_7024.png" href="#" data-color-name="RAL 7024" class="conf-color_item ral-7024"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_7005.png" href="#" data-color-name="RAL 7005" class="conf-color_item ral-7005"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_7004.png" href="#" data-color-name="RAL 7004" class="conf-color_item ral-7004"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_6005.png" href="#" data-color-name="RAL 6005" class="conf-color_item ral-6005"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_6002.png" href="#" data-color-name="RAL 6002" class="conf-color_item ral-6002"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_5021.png" href="#" data-color-name="RAL 5021" class="conf-color_item ral-5021"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_5005.png" href="#" data-color-name="RAL 5005" class="conf-color_item ral-5005"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_5002.png" href="#" data-color-name="RAL 5002" class="conf-color_item ral-5002"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_3011.png" href="#" data-color-name="RAL 3011" class="conf-color_item ral-3011"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_3009.png" href="#" data-color-name="RAL 3009" class="conf-color_item ral-3009"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_3005.png" href="#" data-color-name="RAL 3005" class="conf-color_item ral-3005"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_3003.png" href="#" data-color-name="RAL 3003" class="conf-color_item ral-3003"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_2004.png" href="#" data-color-name="RAL 2004" class="conf-color_item ral-2004"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_1018.png" href="#" data-color-name="RAL 1018" class="conf-color_item ral-1018"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_1015.png" href="#" data-color-name="RAL 1015" class="conf-color_item ral-1015"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_1014.png" href="#" data-color-name="RAL 1014" class="conf-color_item ral-1014"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_metallicheskiy-sayding_ekobrus_zn.png" href="#" data-color-name="RAL ZN" class="conf-color_item ral-zn"></a>
+
+            <div class="conf-properties_subtitle conf-properties_additional-title">Дополнительные цвета:  <span></span></div>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_derevo_ekobrus_antichnyy_dub.png" href="#" data-color-name="Античный дуб" class="conf-color_item conf-color_item--additional antichnyy-dub"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_derevo_ekobrus_belenyy_dub.png" href="#" data-color-name="Белый дуб" class="conf-color_item conf-color_item--additional belenyy-dub"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_derevo_ekobrus_braziljskaya_vishnya.png" href="#" data-color-name="Бразильская вишня" class="conf-color_item conf-color_item--additional braziljskaya-vishnya"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_derevo_ekobrus_morenyy_dub.png" href="#" data-color-name="Дуб" class="conf-color_item conf-color_item--additional morenyy-dub"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_derevo_ekobrus_sosna.png" href="#" data-color-name="Сосна" class="conf-color_item conf-color_item--additional sosna"></a>
+            <a data-color="img/facade/metal-siding/ehkobrus/fasad_derevo_ekobrus_svetloe_derevo.png" href="#" data-color-name="Светлое дерево" class="conf-color_item conf-color_item--additional svetloe-derevo"></a>
+          </div>
+        </div><!--end conf-properties-->
+
+        <div class="conf-properties conf-color" data-properties="color-metal-siding-blok-haus">
+          <div class="conf-properties_title">Выберите цвет:</div>
+          <div class="conf-properties_subtitle">Палитра: <span></span></div>
+          <div class="conf-properties_body">
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_9003.png" href="#" data-color-name="RAL 9003" class="conf-color_item ral-9003"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_8017.png" href="#" data-color-name="RAL 8017" class="conf-color_item ral-8017"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_8004.png" href="#" data-color-name="RAL 8004" class="conf-color_item ral-8004"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_7024.png" href="#" data-color-name="RAL 7024" class="conf-color_item ral-7024"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_7005.png" href="#" data-color-name="RAL 7005" class="conf-color_item ral-7005"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_7004.png" href="#" data-color-name="RAL 7004" class="conf-color_item ral-7004"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_6005.png" href="#" data-color-name="RAL 6005" class="conf-color_item ral-6005"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_6002.png" href="#" data-color-name="RAL 6002" class="conf-color_item ral-6002"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_5021.png" href="#" data-color-name="RAL 5021" class="conf-color_item ral-5021"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_5005.png" href="#" data-color-name="RAL 5005" class="conf-color_item ral-5005"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_5002.png" href="#" data-color-name="RAL 5002" class="conf-color_item ral-5002"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_3011.png" href="#" data-color-name="RAL 3011" class="conf-color_item ral-3011"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_3009.png" href="#" data-color-name="RAL 3009" class="conf-color_item ral-3009"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_3005.png" href="#" data-color-name="RAL 3005" class="conf-color_item ral-3005"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_3003.png" href="#" data-color-name="RAL 3003" class="conf-color_item ral-3003"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_2004.png" href="#" data-color-name="RAL 2004" class="conf-color_item ral-2004"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_1018.png" href="#" data-color-name="RAL 1018" class="conf-color_item ral-1018"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_1015.png" href="#" data-color-name="RAL 1015" class="conf-color_item ral-1015"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_1014.png" href="#" data-color-name="RAL 1014" class="conf-color_item ral-1014"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_metallicheskiy-sayding_blok-haus_zn.png" href="#" data-color-name="RAL ZN" class="conf-color_item ral-zn"></a>
+
+            <div class="conf-properties_subtitle conf-properties_additional-title">Дополнительные цвета: <span></span></div>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_derevo_blok-haus_antichnyy_dub.png" href="#" data-color-name="Античный дуб" class="conf-color_item conf-color_item--additional antichnyy-dub"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_derevo_blok-haus_belenyy_dub.png" href="#" data-color-name="Белый дуб" class="conf-color_item conf-color_item--additional belenyy-dub"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_derevo_blok-haus_braziljskaya_vishnya.png" href="#" data-color-name="Бразильская вишня" class="conf-color_item conf-color_item--additional braziljskaya-vishnya"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_derevo_blok-haus_morenyy_dub.png" href="#" data-color-name="Морёный дуб" class="conf-color_item conf-color_item--additional morenyy-dub"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_derevo_blok-haus_sosna.png" href="#" data-color-name="Сосна" class="conf-color_item conf-color_item--additional sosna"></a>
+            <a data-color="img/facade/metal-siding/blok-haus/fasad_derevo_blok-haus_svetloe_derevo.png" href="#" data-color-name="Светлое дерево" class="conf-color_item conf-color_item--additional svetloe-derevo"></a>
+
+          </div>
+        </div><!--end conf-properties-->
+
+        </div><!--end conf-tab-->
 
 
       </div><!--end submenu-->
@@ -1226,8 +1575,11 @@
   <div class="conf-block conf-pillars" style="background-image: url('img/fences/pillars/ograzhdeniya_metallicheskiy-shtaketnik_figurnyy_stolby_8017.png')"></div>
 
 
-  <div class="conf-block conf-facade-old" style="background-image: url('img/facade/facade-kamen/butovyj/fasad_kamenj_butovyy_skifskiy.png')"></div>
-  <div class="conf-block conf-facade" style="background-image: url('img/facade/facade-kamen/butovyj/fasad_kamenj_butovyy_skifskiy.png')"></div>
+  <div class="conf-block conf-facade-old" style="background-image: url('img/facade/brick/fasad_kirpich_aljta-profilj-belyy.png')"></div>
+  <div class="conf-block conf-facade" style="background-image: url('img/facade/brick/fasad_kirpich_aljta-profilj-belyy.png')"></div>
+
+  <div class="conf-block conf-fronton-old" style="background-image: url('img/fronton//brick/fronton_kirpich_aljta-profilj-belyy.png')"></div>
+  <div class="conf-block conf-fronton" style="background-image: url('img/fronton//brick/fronton_kirpich_aljta-profilj-belyy.png')"></div>
 
 
   <div class="conf-block conf-plinth-old" style="background-image: url('img/plinth/plinth-kamen/butovyj/cokolj_kamenj_butovyy_skifskiy.png')"></div>

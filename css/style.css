@@ -447,7 +447,7 @@ html {
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 15px; }
+  margin-bottom: 12px; }
 
 .conf-submenu_subtitle {
   color: #5598DE;
@@ -765,6 +765,57 @@ html {
 
 .is-visible {
   display: block !important; }
+
+.conf-tabs {
+  margin-bottom: 14px;
+  font-family: 'Roboto Condensed', sans-serif; }
+  .conf-tabs_item {
+    display: inline-block;
+    margin-right: 22px; }
+    .conf-tabs_item:last-child {
+      margin-right: 0; }
+  .conf-tabs_link {
+    text-decoration: none;
+    font-size: 14px;
+    border-bottom: 1px dotted #b1b1b1;
+    color: #b1b1b1;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    margin-left: 17px; }
+    .conf-tabs_link::before {
+      content: '';
+      position: absolute; }
+    .conf-tabs_link[data-tabs-name="conf-submenu--facade"]::before {
+      content: '';
+      top: 0;
+      left: -17px;
+      width: 14px;
+      height: 13px;
+      background-color: #b1b1b1; }
+    .conf-tabs_link[data-tabs-name="conf-submenu--fronton"]::before {
+      content: '';
+      top: -14px;
+      left: -22px;
+      border-top: 13px solid transparent;
+      border-bottom: 13px solid transparent;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom-color: #b1b1b1; }
+    .conf-tabs_link.conf-tabs_link--active {
+      border-bottom: 1px dotted #5598de;
+      color: #5598de; }
+      .conf-tabs_link.conf-tabs_link--active[data-tabs-name="conf-submenu--facade"]::before {
+        content: '';
+        background-color: #5598de; }
+      .conf-tabs_link.conf-tabs_link--active[data-tabs-name="conf-submenu--fronton"]::before {
+        content: '';
+        border-bottom-color: #5598de; }
+
+.conf-tab {
+  display: none; }
+  .conf-tab--active {
+    display: block; }
 
 .ral-9003 {
   background-color: #fefefe; }

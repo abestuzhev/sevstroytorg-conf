@@ -290,7 +290,7 @@ html {
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 
@@ -681,4 +681,77 @@ html {
 .is-visible {
   display: block !important;
   @extend %transition;
+}
+
+
+//menu tabs
+.conf-tabs {
+  margin-bottom: 14px;
+  font-family: 'Roboto Condensed', sans-serif;
+
+  &_item {
+    display: inline-block;
+    margin-right: 22px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &_link {
+    text-decoration: none;
+    font-size: 14px;
+    border-bottom: 1px dotted #b1b1b1;
+    color: #b1b1b1;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    margin-left: 17px;
+
+    &::before {
+      content: '';
+      position: absolute;
+    }
+
+    &[data-tabs-name="conf-submenu--facade"]::before {
+      content: '';
+      top: 0;
+      left: -17px;
+      width: 14px;
+      height: 13px;
+      background-color: #b1b1b1;
+    }
+    &[data-tabs-name="conf-submenu--fronton"]::before {
+      content: '';
+      top: -14px;
+      left: -22px;
+      border-top: 13px solid transparent;
+      border-bottom: 13px solid transparent;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom-color: #b1b1b1;
+    }
+
+    &.conf-tabs_link--active {
+      border-bottom: 1px dotted #5598de;
+      color: #5598de;
+
+      &[data-tabs-name="conf-submenu--facade"]::before {
+        content: '';
+        background-color: #5598de;
+      }
+      &[data-tabs-name="conf-submenu--fronton"]::before {
+        content: '';
+        border-bottom-color: #5598de;
+      }
+    }
+  }
+}
+
+.conf-tab {
+  display: none;
+
+  &--active {
+    display: block;
+  }
 }
