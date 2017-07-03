@@ -352,7 +352,8 @@ $(document).ready(function() {
 		$('.tooltip').remove();
 	});
 
-    $(".js-application, .popup_close").click(function(event) {
+    //добавить js-application вниз в обработчик событий
+    $(".popup_close").click(function(event) {
         event.preventDefault();
         $('.popup_application').toggleClass('popup-show');
         $('.popup_bg').toggleClass('is-visible');
