@@ -122,11 +122,19 @@ $(document).ready(function() {
 		$('.conf-soffits').css('background-image', 'url("'+ image_path +'")');
 	});
 
-	//углы
-	$('.conf-submenu--angels .conf-color_item').click(function(e){
+	//углы для фасада
+	$('.conf-color_item--angles-for-fasade').click(function(e){
 		e.preventDefault();
 		var image_path = $(this).data('color');
-		$('.conf-angles').css('background-image', 'url("'+ image_path +'")');
+		$('.conf-angles--fasade').css('background-image', 'url("'+ image_path +'")');
+
+	});
+
+	//углы для цоколя
+	$('.conf-color_item--angles-for--plinth').click(function(e){
+		e.preventDefault();
+		var image_path = $(this).data('color');
+		$('.conf-angles--plinth').css('background-image', 'url("'+ image_path +'")');
 
 	});
 
