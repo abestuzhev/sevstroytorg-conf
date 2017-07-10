@@ -360,7 +360,7 @@
         </svg>
       </a>
       <!--submenu-->
-      <div class="conf-submenu">
+      <div class="conf-submenu conf-submenu--appearance">
         <div class="conf-submenu_title">Выберите конфигурацию:</div>
         <a href="#" class="conf-submenu_close"></a>
         <ul class="conf-tabs">
@@ -1416,65 +1416,75 @@
       <div class="conf-submenu conf-submenu--angels">
         <div class="conf-submenu_title">Выберите конфигурацию:</div>
         <a href="#" class="conf-submenu_close"></a>
-        <div class="conf-properties">
-          <div class="conf-properties_title">Углы для фасада:</div>
-          <div class="conf-properties_body">
-            <a href="#" class="conf-properties_btn conf-current" data-properties="angels-for-fasade-standart">Стандарт</a>
-          </div>
-        </div><!--end conf-properties-->
-        <div class="conf-properties">
-          <div class="conf-properties_title">Углы для цоколя:</div>
-          <div class="conf-properties_body">
-            <a href="#" class="conf-properties_btn" data-properties="angels-for-plinth-standart">Стандарт</a>
-          </div>
-        </div><!--end conf-properties-->
+        <ul class="conf-tabs">
+        	<li class="conf-tabs_item"><a href="#" data-tabs-name="conf-submenu--angels-for-fasade" class="conf-tabs_link conf-tabs_link--active">Фасад</a></li>
+        	<li class="conf-tabs_item"><a href="#" data-tabs-name="conf-submenu--angels-for-plinth" class="conf-tabs_link">Цоколь</a></li>
+        </ul>
 
-        <div class="conf-properties conf-color" data-properties="color-angels-for-fasade-standart">
-          <div class="conf-properties_title">Выберите цвет для фасада:</div>
-          <div class="conf-properties_subtitle">Палитра: <span></span></div>
-          <div class="conf-properties_body">
-            <a data-color="img/angles/angles-for-fasade/fasade_ugly_amarantovyy.png" href="#" data-color-name="Амарантовый" class="conf-color_item conf-color_item--angles-for-fasade amarantovyy"></a>
-            <a data-color="img/angles/angles-for-fasade/fasade_ugly_belyy.png" href="#" data-color-name="Белый" class="conf-color_item conf-color_item--angles-for-fasade belyy"></a>
-            <a data-color="img/angles/angles-for-fasade/fasade_ugly_bezhevyy.png" href="#" data-color-name="Бежевый" class="conf-color_item conf-color_item--angles-for-fasade bezhevyy"></a>
-            <a data-color="img/angles/angles-for-fasade/fasade_ugly_goluboy.png" href="#" data-color-name="Голубой" class="conf-color_item conf-color_item--angles-for-fasade goluboy"></a>
-            <a data-color="img/angles/angles-for-fasade/fasade_ugly_indigo.png" href="#" data-color-name="Индиго" class="conf-color_item conf-color_item--angles-for-fasade indigo"></a>
-            <a data-color="img/angles/angles-for-fasade/fasade_ugly_karameljnyy.png" href="#" data-color-name="Карамельный" class="conf-color_item conf-color_item--angles-for-fasade karameljnyy"></a>
-            <a data-color="img/angles/angles-for-fasade/fasade_ugly_korichnevyy.png" href="#" data-color-name="Коричневый" class="conf-color_item conf-color_item--angles-for-fasade korichnevyy"></a>
-            <a data-color="img/angles/angles-for-fasade/fasade_ugly_kremovyy.png" href="#" data-color-name="Кремовый" class="conf-color_item conf-color_item--angles-for-fasade kremovyy"></a>
-            <a data-color="img/angles/angles-for-fasade/fasade_ugly_lamantin.png" href="#" data-color-name="Ламантин" class="conf-color_item conf-color_item--angles-for-fasade lamantin"></a>
-            <a data-color="img/angles/angles-for-fasade/fasade_ugly_persikovyy.png" href="#" data-color-name="Персиковый" class="conf-color_item conf-color_item--angles-for-fasade persikovyy"></a>
-            <a data-color="img/angles/angles-for-fasade/fasade_ugly_sakura.png" href="#" data-color-name="Сакура" class="conf-color_item conf-color_item--angles-for-fasade sakura"></a>
-            <a data-color="img/angles/angles-for-fasade/fasade_ugly_salatovyy.png" href="#" data-color-name="Салатовый" class="conf-color_item conf-color_item--angles-for-fasade salatovyy"></a>
-            <a data-color="img/angles/angles-for-fasade/fasade_ugly_seryy.png" href="#" data-color-name="Серый" class="conf-color_item conf-color_item--angles-for-fasade seryy"></a>
-            <a data-color="img/angles/angles-for-fasade/fasade_ugly_slonovaya-kostj.png" href="#" data-color-name="Слоноая кость" class="conf-color_item conf-color_item--angles-for-fasade slonovaya"></a>
-            <a data-color="img/angles/angles-for-fasade/fasade_ugly_temno-bezhevyy.png" href="#" data-color-name="Темно-бежевый" class="conf-color_item conf-color_item--angles-for-fasade temno-bezhevyy"></a>
-            <a data-color="img/angles/angles-for-fasade/fasade_ugly_vaniljnyy.png" href="#" data-color-name="Ванильный" class="conf-color_item conf-color_item--angles-for-fasade vaniljnyy"></a>
-            <a data-color="img/angles/angles-for-fasade/fasade_ugly_zheltyy.png" href="#" data-color-name="Желтый" class="conf-color_item conf-color_item--angles-for-fasade zheltyy"></a>
-          </div>
-        </div><!--end conf-properties-->
-        <div class="conf-properties conf-color" data-properties="color-angels-for-plinth-standart">
-          <div class="conf-properties_title">Выберите цвет для цоколя:</div>
-          <div class="conf-properties_subtitle">Палитра: <span></span></div>
-          <div class="conf-properties_body">
-            <a data-color="img/angles/angles-for-plinth/plinth_ugly_amarantovyy.png" href="#" data-color-name="Амарантовый" class="conf-color_item conf-color_item--angles-for--plinth amarantovyy"></a>
-            <a data-color="img/angles/angles-for-plinth/plinth_ugly_belyy.png" href="#" data-color-name="Белый" class="conf-color_item conf-color_item--angles-for--plinth belyy"></a>
-            <a data-color="img/angles/angles-for-plinth/plinth_ugly_bezhevyy.png" href="#" data-color-name="Бежевый" class="conf-color_item conf-color_item--angles-for--plinth bezhevyy"></a>
-            <a data-color="img/angles/angles-for-plinth/plinth_ugly_goluboy.png" href="#" data-color-name="Голубой" class="conf-color_item conf-color_item--angles-for--plinth goluboy"></a>
-            <a data-color="img/angles/angles-for-plinth/plinth_ugly_indigo.png" href="#" data-color-name="Индиго" class="conf-color_item conf-color_item--angles-for--plinth indigo"></a>
-            <a data-color="img/angles/angles-for-plinth/plinth_ugly_karameljnyy.png" href="#" data-color-name="Карамельный" class="conf-color_item conf-color_item--angles-for--plinth karameljnyy"></a>
-            <a data-color="img/angles/angles-for-plinth/plinth_ugly_korichnevyy.png" href="#" data-color-name="Коричневый" class="conf-color_item conf-color_item--angles-for--plinth korichnevyy"></a>
-            <a data-color="img/angles/angles-for-plinth/plinth_ugly_kremovyy.png" href="#" data-color-name="Кремовый" class="conf-color_item conf-color_item--angles-for--plinth kremovyy"></a>
-            <a data-color="img/angles/angles-for-plinth/plinth_ugly_lamantin.png" href="#" data-color-name="Ламантин" class="conf-color_item conf-color_item--angles-for--plinth lamantin"></a>
-            <a data-color="img/angles/angles-for-plinth/plinth_ugly_persikovyy.png" href="#" data-color-name="Персиковый" class="conf-color_item conf-color_item--angles-for--plinth persikovyy"></a>
-            <a data-color="img/angles/angles-for-plinth/plinth_ugly_sakura.png" href="#" data-color-name="Сакура" class="conf-color_item conf-color_item--angles-for--plinth sakura"></a>
-            <a data-color="img/angles/angles-for-plinth/plinth_ugly_salatovyy.png" href="#" data-color-name="Салатовый" class="conf-color_item conf-color_item--angles-for--plinth salatovyy"></a>
-            <a data-color="img/angles/angles-for-plinth/plinth_ugly_seryy.png" href="#" data-color-name="Серый" class="conf-color_item conf-color_item--angles-for--plinth seryy"></a>
-            <a data-color="img/angles/angles-for-plinth/plinth_ugly_slonovaya-kostj.png" href="#" data-color-name="Слоноая кость" class="conf-color_item conf-color_item--angles-for--plinth slonovaya"></a>
-            <a data-color="img/angles/angles-for-plinth/plinth_ugly_temno-bezhevyy.png" href="#" data-color-name="Темно-бежевый" class="conf-color_item conf-color_item--angles-for--plinth temno-bezhevyy"></a>
-            <a data-color="img/angles/angles-for-plinth/plinth_ugly_vaniljnyy.png" href="#" data-color-name="Ванильный" class="conf-color_item conf-color_item--angles-for--plinth vaniljnyy"></a>
-            <a data-color="img/angles/angles-for-plinth/plinth_ugly_zheltyy.png" href="#" data-color-name="Желтый" class="conf-color_item conf-color_item--angles-for--plinth zheltyy"></a>
-          </div>
-        </div><!--end conf-properties-->
+        <div class="conf-tab conf-submenu--angels-for-fasade conf-tab--active">
+          <div class="conf-properties">
+            <div class="conf-properties_title">Углы для фасада:</div>
+            <div class="conf-properties_body">
+              <a href="#" class="conf-properties_btn conf-current" data-properties="angels-for-fasade-standart">Стандарт</a>
+            </div>
+          </div><!--end conf-properties-->
+          <div class="conf-properties conf-color" data-properties="color-angels-for-fasade-standart">
+            <div class="conf-properties_title">Выберите цвет для фасада:</div>
+            <div class="conf-properties_subtitle">Палитра: <span></span></div>
+            <div class="conf-properties_body">
+              <a data-color="img/angles/angles-for-fasade/fasade_ugly_amarantovyy.png" href="#" data-color-name="Амарантовый" class="conf-color_item conf-color_item--angles-for-fasade amarantovyy"></a>
+              <a data-color="img/angles/angles-for-fasade/fasade_ugly_belyy.png" href="#" data-color-name="Белый" class="conf-color_item conf-color_item--angles-for-fasade belyy"></a>
+              <a data-color="img/angles/angles-for-fasade/fasade_ugly_bezhevyy.png" href="#" data-color-name="Бежевый" class="conf-color_item conf-color_item--angles-for-fasade bezhevyy"></a>
+              <a data-color="img/angles/angles-for-fasade/fasade_ugly_goluboy.png" href="#" data-color-name="Голубой" class="conf-color_item conf-color_item--angles-for-fasade goluboy"></a>
+              <a data-color="img/angles/angles-for-fasade/fasade_ugly_indigo.png" href="#" data-color-name="Индиго" class="conf-color_item conf-color_item--angles-for-fasade indigo"></a>
+              <a data-color="img/angles/angles-for-fasade/fasade_ugly_karameljnyy.png" href="#" data-color-name="Карамельный" class="conf-color_item conf-color_item--angles-for-fasade karameljnyy"></a>
+              <a data-color="img/angles/angles-for-fasade/fasade_ugly_korichnevyy.png" href="#" data-color-name="Коричневый" class="conf-color_item conf-color_item--angles-for-fasade korichnevyy"></a>
+              <a data-color="img/angles/angles-for-fasade/fasade_ugly_kremovyy.png" href="#" data-color-name="Кремовый" class="conf-color_item conf-color_item--angles-for-fasade kremovyy"></a>
+              <a data-color="img/angles/angles-for-fasade/fasade_ugly_lamantin.png" href="#" data-color-name="Ламантин" class="conf-color_item conf-color_item--angles-for-fasade lamantin"></a>
+              <a data-color="img/angles/angles-for-fasade/fasade_ugly_persikovyy.png" href="#" data-color-name="Персиковый" class="conf-color_item conf-color_item--angles-for-fasade persikovyy"></a>
+              <a data-color="img/angles/angles-for-fasade/fasade_ugly_sakura.png" href="#" data-color-name="Сакура" class="conf-color_item conf-color_item--angles-for-fasade sakura"></a>
+              <a data-color="img/angles/angles-for-fasade/fasade_ugly_salatovyy.png" href="#" data-color-name="Салатовый" class="conf-color_item conf-color_item--angles-for-fasade salatovyy"></a>
+              <a data-color="img/angles/angles-for-fasade/fasade_ugly_seryy.png" href="#" data-color-name="Серый" class="conf-color_item conf-color_item--angles-for-fasade seryy"></a>
+              <a data-color="img/angles/angles-for-fasade/fasade_ugly_slonovaya-kostj.png" href="#" data-color-name="Слоноая кость" class="conf-color_item conf-color_item--angles-for-fasade slonovaya"></a>
+              <a data-color="img/angles/angles-for-fasade/fasade_ugly_temno-bezhevyy.png" href="#" data-color-name="Темно-бежевый" class="conf-color_item conf-color_item--angles-for-fasade temno-bezhevyy"></a>
+              <a data-color="img/angles/angles-for-fasade/fasade_ugly_vaniljnyy.png" href="#" data-color-name="Ванильный" class="conf-color_item conf-color_item--angles-for-fasade vaniljnyy"></a>
+              <a data-color="img/angles/angles-for-fasade/fasade_ugly_zheltyy.png" href="#" data-color-name="Желтый" class="conf-color_item conf-color_item--angles-for-fasade zheltyy"></a>
+            </div>
+          </div><!--end conf-properties-->
+        </div><!--end conf-tab-->
+
+        <div class="conf-tab conf-submenu--angels-for-plinth">
+          <div class="conf-properties">
+            <div class="conf-properties_title">Углы для цоколя:</div>
+            <div class="conf-properties_body">
+              <a href="#" class="conf-properties_btn conf-current" data-properties="angels-for-plinth-standart">Стандарт</a>
+            </div>
+          </div><!--end conf-properties-->
+          <div class="conf-properties conf-color" data-properties="color-angels-for-plinth-standart">
+            <div class="conf-properties_title">Выберите цвет для цоколя:</div>
+            <div class="conf-properties_subtitle">Палитра: <span></span></div>
+            <div class="conf-properties_body">
+              <a data-color="img/angles/angles-for-plinth/plinth_ugly_amarantovyy.png" href="#" data-color-name="Амарантовый" class="conf-color_item conf-color_item--angles-for--plinth amarantovyy"></a>
+              <a data-color="img/angles/angles-for-plinth/plinth_ugly_belyy.png" href="#" data-color-name="Белый" class="conf-color_item conf-color_item--angles-for--plinth belyy"></a>
+              <a data-color="img/angles/angles-for-plinth/plinth_ugly_bezhevyy.png" href="#" data-color-name="Бежевый" class="conf-color_item conf-color_item--angles-for--plinth bezhevyy"></a>
+              <a data-color="img/angles/angles-for-plinth/plinth_ugly_goluboy.png" href="#" data-color-name="Голубой" class="conf-color_item conf-color_item--angles-for--plinth goluboy"></a>
+              <a data-color="img/angles/angles-for-plinth/plinth_ugly_indigo.png" href="#" data-color-name="Индиго" class="conf-color_item conf-color_item--angles-for--plinth indigo"></a>
+              <a data-color="img/angles/angles-for-plinth/plinth_ugly_karameljnyy.png" href="#" data-color-name="Карамельный" class="conf-color_item conf-color_item--angles-for--plinth karameljnyy"></a>
+              <a data-color="img/angles/angles-for-plinth/plinth_ugly_korichnevyy.png" href="#" data-color-name="Коричневый" class="conf-color_item conf-color_item--angles-for--plinth korichnevyy"></a>
+              <a data-color="img/angles/angles-for-plinth/plinth_ugly_kremovyy.png" href="#" data-color-name="Кремовый" class="conf-color_item conf-color_item--angles-for--plinth kremovyy"></a>
+              <a data-color="img/angles/angles-for-plinth/plinth_ugly_lamantin.png" href="#" data-color-name="Ламантин" class="conf-color_item conf-color_item--angles-for--plinth lamantin"></a>
+              <a data-color="img/angles/angles-for-plinth/plinth_ugly_persikovyy.png" href="#" data-color-name="Персиковый" class="conf-color_item conf-color_item--angles-for--plinth persikovyy"></a>
+              <a data-color="img/angles/angles-for-plinth/plinth_ugly_sakura.png" href="#" data-color-name="Сакура" class="conf-color_item conf-color_item--angles-for--plinth sakura"></a>
+              <a data-color="img/angles/angles-for-plinth/plinth_ugly_salatovyy.png" href="#" data-color-name="Салатовый" class="conf-color_item conf-color_item--angles-for--plinth salatovyy"></a>
+              <a data-color="img/angles/angles-for-plinth/plinth_ugly_seryy.png" href="#" data-color-name="Серый" class="conf-color_item conf-color_item--angles-for--plinth seryy"></a>
+              <a data-color="img/angles/angles-for-plinth/plinth_ugly_slonovaya-kostj.png" href="#" data-color-name="Слоноая кость" class="conf-color_item conf-color_item--angles-for--plinth slonovaya"></a>
+              <a data-color="img/angles/angles-for-plinth/plinth_ugly_temno-bezhevyy.png" href="#" data-color-name="Темно-бежевый" class="conf-color_item conf-color_item--angles-for--plinth temno-bezhevyy"></a>
+              <a data-color="img/angles/angles-for-plinth/plinth_ugly_vaniljnyy.png" href="#" data-color-name="Ванильный" class="conf-color_item conf-color_item--angles-for--plinth vaniljnyy"></a>
+              <a data-color="img/angles/angles-for-plinth/plinth_ugly_zheltyy.png" href="#" data-color-name="Желтый" class="conf-color_item conf-color_item--angles-for--plinth zheltyy"></a>
+            </div>
+          </div><!--end conf-properties-->
+        </div>
+      <!--end conf-tab-->
 
       </div>
       <!--end submenu-->

@@ -300,6 +300,8 @@ $(document).ready(function() {
 	ConfDefault('.conf-submenu--roof .conf-current, .conf-roof');
 	ConfDefault('.conf-submenu--facade .conf-current, .conf-facade');
 	ConfDefault('.conf-submenu--fronton .conf-current, .conf-fronton');
+	ConfDefault('.conf-submenu--angels-for-fasade .conf-current, .conf-fronton');
+	ConfDefault('.conf-submenu--angels-for-plinth .conf-current, .conf-fronton');
 	ConfDefault('.conf-submenu--drains .conf-current, .conf-drains');
 	ConfDefault('.conf-submenu--plinth .conf-current, .conf-plinth');
 	ConfDefault('.conf-submenu--fence .conf-current, .conf-fences');
@@ -398,7 +400,7 @@ $(document).ready(function() {
 
 
 //    переключатель conf-tab
-    $(".conf-tabs_link").click(function(event) {
+    $(".conf-submenu--appearance .conf-tabs_link, .conf-submenu--angels .conf-tabs_link").click(function(event) {
         event.preventDefault();
         $(this).addClass('conf-tabs_link--active');
         $(this).parents('.conf-tabs_item').siblings().find('.conf-tabs_link').removeClass('conf-tabs_link--active');

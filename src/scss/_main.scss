@@ -745,6 +745,33 @@ html {
         border-bottom-color: #5598de;
       }
     }
+
+    &[data-tabs-name="conf-submenu--angels-for-fasade"]::before {
+      content: '';
+      top: 0;
+      left: -17px;
+      width: 14px;
+      height: 13px;
+      background-color: #b1b1b1;
+    }
+    &[data-tabs-name="conf-submenu--angels-for-plinth"]::before {
+      content: '';
+      top: 4px;
+      left: -17px;
+      width: 14px;
+      height: 7px;
+      background-color: #b1b1b1;
+    }
+
+    &.conf-tabs_link--active {
+      color: #5598de;
+
+      &[data-tabs-name="conf-submenu--angels-for-fasade"]::before,
+      &[data-tabs-name="conf-submenu--angels-for-plinth"]::before {
+        content: '';
+        background-color: #5598de;
+      }
+    }
   }
 }
 
