@@ -179,7 +179,7 @@ $(document).ready(function() {
 			$this_subtitle.append($this_colorName);
 		}
 		return image_pathActive;
-	};
+	}
 
 	//кровля
 	$('.conf-submenu--roof .conf-properties_btn').on('click', function (e) {
@@ -299,7 +299,7 @@ $(document).ready(function() {
 
 	ConfDefault('.conf-submenu--roof .conf-current, .conf-roof');
 	ConfDefault('.conf-submenu--facade .conf-current, .conf-facade');
-	ConfDefault('.conf-submenu--facade .conf-current, .conf-fronton');
+	ConfDefault('.conf-submenu--fronton .conf-current, .conf-fronton');
 	ConfDefault('.conf-submenu--drains .conf-current, .conf-drains');
 	ConfDefault('.conf-submenu--plinth .conf-current, .conf-plinth');
 	ConfDefault('.conf-submenu--fence .conf-current, .conf-fences');
